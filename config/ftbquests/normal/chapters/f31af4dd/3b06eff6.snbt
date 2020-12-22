@@ -1,0 +1,24 @@
+{
+	title: "Wield Your Darkness",
+	x: 0.0d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "Syntesise black iron",
+	text: [
+		"Welcome to end-game. You are finally reaching our last instructions on way of escape.",
+		"",
+		"It's time for using your new fusion reactor. for creating the darkness. It can be useful for most advanced devices."
+	],
+	dependencies: [
+		"b2d093c4"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "318bf4ef",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material"
+		}]
+	}]
+}

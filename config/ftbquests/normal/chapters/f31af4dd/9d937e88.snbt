@@ -1,0 +1,24 @@
+{
+	title: "Infinitum",
+	x: 5.5d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "Obtain basic matter of the world",
+	text: [
+		"With Scrap, Resource Reactor can syntesize unique liquid, that unifies red fluxes and material matter.",
+		"",
+		"The process is pretty time-consuming: as E=mc^2, you need a lot of energy to liquidify it. Scrap helps to materialize Primordial Energy, altrough.",
+		"",
+		"If you are impatient, Resource Reactor can take heaps of scrap to speed up the process. Beware: the speed boost lowers with every new portion of scrap, so don't dump every single piece of your garbage."
+	],
+	dependencies: [
+		"edbf4df5"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41110493",
+		type: "fluid",
+		fluid: "mana_energy",
+		amount: 10
+	}]
+}

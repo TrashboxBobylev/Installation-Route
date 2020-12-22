@@ -1,0 +1,29 @@
+{
+	title: "I Didn't Learn Kinetics",
+	x: -5.0d,
+	y: -6.0d,
+	description: "Use Quark pipes to do simple item transport",
+	text: [
+		"Iron and glass make a fairly crude pipes that can be used to move items over distances.",
+		"",
+		"The things you need to know about them:",
+		"- Law of Gravity: items go down even if a higher path is possible.",
+		"- Law of Inertion: on intersections items will move forward.",
+		"    - The exception to this law: when the forward path doesn't exist, items will bump into left path or right path randomly.",
+		"- Law of Counteraction: when the destination inventory is full, items will turn back.",
+		"- Law of Despair: when items have nowhere to go (can be achieved by not connecting pipes to any inventory or overloading it), items will pop out."
+	],
+	dependencies: [
+		"d26d6592"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "57e2c284",
+		type: "item",
+		items: [{
+			item: "quark:pipe"
+		}],
+		count: 4L
+	}]
+}

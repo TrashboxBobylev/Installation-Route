@@ -1,0 +1,77 @@
+{
+  "items": [
+    {
+      "item": "opencomputers:material:7",
+      "amount": 32,
+      "cost": "1200",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:material:6",
+      "amount": 32,
+      "cost": "1000",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:material:12",
+      "amount": 32,
+      "cost": "1650",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:material:2",
+      "amount": 32,
+      "cost": "1300",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:material:13",
+      "amount": 32,
+      "cost": "1400",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:keyboard",
+      "amount": 1,
+      "cost": "250",
+      "cost_type": "money"
+    },
+	{
+      "item": "opencomputers:cable",
+      "amount": 32,
+      "cost": "900",
+      "cost_type": "money"
+    },
+	{
+      "item": "botania:spark",
+      "amount": 32,
+      "cost": "2400",
+      "cost_type": "money"
+    },
+	{
+      "item": "botania:spreader:1",
+      "amount": 32,
+      "cost": "2000",
+      "cost_type": "money"
+    },
+	{
+      "item": "botania:pool",
+      "amount": 8,
+      "cost": "3000",
+      "cost_type": "money"
+    },
+	{
+      "item": "thermaldynamics:duct_32:1",
+      "amount": 8,
+      "cost": "3200",
+      "cost_type": "money"
+    },
+	{
+      "item": "thermaldynamics:duct_16:1",
+      "amount": 8,
+      "cost": "3200",
+      "cost_type": "money"
+    },
+	
+  ]
+}

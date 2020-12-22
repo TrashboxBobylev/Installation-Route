@@ -1,0 +1,62 @@
+$title Saw Blade
+The Saw Blade is used in machines such as the Chop Saw that make big, imprecise cuts. It dulls overtime and must be replaced. It itself is made by putting a Gear on a Metal Cutting Machine.
+$end
+$title Basic Gear
+Gears are used to change the ratio of torque to speed in rotational systems (apparently, there are records of a dragon who once knew a great deal about the subject). They are made by machining an metalic gears on a Metal Cutting Machine.
+$end
+$title Standard Wire
+Copper wires are used to transmit electrical energy in machines such as the Electroplater and Arc Furnace. They burn out, but used ones can be smelted down into a few Copper nuggets.
+They are made by processing copper and iridium ingots in a Metal Cutter.
+$end
+$title Expensive Cutting Blade
+Putting a SiAlIr alloy ingot to a Metal Cutting Machine yields a hard, sharp blade capable of cutting metal and doing more precise work than a saw blade. They dull over time, of course.
+$end
+$title Mixing Blades
+Mixing blades are used to churn liquids. They are rather expensive to make (requiring one nickel and four iron ingots) and cannot be salvaged, but they usually last a long time in machines.
+$end
+$title Advanced Motor
+When simple integrated motors don't cut it, Advanced Motors provide significantly more power. Automating the production of Advanced Motors is the gateway to being able to use a good chunk of the machines. However, many of their applications put them under heavy load which can burn them out. Dead motors can be disassembled to reclaim the dynamo coil used in their production.
+$end
+$title Drill
+The Drill does exactly what you would expect, drilling holes in things. It is the main component of the Drill Grinder, Fluid Drill, and Mining Machine, all core components to set up. To make it, run a Blocks through a Metal Cutting Machine.
+$end
+$title Heating Element
+Heating Elements, used in machines that require high temperatures, is made using cupronickel alloy ingots (obtained by crafting 3 copper dust with 1 nickel dust and smelting the result) or nichrome alloys. Due to their nature, they take awhile to burn out, and then they can be reclaimed for some of the metal.
+$end
+$title Circuit Board
+The Circuit Board is one of the most important parts described in this manual, and is used in virtually all complex machines. Producing them is a multi-step process that will be described on the next page. When they burn out, the board can be smelted to clean it, destroying the copper but refreshing the board.
+$page
+First, a Block of Quartz must be cut up in a Sawmill. This yields Blank Quartz Plates. Then, a Circuit Scribe must be programmed with one of four patterns to etch onto the plate, and a plate must be processed on it. Once a pattern has been cut, the grooves must be filled with molten Copper or Gold, and the filled circuit board must be smelted in Arc Furnace to finish it.
+$page
+Pattern 1
+$page
+Pattern 2
+$page
+Pattern 3
+$page
+Pattern 4
+$end
+$title Magnet
+Magnets are used in many machines that interact with the world. In addition, they are a crucial component of charging and stabilizing Energy Cores. They are also unique in that, since their only effect from use is de-magnetizing, you can reclaim the Iron Ingot 100% of the time in all machines that use them.
+Automatically collecting them may be wise.
+$end
+$title Battery
+Most machines can run off of simple Redstone power, but some require a substantial electrical current. Batteries are created by first crafting the empty shell, and then using a Fluid Transposer to fill them with sulphuric acid. You can reclaim empty shell with Scrap Furnace.
+$end
+$title Focusing Lens
+Focusing lenses can be obtained by putting a Managlass block on a Metal Cutting Machine. They are used in the Tempering Oven and similar machines to achieve a precise temperature.
+$end
+$title Integrated Piston
+These pistons, which have been adapted for use in machinery, are used in many machines that deal with manufacturing or otherwise back-and-forth motion. They wear out from repeated use, but the Iron inside them can usually be reclaimed.
+$end
+$title Energy Core
+This piece of cutting-edge technology comes straight from the Mad Professor himself. It radiates raw energy and was designed to allow this energy to be tapped in many different ways. Automating the production of these is no small feat, but many machines will ravenously gobble up their power. The method of producing them is detailed on the next page.
+$page
+The first step to manufacturing an Energy Core is processing solid block of Lead. Next, it must be outfitted with two Pattern 2 Circuit Boards, lined with lapis lazuli and empowered with Elemental Ingots to aid in energy balance. Finally, as the actual energy storage medium, it must be filled with Energite in the Fluid Transposer.
+$page
+The filled core is now ready to be charged in a Core Charging Table. It is important to note that the optimal charge level is 80% - any more or less than that will interfere with the final step, and attempting to charge it past 100% will install a nice new crater in your base.
+$page
+At this point, the core is brimming with power but is too volatile to be used. To stabilize it, it must be set into a Stabilization Unit and surrounded by four Redstone Magnets, two blocks away from the unit in the four cardinal directions. These magnets require an alternating Redstone current to build up a field, with stronger fields having a faster effect.
+$page
+Several things can go wrong during energy core stabilization. First, the magnetic field strengths must all be approximately equal - if they are uneven, the magnetic field imbalance will actually decrease the core's stability. Second, if a magnet is overcharged, it will "fizzle", negating its field and preventing it from regaining it for five seconds. Third, if stability drops too low, the core will explode. Violently.
+$end

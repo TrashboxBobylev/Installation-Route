@@ -1,0 +1,24 @@
+$title Monkey Wrench
+The Monkey Wrench is the universal tool for adjusting machines. Right-clicking most machines and automation components will rotate them. It can also be used as a melee weapon, albeit a rather poor one.
+$end
+$title Magnifying Glass
+Hover over a machine or similar while holding the Magnifying Glass to see the contents of its fluid storage (if any), its installed upgrade, and the side from which it receives parts.
+$end
+$title Safety Gear
+Hard hats, safety vests, work pants, and steel-toed boots can be crafted for protection from monsters. The set is functionally identical to iron armour, but it looks much more appropriate for engineers.
+$end
+$title Redstone Notifier/Watcher
+$brief %rednotifier% Signals Redstone Watchers.
+$brief %redwatcher% Listens for a linked Notifier to be signalled.
+Right-click a Redstone Notifier with a Redstone Watcher to link the two. Once linked, the Watcher will light up in your inventory if the Notifier is receiving a Redstone signal.
+$end
+$title Pressure Gun
+The Pressure Gun uses filled tanks of fluid as a weapon. It has different range, damage, and knockback depending on the contents of the tank, detailed on the next page.
+It doesn't seem to affect squids at all - in fact, it almost seems like it was designed by them.
+$page
+Ammo variants:
+Water: Medium knockback, low damage, long range
+H2SO4: Low knockback, medium range, high damage, lowers the defense of mobs
+Sulphur: Low knockback, medium damage, medium range, bestows a variety of debuffs
+Energite: Medium knockback, high damage, medium-long range, severely poisons mobs
+$end

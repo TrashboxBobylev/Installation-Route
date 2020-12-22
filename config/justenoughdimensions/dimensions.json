@@ -1,0 +1,43 @@
+{
+	"dimensions": [
+		{
+			"dim": 0,
+			"jed": {
+				"SkyRenderType": 2,
+				"SkyColor": "FF9000",
+				"FogColor": "FF9000",
+				"CloudColor": "FF9000"
+			}
+		},
+		{
+			"dim": 4,
+			"biome": "minecraft:the_end",
+			"dimensiontype": {
+				"id": 4,
+				"name": "The Overworld",
+				"suffix": "_dim4",
+				"keeploaded": false,
+				"worldprovider": "WorldProviderSurfaceJED",
+				"require_exact_match": true
+			},
+			"worldinfo_onetime": {
+				"generatorName": "customized",
+				"generatorOptions": "{\"coordinateScale\":6000.0,\"heightScale\":5662.0283,\"lowerLimitScale\":5000.0,\"upperLimitScale\":5000.0,\"depthNoiseScaleX\":1887.3804,\"depthNoiseScaleZ\":479.63382,\"depthNoiseScaleExponent\":0.01,\"mainNoiseScaleX\":4647.958,\"mainNoiseScaleY\":5000.0,\"mainNoiseScaleZ\":5000.0,\"baseSize\":25.0,\"stretchY\":1.7702113,\"biomeDepthWeight\":15.71831,\"biomeDepthOffset\":12.9577465,\"biomeScaleWeight\":11.838028,\"biomeScaleOffset\":7.0422535,\"seaLevel\":1,\"useCaves\":false,\"useDungeons\":false,\"dungeonChance\":1,\"useStrongholds\":false,\"useVillages\":false,\"useMineShafts\":false,\"useTemples\":false,\"useMonuments\":false,\"useMansions\":false,\"useRavines\":true,\"useWaterLakes\":true,\"waterLakeChance\":100,\"useLavaLakes\":false,\"lavaLakeChance\":10,\"useLavaOceans\":false,\"fixedBiome\":0,\"biomeSize\":1,\"riverSize\":1,\"dirtSize\":1,\"dirtCount\":0,\"dirtMinHeight\":0,\"dirtMaxHeight\":256,\"gravelSize\":50,\"gravelCount\":40,\"gravelMinHeight\":0,\"gravelMaxHeight\":256,\"graniteSize\":1,\"graniteCount\":0,\"graniteMinHeight\":0,\"graniteMaxHeight\":80,\"dioriteSize\":1,\"dioriteCount\":0,\"dioriteMinHeight\":0,\"dioriteMaxHeight\":80,\"andesiteSize\":1,\"andesiteCount\":0,\"andesiteMinHeight\":0,\"andesiteMaxHeight\":80,\"coalSize\":1,\"coalCount\":0,\"coalMinHeight\":0,\"coalMaxHeight\":128,\"ironSize\":1,\"ironCount\":0,\"ironMinHeight\":0,\"ironMaxHeight\":64,\"goldSize\":1,\"goldCount\":0,\"goldMinHeight\":0,\"goldMaxHeight\":32,\"redstoneSize\":1,\"redstoneCount\":0,\"redstoneMinHeight\":0,\"redstoneMaxHeight\":16,\"diamondSize\":1,\"diamondCount\":0,\"diamondMinHeight\":0,\"diamondMaxHeight\":16,\"lapisSize\":1,\"lapisCount\":0,\"lapisCenterHeight\":16,\"lapisSpread\":16}",
+				"GameRules": {
+					"doDaylightCycle": false,
+					"doMobSpawning": false,
+					"doWeatherCycle": false
+				},
+				"DayTime": 6000
+			},
+			"jed": {
+				"SkyRenderType": 1,
+				"SkyColor": "FF9000",
+				"FogColor": "FF9000",
+				"CloudColor": "FF9000",
+				"CanSpawnHostiles": false,
+				"CanSpawnPeacefulMobs": false
+			}
+		}
+	]
+}

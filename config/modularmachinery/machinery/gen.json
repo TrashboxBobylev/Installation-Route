@@ -1,0 +1,218 @@
+{
+	"registryname": "gen",
+	"localizedname": "Replication Construct",
+	"modifiers": [
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_equalizer@0"
+            ],
+			"modifier": {
+				"io": "output",
+				"target": "modularmachinery:item",
+				"operation": 1,
+				"multiplier": 2.0
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_equalizer@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:item",
+				"operation": 1,
+				"multiplier": 2.0
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_equalizer@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:energy",
+				"operation": 1,
+				"multiplier": 1.25
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_chance@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:item",
+				"operation": 0,
+				"multiplier": -0.33,
+				"affectChance": true
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_speed@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:duration",
+				"operation": 1,
+				"multiplier": 0.75
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_sun@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:duration",
+				"operation": 1,
+				"multiplier": 0.2
+			}
+        },
+		{
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:upgrade_sun@0"
+            ],
+			"modifier": {
+				"io": "input",
+				"target": "modularmachinery:energy",
+				"operation": 1,
+				"multiplier": 5
+			}
+        }
+	],
+    "parts": [
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:block_fahefanium@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockoutputbus@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:table_ultimate@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "botania:dreamwood@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "extendedcrafting:storage@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "botania:dreamwood@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus@6"
+            ]
+        }
+    ]}

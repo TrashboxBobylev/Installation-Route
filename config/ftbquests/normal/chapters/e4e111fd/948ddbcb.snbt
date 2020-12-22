@@ -1,0 +1,40 @@
+{
+	title: "Conjuring Terrarian's Goods",
+	icon: "botania:manaresource 1 4",
+	x: 15.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Fabricate Terrasteel",
+	text: [
+		"While natural field in this void is pretty much enough for most of magical utlities, creating something more powerful is impossible with just mana-based items.",
+		"",
+		"To concentrate your etherial energy in this enviroment, you need a lot of elemental magic.",
+		"",
+		"Specifically for Terrasteel, the botanical iron require source of earth power. Once put on familiar agglomeration plate, those power will be extracted to augment incoming mana energy.",
+		"",
+		"You should aim for automatic production of those alloy, as terrasteel is ideal for handling machines, than require no forge energy."
+	],
+	dependencies: [
+		"8bd7af21"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ce05d00a",
+		type: "item",
+		items: [{
+			item: "botania:storage 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "a3f966e0",
+		type: "item",
+		item: "botania:pylon 1 1",
+		count: 2
+	},
+	{
+		uid: "39e6995e",
+		type: "item",
+		item: "botania:overgrowthseed",
+		count: 8
+	}]
+}

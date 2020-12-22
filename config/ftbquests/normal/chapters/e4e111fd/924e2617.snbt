@@ -1,0 +1,32 @@
+{
+	title: "Conjuring Void Air",
+	icon: "botania:manaresource 1 1",
+	x: -0.5d,
+	y: -6.5d,
+	description: "Fabricate Ender Air and turn it into the pearls",
+	text: [
+		"Seems like this void space doesn't belong to The End, so it's impossible to use regular glass bottling method. ",
+		"",
+		"But pulverizers don't care, because you can extract this gas from end stone. Beware, than this is very risky process; there is a chance, than ender rock will crack and dissolve into nothing.",
+		"",
+		"This void gas can be used to turn living matter into ender matter.",
+		"",
+		"Why mana pearls? We don't know either. Maybe it's useful for progression. We never give you tasks without reason, right?"
+	],
+	dependencies: [
+		"abb0c140"
+	],
+	optional: true,
+	tasks: [{
+		uid: "45bafed4",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "7986ee44",
+		type: "item",
+		item: "botania:miningring"
+	}]
+}

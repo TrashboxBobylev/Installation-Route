@@ -1,0 +1,106 @@
+# Note to translators: Translated files should be put into a folder with the name that matches
+# the language's code. Thank you for your hard work!
+
+$title Metal Cutting Machine
+$brief %metalcutter% Fabricates gears, drillbits, etc.
+The Metal Mill is a more precise cutting machine than the Sawmill or Pulverizer, intended for precise metal cutting. Its main use is to cut wire from copper and iridium ingots, but it can also make gears *much* more efficiently than by hand.
+$machine TileEntityMetalCutter
+$end
+$title Scrap Furnace
+$brief %reclaimer% Recycles broken parts.
+The Scrap Furnace is one of the more important machines, as it converts broken parts back into metal nuggets that can be repurposed. However, it is not 100% efficient, and the material equivalent of one or two nuggets will be lost for each reclaimed part.
+$machine TileEntityReclaimer
+$end
+$title Woodcutter
+$brief %woodcutter% Chops down trees planted in front of it.
+The Woodcutter will chop down any trees that grow directly in front of it, making it a key component for farming. It takes some time to fully cut through the tree, but will harvest the entire tree at once when it does.
+$machine TileEntityWoodcutter
+$end
+$title Drill Grinder
+$brief %oredrill% Grinds things down into gravels.
+The Drill Grinder is, well, a drill that grinds things. It can convert one Ore block into several units of ore gravel, each of which can be centrifuged into dusts of metals. Purified ores yield more gravel.
+$machine TileEntityOreDrill
+$end
+$title Magnetizer
+$brief %magnetizer% Magnetizes iron ingots. Requires a Redstone clock.
+The Magnetizer's one and only job is to magnetize iron ingots. To do this, it rotates them at extreme speeds while subjecting them to an alternating current field. In addition to the normal machine parts, it requires a constant, alternating on/off Redstone signal to run.
+$machine TileEntityMagnetizer
+$end
+$title Arc Furnace
+$brief %htfurnace% Produces circuits and high-tier alloys.
+The Arc Furnace handle a few recipes that require a more precise temperature, such as circuits or lumium.
+$machine TileEntityHTFurnace
+$end
+$title Crucible
+$brief %crucible% Melts items into liquids.
+The Crucible applies high enough temperatures to solids that they melt. It's essential for 3.25x ore doubling, as it melts ores into molten state.
+$machine TileEntityCrucible
+$end
+$title Circuit Scribe
+$brief %circuitscribe% Etches patterns onto quartz plates.
+The Circuit Scribe etches circuit patterns onto blank quartz plates. One of four patterns must be specified by the GUI; different machines require different circuit patterns. For further information on circuits, see their page in the Parts Specifications.
+$machine TileEntityCircuitScribe
+$end
+$title Seed Disperser
+$brief %planter% Scatters seeds, carrots, netherwart, etc.
+The Seed Disperser scatters wheat, pumpkin, melon, or beetroot seeds, as well as potatoes, carrots, and Nether Wart, in a 9x9 area around it. The area can be increased using a Range upgrade. It must be placed on the same y-level as the soil blocks to function properly.
+$machine TileEntityPlanter
+$end
+$title Industrial Electroplater
+$brief %electroplater% Uses electric current to re-double ores.
+The Industrial Electroplater dissolves materials in sulphuric acid and then uses an electric current to plate them onto wires. It can electroplate ores to double and purify them as well as turning colorful petals into gems. It must have the desired output product placed into the slot above the output, so that there is something for it to electroplate onto.
+$machine TileEntityElectroplater
+$end
+$title Mob Disassembler
+$brief %disassembler% Kills mobs for maximum loot.
+The Mob Disassembler rapidly damages any creature (save for Players) that stands on top of it; in addition, mobs killed by it will drop much more loot than normal. Some may even drop loot they normally couldn't.
+A Redstone signal disables it.
+$machine TileEntityDisassembler
+$end
+$title Fluid Agitator
+$brief %agitator% Mixes fluids and items.
+A key component in producing many resources, the Agitator churns up to two fluids and one item together to output up to one item and one fluid. Its main use is to produce sulphuric acid from sulphur and water, as well as producing blue matter blocks and elemental ingots.
+$machine TileEntityAgitator
+$end
+$title Refrigeration Unit
+$brief %fridge% Freezes fluids into items.
+The Refrigerator cools liquids until they solidify, freezing water into ice and lava into obsidian. Oddly enough, it can also can cast metals without struggle.
+$machine TileEntityRefrigerator
+$end
+$title Tempering Oven
+$brief %temperer% Tempers parts to last longer.
+$recipe machines/temperer
+Some machine parts can be tempered to increase their strength, and therefore their lifespan in machines. It can also temper iron ingots, which are used in crafting some higher-end machines, and iron tools, giving the equivalent of an Unbreaking I enchantment (doesn't stack). To run, it needs a sustained Redstone signal.
+
+Also, this is great tool for producing steel without carbon.
+$machine TileEntityTemperer
+$page
+The Tempering Oven is not self-regulating. The Redstone signal must be turned off at exactly the right time; this time varies depending on the parts.
+If the signal turns off too early, the process will simply fail; if it stays on for too long, the part will be destroyed.
+Note that the tempering will not complete until the signal is actually turned off - removing the part will not suffice.
+All tempering processes have a tolerance of +/- 2 ticks.
+$end
+$title Core Charger
+$brief %charger% Charges energy cores. Can explode.
+This machine runs an intense electric current through unfinished energy cores, charging them up. It is important to note that fully charging cores is extremely dangerous; optimal efficiency is achieved at 80%. Above that causes it to take longer to stabilize, and charging a core above 100% can cause an explosive overflow.
+$machine TileEntityCoreCharger
+$end
+$title Stabilization Table
+$brief %magnetblock% Used along with the Stabilization Table.
+$brief %stabilizer% Stabilizes charged cores for use.
+To stabilize a charged Energy Core for use in machines, it must be put on a Stabilization Table and surrounded with active Redstone Magnets. See "Core Stabilization" in the Parts section for more information.
+$end
+$title Biosynthesis Unit
+$brief %spawner% Clones and spawns mobs.
+The Biosynthesizer, although unable to fully duplicate the Mob Spawners found in dungeons, comes close. Given the necessary parts and a sample of the creature's drops (to clone from), it can produce a steady supply of them which are dropped directly under it.
+$machine TileEntitySpawner
+$end
+$title Negative Ion Disperser
+$brief %iondisperser% Gives players beneficial potion effects.
+The Negative Ion Disperser releases charged particles that improve the health and morale of nearby players and mobs. In more concrete terms, it gives nearby creatures random burst of either Speed, Jump Boost, Haste, Strength, or Regeneration.
+$machine TileEntityIonDisperser
+$end
+$title Universal Supercharger
+$brief %energizer% Accelerates machines.
+Accomplishing a similar task to Thermal Mediator, the Universal Supercharger can be placed adjacent to any machine, and indeed almost any device, to make it run twice as fast. To function, it requires a steady supply of Energy Cores. Applying a Redstone signal disables it.
+$end

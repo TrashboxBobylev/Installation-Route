@@ -1,0 +1,59 @@
+{
+	title: "Exploring Mendeleev's Table",
+	icon: "contenttweaker:ingot_chrome",
+	x: -8.5d,
+	y: 3.0d,
+	shape: "rsquare",
+	description: "Make new metals with new machines",
+	text: [
+		"When processing ores with FactoryTech's machines, you might notice the presense of new metals.",
+		"",
+		"Those metals are unique and can be used to make even more advanced parts and machines."
+	],
+	dependencies: [
+		"7278fb9a",
+		"94256312"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "b4e3aa14",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ingot_chrome"
+		}]
+	},
+	{
+		uid: "4936056b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ingot_beryllium"
+		}]
+	},
+	{
+		uid: "ab593cf9",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ingot_cobalt"
+		}]
+	},
+	{
+		uid: "c884d499",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 135"
+		}]
+	},
+	{
+		uid: "f4c74e49",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ingot_cadmium"
+		}]
+	}],
+	rewards: [{
+		uid: "e43387af",
+		type: "item",
+		team_reward: true,
+		item: "contenttweaker:small_teleporter"
+	}]
+}

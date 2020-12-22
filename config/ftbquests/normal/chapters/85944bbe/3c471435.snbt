@@ -1,0 +1,29 @@
+{
+	title: "How Many Ores Are Here?",
+	x: -11.5d,
+	y: 21.0d,
+	description: "Make secondary ore doubler",
+	text: [
+		"For next projects, you probably need more ingots, so additional ore duplicaton is required.",
+		"",
+		"This electroplater in exchange of acid enriches ores with making them purified."
+	],
+	dependencies: [
+		"07061e85"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "9b9721e6",
+		type: "item",
+		items: [{
+			item: "factorytech:electroplater"
+		}]
+	}],
+	rewards: [{
+		uid: "d1205980",
+		type: "item",
+		team_reward: true,
+		item: "extendedcrafting:crafting_core"
+	}]
+}

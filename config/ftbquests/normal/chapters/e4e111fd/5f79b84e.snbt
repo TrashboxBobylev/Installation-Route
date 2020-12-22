@@ -1,0 +1,35 @@
+{
+	title: "Rocks Are Evil!",
+	x: -3.5d,
+	y: -2.0d,
+	description: "Use Pure Daisy on ores",
+	text: [
+		"For some reason, these ores can be purified by Pure Daisy, like regular stone turns into living rock.",
+		"",
+		"Purified ores yield 25% more dust."
+	],
+	dependencies: [
+		"a4a06338",
+		"abb0c140"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "672b2820",
+		type: "item",
+		items: [{
+			item: "contenttweaker:purifiedmagnetiteore"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ee3cb405",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	}]
+}

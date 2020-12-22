@@ -1,0 +1,75 @@
+$title Transport Rollers
+$brief %conveyor% Moves items around.
+$recipe automation/rollers
+Transport Rollers are the most basic method of moving items from Point A to Point B. Unlike other models of conveyor belts, these are purely metallic (a great improvement over slaughtering hordes of cows). Any items that fall on top of them will simply be moved in the direction of the rollers.
+$end
+$title Crate
+$brief %crate% Stores items. Picks up broken parts from adjacent machines.
+Crates can be used to store items. They only have 18 slots to the Chest's 27, but they do not connect, can be tiled infinitely and can still be accessed with a block above them.
+They also look quite nice.
+$end
+$title Buffer Crate
+$brief %buffercrate% Like a Crate but keeps 1 item in each slot.
+Buffer Crates are similar to regular Crates, but automation will never take the last item in a stack from them. Because this makes sure there is always space for certain items, it prevents the dreaded scenario where production halts due to a buffer completely filling up with one ingredient, leaving no space for anything else.
+$end
+$title Fan Lift
+$brief %elevator% Pushes items straight up. Requires Redstone.
+The Fan Lift is another main method of transporting items upwards. When given a Redstone signal, they will blow any items above them straight up by a distance equal to the received signal strength.
+$end
+$title Lift Receiver
+$brief %bottomhatch% Catches items raised by fan.
+Meant to be used with the Fan Lift, the Lift Receiver redirects any items entering its bottom hatch to its side one.
+$end
+$title Pulse Piston
+$brief %itempusher% Pushes items. Can be filtered.
+The Pulse Piston will push any items dropped in front of it, into an inventory if there is one where they would be shoved. Right-clicking will open a filter to set which items should be pushed, as well as to specify whether to use or ignore durability. This makes it extremely useful for separating items moving on Conveyors.
+A Redstone signal disables it.
+$end
+$title Auto Puller
+$brief %autopuller% Yanks items from inventories.
+The Auto Puller automatically yanks items from an inventory adjacent to its input and puts them into the inventory at its output, or drops them into the world if the output is full or does not exist. By using an integrated Sticky Piston to continuously pull items, it is able to accomplish this without the need for laser-etched circuitry or a large, unsightly engine. A Redstone signal disables it.
+$end
+$title Insertion Hatch
+$brief %hatch% Puts items into inventories.
+The opposite of the Auto Puller, the Insertion Hatch will put items that touch it into an adjacent inventory as long as there is space.
+$end
+$title Stack Mover
+$brief %stackmover% Shifts items between inventories.
+Stack Movers are useful for tight control of item flow. When given a Redstone signal, it attempts to pull a single stack of items from an inventory on its input side and push it into the inventory on its output side. It always moves the first stack it finds that will fit into the target inventory. If there is no inventory adjacent to its output side, the stack is dropped into the world instead. Stack Movers of all variants can also interact with the inventories of Chests, Caches and Strongboxes.
+$end
+$title Filtered Stack Mover
+$brief %filtermover% Like a Stack Mover, but can be filtered.
+An upgraded Stack Mover that has a filter to specify exactly which items to move and how many. It is useful for precise item allocation. It has two modes, Round Robin and First Match.
+$end
+$title Bulk Stack Mover
+$brief %bulkmover% Like a Filtered Stack Mover, but moves everything at once.
+This is a further upgrade to the Filtered Stack Mover. Instead of moving one stack of items in its filter, it will attempt to move everything in its filter at once.
+
+This is fantastic tool for in-world crafting, like Runic Altar.
+$end
+$title Mounted Drill
+$brief %blockbreaker% Breaks blocks in front of it.
+The Mounted Drill is a device that breaks the block directly in front of it. In pulse mode it does this upon receiving a Redstone signal, while in continuous mode it does this once per second unless receiving a Redstone signal. Shift-right-click it with a Monkey Wrench to switch modes.
+$end
+$title Item Redistributor
+$brief %itemredis% Takes items in through the top; spits them out the sides according to a ratio.
+A common problem when working with processing lines is evenly splitting an incoming flow into two or more outputs. The Item Redistributor is a solution to this problem: it redirects items dropped into its top to one of its sides, according to a ratio specified by its GUI. You can also select whether to treat a stack as a single entity, or to split it.
+$end
+$title Sequential Placer
+$brief %sequenceplacer% Places blocks in order.
+Old tales speak of multicoloured trees that (apparently) grow berries able to amplify crystal energy. While the whole story sounds like hippie hogwash, if such trees existed it would be useful to plant and grow them, automatically, in order of their colours. The same can be said for Shulker Boxes which, unlike the colourful trees, actually exist. The Sequential Placer has an internal storage of 18 blocks, and it places one in front of it, in the order they are, each time it receives a Redstone signal. 
+$end
+$title Inventory Sensor
+$brief %inventorysensor% Emits a Redstone signal if an attached inventory meets conditions.
+The Inventory Sensor is a versatile way of detecting what is stored in a container. It has its own inventory in which you can specify which items to search for, and you can toggle Exactly/At Least, Match All/Any, and Use/Ignore Damage. It will emit a Redstone signal if the attached inventory meets the criteria.
+$end
+$title Remote Comparator
+$brief %remotecomparator% A short-range wireless comparator.
+A common problem with machines is that they require all sorts of things connected on their different sides, and it can be difficult to find real estate to attach a Redstone Comparator to monitor their stocked parts. A Remote Comparator, once linked to a block using a Location Card, will output a Redstone signal as if it were a Comparator attached directly to the linked block. This has a maximum range of 6 blocks.
+$end
+$title Part Sensor
+$brief %partsensor% Detects which parts a machine has.
+The Part Sensor is a more precise method of detecting which parts a machine has. It must be setup so that it is adjacent to and facing the machine to be monitored. In addition, they can be chained such that a part sensor points to another one, though only in a straight line.
+$page
+A Redstone Comparator must be attached to the part sensor, and will output a full signal if the machine is missing a specific part or no signal if it has it. The part that the sensor monitors is dependent on its position in the chain; for example, a part sensor that connects to another one, that then connects to the machine will monitor the second part in the machine's list.
+$end

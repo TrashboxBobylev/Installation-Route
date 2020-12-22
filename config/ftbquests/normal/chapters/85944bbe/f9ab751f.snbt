@@ -1,0 +1,37 @@
+{
+	title: "This is Strategy of the Century",
+	icon: "botania:opencrate 1 1",
+	x: -13.0d,
+	y: 12.5d,
+	description: "Overload Crafty Crate to autocraft many different kind of items",
+	text: [
+		"Unpackager is capable of inserting items in correct order. This can be used to make very compact and efficient autocrafting setups.",
+		"",
+		"Only packing and unpacking requires energy, while Crafty Crate produces result as fast as it recieves items and doesn't require mana.",
+		"",
+		"Combine with crafters, and you get very compact autocrafter that can process up to 100 different items (with 5 pairs of packager and unpackager)."
+	],
+	dependencies: [
+		"8b83c5cb"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d8368053",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "25465f86",
+		type: "item",
+		item: "botania:opencrate 1 1"
+	},
+	{
+		uid: "03ed966f",
+		type: "item",
+		item: "packagedauto:packager"
+	},
+	{
+		uid: "b0558faa",
+		type: "item",
+		item: "packagedauto:unpackager"
+	}]
+}

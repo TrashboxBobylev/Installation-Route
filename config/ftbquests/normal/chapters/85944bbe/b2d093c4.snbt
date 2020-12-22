@@ -1,0 +1,48 @@
+{
+	title: "Fission Science",
+	icon: "modularmachinery:blockcontroller",
+	x: -8.5d,
+	y: 30.0d,
+	shape: "octagon",
+	description: "Assemble Resource Reactor",
+	text: [
+		"Congratulations, you are almost there!",
+		"",
+		"But to escape the void, you need something like huge wormhole. Unfortunately, it's impossible such advanced machinery with one-block machines. Time to create fusion reactor!",
+		"",
+		"It requires collosal amount of resources to create, like lumium, steel, energite, aluminum... But you didn't wasted your knowledge about ore processing? Time to put it into deal!"
+	],
+	dependencies: [
+		"113e9287"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "0cfcb055",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactor_coil"
+		}],
+		count: 32L
+	},
+	{
+		uid: "d083ad5f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reactor_casing"
+		}],
+		count: 36L
+	},
+	{
+		uid: "ac687e8d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	}],
+	rewards: [{
+		uid: "a12e36a4",
+		type: "item",
+		item: "contenttweaker:mysterious_actuator"
+	}]
+}

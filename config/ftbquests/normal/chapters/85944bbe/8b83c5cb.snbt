@@ -1,0 +1,41 @@
+{
+	title: "Packaging for Dummies",
+	x: -11.5d,
+	y: 12.5d,
+	description: "Make item mail system",
+	text: [
+		"Each mail system relies on encoding, sending and recieving.",
+		"",
+		"To make encoding, use package encoder. It supports many types of crafting, including extended. To store encoding, use signalum holders.",
+		"",
+		"To create letters with items, you need packager. Pretty straightforward: place recipe holder and pump items to get transferable letters with items.",
+		"",
+		"As final part in mail system, you need something that recieves letters. It will be unpackager. It put items from packaged letters into adjacent inventories."
+	],
+	dependencies: [
+		"a4995583"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "72f35e95",
+		type: "item",
+		items: [{
+			item: "packagedauto:encoder"
+		}]
+	},
+	{
+		uid: "25c563d4",
+		type: "item",
+		items: [{
+			item: "packagedauto:packager"
+		}]
+	},
+	{
+		uid: "a29a179f",
+		type: "item",
+		items: [{
+			item: "packagedauto:unpackager"
+		}]
+	}]
+}

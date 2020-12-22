@@ -1,0 +1,31 @@
+{
+	title: "Shovel King",
+	icon: "minecraft:stone_shovel",
+	x: -4.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Use shovel unintentionally",
+	text: [
+		"Have you thinked, why bashing stone with shovel doesn't crush it? No?",
+		"",
+		"Now you can. Bash stone to get sand, and bash cobble to get gravel."
+	],
+	dependencies: [
+		"a4a06338"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b3dea66f",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	},
+	{
+		uid: "06b4de03",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	}]
+}

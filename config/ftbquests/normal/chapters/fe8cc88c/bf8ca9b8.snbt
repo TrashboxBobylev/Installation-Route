@@ -1,0 +1,34 @@
+{
+	title: "Mastering Primordial Juice",
+	x: 7.5d,
+	y: -3.5d,
+	description: "Make every Botania's crafting station self-sustainable. Bonus points, if done without using technology",
+	dependencies: [
+		"d2d950ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "57378536",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "32092b25",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 144,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "botania:pool",
+					Count: 1b,
+					Damage: 1s
+				},
+				TrophyColorBlue: 193,
+				TrophyName: "Elemental Professor",
+				TrophyColorRed: 138
+			}
+		}
+	}]
+}

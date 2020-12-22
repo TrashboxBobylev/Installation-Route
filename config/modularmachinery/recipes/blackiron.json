@@ -1,0 +1,44 @@
+{
+	"machine": "reactorR",
+	"registryName": "black_iron",
+	"recipeTime": 250,
+	"requirements": [
+		{
+			"type": "energy",
+			"io-type": "input",
+			"energyPerTick": 2500
+		},
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "thermalfoundation:storage_alloy@0"
+		},
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "thermalfoundation:storage_resource@1"
+		},
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "contenttweaker:otherworldy_stone@0",
+			"amount": 4
+		},
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "botania:quartztypedark@0"
+		},
+		{
+			"type": "item",
+			"io-type": "input",
+			"item": "botania:biomestonea@3",
+			"amount": 4
+		},
+		{
+			"type": "item",
+			"io-type": "output",
+			"item": "extendedcrafting:storage"
+		}
+	]
+}

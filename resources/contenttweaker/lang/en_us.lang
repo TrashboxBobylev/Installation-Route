@@ -1,0 +1,166 @@
+tile.contenttweaker.tetrahedriteore.name=Chalcocite Ore
+tile.contenttweaker.sheldoniteore.name=Sheldonite Ore
+tile.contenttweaker.cassiteriteore.name=Cassiterite Ore
+tile.contenttweaker.magnetiteore.name=Magnetite Ore
+tile.contenttweaker.galenaore.name=Galena Ore
+tile.contenttweaker.co2waterore.name=Sulfur Ore
+tile.contenttweaker.oxygenore.name=Air Saturated Stone
+tile.contenttweaker.livingmatter.name=Living Matter
+tile.contenttweaker.driedmatterblock.name=Block of Dried Matter
+tile.contenttweaker.purifiedtetrahedriteore.name=Purified Chalcocite Ore
+tile.contenttweaker.purifiedsheldoniteore.name=Purified Sheldonite Ore
+tile.contenttweaker.purifiedcassiteriteore.name=Purified Cassiterite Ore
+tile.contenttweaker.purifiedmagnetiteore.name=Purified Magnetite Ore
+tile.contenttweaker.purifiedgalenaore.name=Purified Galena Ore
+tile.contenttweaker.livingrock_gold.name=Livingrock Gold Ore
+tile.contenttweaker.livingrock_platinum.name=Livingrock Platinum Ore
+tile.contenttweaker.livingrock_silver.name=Livingrock Silver Ore
+
+tile.contenttweaker.gravel_magnetite.name=Crushed Magnetite Ore
+tile.contenttweaker.gravel_sheldonite.name=Crushed Sheldonite Ore
+tile.contenttweaker.gravel_chalcocite.name=Crushed Chalcocite Ore
+tile.contenttweaker.gravel_cassiterite.name=Crushed Cassiterite Ore
+tile.contenttweaker.gravel_galena.name=Crushed Galena Ore
+
+tile.contenttweaker.wood_casing.name=Nickel Casing Block
+tile.contenttweaker.wood_handle.name=Wood Handle Block
+tile.contenttweaker.golden_hull.name=Copper Chiseled Block
+tile.contenttweaker.lead_hull.name=Lead Checkered Block
+tile.contenttweaker.iron_tiles.name=Iron Tiled Block
+tile.contenttweaker.bronze_sheet.name=Tin Sheet Block
+
+tile.contenttweaker.block_cadmium.name=Block of Cadmium
+tile.contenttweaker.block_chrome.name=Block of Chrome
+tile.contenttweaker.block_cobalt.name=Block of Cobalt
+tile.contenttweaker.block_beryllium.name=Block of Beryllium
+
+tile.contenttweaker.elemental_stone.name=Elemental Stone
+tile.contenttweaker.untamed_plant_matter.name=Untamed Plant Matter
+tile.contenttweaker.blue_matter.name=Blue Matter Block
+tile.contenttweaker.infected_andesite.name=Infected Andesite
+tile.contenttweaker.otherworldy_stone.name=Otherworldy Stone
+
+tile.contenttweaker.shining_mess.name=Lumium Alloy Gravel
+
+tile.contenttweaker.reactor_casing.name=Reactor Casing
+tile.contenttweaker.reactor_coil.name=Reactor Coil
+
+tile.contenttweaker.block_fahefanium.name=Block of Fahefanium
+tile.contenttweaker.bricks_upgrade.name=Fahefanium Bricks
+tile.contenttweaker.upgrade_speed.name=Reactor Speed Upgrade
+tile.contenttweaker.upgrade_chance.name=Reactor Chance Upgrade
+tile.contenttweaker.upgrade_equalizer.name=Reactor Equalizer Upgrade
+tile.contenttweaker.upgrade_sun.name=Reactor Afterburner Upgrade
+
+tile.contenttweaker.computer_ore.name=Electronic Garbage
+
+item.contenttweaker.bifrostpetal.name=Bifrost Petal
+item.contenttweaker.driedlifematter.name=Dried Living Matter
+
+item.contenttweaker.galenadust.name=Galena Dust
+item.contenttweaker.magnetitedust.name=Magnetite Dust
+item.contenttweaker.malachitedust.name=Chalcocite Dust
+item.contenttweaker.cassiteritedust.name=Cassiterite Dust
+item.contenttweaker.sheldonitedust.name=Sheldonite Dust
+
+item.contenttweaker.plate_manasteel.name=Manasteel Plate
+item.contenttweaker.plate_terrasteel.name=Terrasteel Plate
+item.contenttweaker.plate_elementium.name=Elementium Plate
+
+item.contenttweaker.tinygolddust.name=Tiny Gold Dust
+item.contenttweaker.tinysilverdust.name=Tiny Silver Dust
+item.contenttweaker.tinyplatinumdust.name=Tiny Platinum Dust
+
+item.contenttweaker.small_teleporter.name=Parallel Universe Initiator
+item.contenttweaker.teleporter.name=Parallel Universe Teleporter
+item.contenttweaker.dark_teleporter.name=Alternative Universe Initiator
+item.contenttweaker.reality_breaker.name=The Reality Breaker
+
+item.contenttweaker.small_battery.name=Small Battery
+item.contenttweaker.bigger_battery.name=Medium Battery
+item.contenttweaker.mana_battery.name=Mana Battery
+item.contenttweaker.steel_battery.name=Steel Battery
+item.contenttweaker.terra_battery.name=Terra Battery
+item.contenttweaker.cadmium_battery.name=Cadmium Battery
+item.contenttweaker.cobalt_battery.name=Circuitry Battery
+item.contenttweaker.energy_battery.name=Energite Battery
+item.contenttweaker.core_battery.name=Big Energite Battery
+
+item.contenttweaker.cast_block.name=Clay Block Cast
+item.contenttweaker.cast_ingot.name=Clay Ingot Cast
+
+item.contenttweaker.ingot_cadmium.name=Cadmium Ingot
+item.contenttweaker.ingot_chrome.name=Chrome Ingot
+item.contenttweaker.ingot_cobalt.name=Cobalt Ingot
+item.contenttweaker.ingot_beryllium.name=Beryllium Ingot
+
+item.contenttweaker.dust_cadmium.name=Cadmium Dust
+item.contenttweaker.dust_chrome.name=Chrome Dust
+item.contenttweaker.dust_cobalt.name=Cobalt Dust
+item.contenttweaker.dust_beryllium.name=Beryllium Dust
+
+item.contenttweaker.empty_dna_list.name=Empty DNA Listing
+item.contenttweaker.dna_list.name=DNA Listing
+
+item.contenttweaker.element_pickaxe.name=Energy of Nickel Pickaxe
+item.contenttweaker.element_axe.name=Energy of Lead Axe
+item.contenttweaker.element_shovel.name=Energy of Copper Shovel
+item.contenttweaker.element_hoe.name=Energy of Tin Hoe
+item.contenttweaker.element_sword.name=Energy of Iron Sword
+
+item.contenttweaker.back_upgrade.name=Mysterious Invar Chunk
+item.contenttweaker.back_upgrade_1.name=Mysterious Electrum Chunk
+item.contenttweaker.back_upgrade_2.name=Mysterious Signalum Chunk
+item.contenttweaker.back_upgrade_3.name=Mysterious Enderium Chunk
+
+item.contenttweaker.elemental_stone_dust.name=Elemental Dust
+item.contenttweaker.blue_matter_item.name=Chunk of Fahefanium
+item.contenttweaker.andesite_dust.name=Andesite Dust
+
+item.contenttweaker.infernium.name=Infernium Ingot
+item.contenttweaker.ferozium.name=Ferozium Ingot
+item.contenttweaker.magnesium.name=Magnesium Ingot
+item.contenttweaker.astratite.name=Astratite Ingot
+
+item.contenttweaker.super_cake.name=Fermented Nether Salslagmushroottotwartabreapplebbitslimeloniderchochicarrobeetroochopotgrasscactatie Eye Pie Cake
+
+item.contenttweaker.money.name=Pile of Money
+
+item.contenttweaker.phonix.name=Phoenix Wright
+
+item.contenttweaker.mana_reader.name=Theurgic Indicator
+item.contenttweaker.mysterious_actuator.name=Mysterious Actuator
+
+fluid.heavywater=Heavy Water
+fluid.blood=Sacrificing Blood
+fluid.lust=Unlimited Fervor
+fluid.greed=Virid Avarity
+fluid.pride=Aggorant Hubris
+fluid.hot_water=Heated Water
+fluid.blue_matter_f=Blue Matter
+fluid.material_dust=Infused Elemental Concentrate
+fluid.element_dust=Separated Elemental Concentrate
+fluid.mana_energy=Primordial Energy
+
+fluid.molten_iron=Molten Iron
+fluid.molten_copper=Molten Copper
+fluid.molten_tin=Molten Tin
+fluid.molten_nickel=Molten Nickel
+fluid.molten_lead=Molten Lead
+fluid.molten_gold=Molten Gold
+fluid.molten_platinum=Molten Platinum
+fluid.molten_silver=Molten Silver
+fluid.molten_cadmium=Molten Cadmium
+fluid.molten_cobalt=Molten Cobalt
+fluid.molten_beryllium=Molten Beryllium
+fluid.molten_chrome=Molten Chrome
+fluid.molten_iridium=Molten Iridium
+fluid.molten_alluminum=Molten Alluminum
+
+fluid.reactor_fuel_1=Elemental Plasma
+fluid.reactor_fuel_2=Boiling Plasma
+fluid.reactor_fuel_3=Long-Sustaining Plasma
+fluid.reactor_fuel_4=Overloading Plasma
+fluid.reactor_fuel_5=Asteroid Plasma
+
+item.thermalexpansion.frame.frameCell.name=Terra Machine Frame

@@ -1,0 +1,29 @@
+{
+	"populate": {
+		"computer_ore": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "cluster",
+				"block": "contenttweaker:computer_ore",
+				"sparse": true,
+				"cluster-size": 90,
+				"material": [
+					"minecraft:stone",
+					"minecraft:dirt",
+					"minecraft:gravel",
+					"minecraft:grass"
+				]
+			},
+			"chunk-chance": 1,
+			"cluster-count": 4,
+			"min-height": 200,
+			"max-height": 250,
+			"biome": "all",
+			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [4]
+			}
+		}
+	}
+}

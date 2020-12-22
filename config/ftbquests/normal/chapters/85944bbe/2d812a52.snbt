@@ -1,0 +1,26 @@
+{
+	title: "Why TerraFirmaCraft Is Involved In This?",
+	icon: "factorytech:circuitscribe",
+	x: -8.5d,
+	y: 11.0d,
+	shape: "rsquare",
+	description: "Create device that can create circuit bases",
+	text: [
+		"The next step in our degra... progression on technical tree toward escaping is making dots in list of quartz.",
+		"",
+		"This is very simple process: bonk quartz to make it empty, bonk again to magically return quartz piece.",
+		"",
+		"Our monkey ancestors could only dream about bonking stone again to return bonked piece of stone back."
+	],
+	dependencies: [
+		"64f6d036"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b67edb89",
+		type: "item",
+		items: [{
+			item: "factorytech:circuitscribe"
+		}]
+	}]
+}

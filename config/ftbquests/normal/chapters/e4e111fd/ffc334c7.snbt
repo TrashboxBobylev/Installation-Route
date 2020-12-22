@@ -1,0 +1,54 @@
+{
+	title: "Factorised Industry",
+	x: 5.0d,
+	y: 2.0d,
+	description: "Use FactoryTech gadgets to move items",
+	text: [
+		"FactoryTech provides some tools to distribute items in simple ways.",
+		"",
+		"Some of them drops items into world. To make those work with Buildcraft pipes, use Vacuum pipe right next to them.",
+		"",
+		"Inventory Sensor is valueable for autocrafting, as it allows to detect when all needed items are in chest."
+	],
+	dependencies: [
+		"1edff9b4"
+	],
+	hide: true,
+	optional: true,
+	or_tasks: true,
+	tasks: [{
+		uid: "72ec8606",
+		type: "item",
+		items: [{
+			item: "factorytech:stackmover"
+		}]
+	},
+	{
+		uid: "5516756b",
+		type: "item",
+		items: [{
+			item: "factorytech:inventorysensor"
+		}]
+	},
+	{
+		uid: "be0b6876",
+		type: "item",
+		items: [{
+			item: "factorytech:elevator"
+		}]
+	},
+	{
+		uid: "c57ae011",
+		type: "item",
+		items: [{
+			item: "factorytech:sequenceplacer"
+		}]
+	},
+	{
+		uid: "9bfd1e15",
+		type: "item",
+		items: [{
+			item: "factorytech:itemredis"
+		}]
+	}]
+}

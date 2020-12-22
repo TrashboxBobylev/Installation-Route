@@ -1,0 +1,33 @@
+{
+	title: "Request-Based Automation",
+	icon: "thermallogistics:terminal_item",
+	x: 17.0d,
+	y: -0.5d,
+	description: "Centralize your storage",
+	text: [
+		"The Terminal, the window into your pipe network. To work, this block need any Requester inserted into slot in GUI. With it, you can see all items in connected inventories and \"crafts\" for items, that can be crafted with Crafters.",
+		"To request items, simply click on them and specify the amount. Don't be surprised, if item doesn't come right away; requesting speed depends on speed of your Requester and speed of pipe network.",
+		"The Crafting tab can be confusing, but let us explain. Rather than consuming items from grid, this tab grabs items from your inventory. If you don't have enough items, you can request them with appropriate button.",
+		"In every case, requested items come into Terminal's inventory. You can dump content from it into network or pull items into your inventory."
+	],
+	dependencies: [
+		"768d92ec"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "2a8a723e",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a46adc32",
+		type: "item",
+		item: "thermallogistics:manager"
+	},
+	{
+		uid: "2a539813",
+		type: "item",
+		item: "thermaldynamics:duct_32 1 2",
+		count: 10
+	}]
+}

@@ -1,0 +1,35 @@
+{
+	title: "How Many Mana I Need For Shiny Metal?",
+	icon: "contenttweaker:magnetitedust",
+	x: 5.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Crush ores to make way into alternative metals",
+	text: [
+		"Yes, dusts can be processed in mana pool as well. This is more effective process, than infusing ores, because you get nuggets without smelting!"
+	],
+	dependencies: [
+		"abb0c140"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0735a1f4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:magnetitedust"
+		}]
+	},
+	{
+		uid: "b8905261",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "1be0a225",
+		type: "item",
+		item: "thermalfoundation:material 1 100",
+		count: 4
+	}]
+}

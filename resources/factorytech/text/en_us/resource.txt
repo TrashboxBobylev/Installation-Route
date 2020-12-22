@@ -1,0 +1,10 @@
+$title Expensive Alloy
+Expensive alloy is mix of silver's bravery, aluminum's condutivity and iridium's power. It's usable for making mid-tier parts.
+$end
+$title Monster Dust
+This unsettling powder seems to be derived from monsters. Killing them by normal means does not yield any, but the Mob Disassembler can harvest one pile per monster processed.
+It can be mixed with many other dusts to produce Lumium gravels.
+$end
+$title Energite
+The reaction of liquid experience and sulphuric acid with Lumium gravels produces substantial latent energy. It reacts strongly to electric current and magnetic fields, and is the key component of Energy Cores.
+$end

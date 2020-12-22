@@ -1,0 +1,26 @@
+{
+	title: "Integrating Super Mario 64 Physics into World",
+	x: -13.0d,
+	y: 4.5d,
+	description: "Create additional space for your factory",
+	text: [
+		"While you were processing metals, you can notice new function of this communication device: teleportation!",
+		"",
+		"Struggling with space in this little box? Just move to parallel universe! With one press on this enigmatic device you will be teleported far away into the void.",
+		"How to return back? Just press this device again (although it will look 50% different), and you will be back home.",
+		"",
+		"You can decide use cases for this free space by yourself or not use it at all for challenge."
+	],
+	dependencies: [
+		"a9288b08"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "6358b589",
+		type: "item",
+		items: [{
+			item: "contenttweaker:teleporter"
+		}]
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "What to do now?",
+	icon: "contenttweaker:computer_ore",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

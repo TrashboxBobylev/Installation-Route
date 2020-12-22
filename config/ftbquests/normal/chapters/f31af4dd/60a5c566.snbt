@@ -1,0 +1,25 @@
+{
+	title: "Successful Transformation",
+	x: 7.5d,
+	y: -1.5d,
+	shape: "rsquare",
+	description: "Build Replication Construct",
+	text: [
+		"Primordial Energy due to its fundamentalism can be used to shapeshift into any matter.",
+		"",
+		"We have discovered, that having solid form of Primordial Energy around Ultimate Table allows to pour energy into items to transform them.",
+		"",
+		"Replication Construct uses this construction to transmutate and replicate items."
+	],
+	dependencies: [
+		"9d937e88"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f442d6c4",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 13"
+		}]
+	}]
+}

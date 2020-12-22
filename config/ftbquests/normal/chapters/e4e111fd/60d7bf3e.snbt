@@ -1,0 +1,33 @@
+{
+	title: "Finally, Some Another Civilization",
+	x: 18.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Open portal into Alf dimension",
+	text: [
+		"Terrasteel was difficult? Well, making portal is even harder without proper aura, but you can do it!",
+		"",
+		"All we need is general elemental stuff. Not botanical, but foundational to this world."
+	],
+	dependencies: [
+		"948ddbcb"
+	],
+	hide: true,
+	tasks: [{
+		uid: "caf9af10",
+		type: "item",
+		items: [{
+			item: "botania:alfheimportal"
+		}]
+	}],
+	rewards: [{
+		uid: "b7b8a25b",
+		type: "item",
+		item: {
+			id: "botania:manaringgreater",
+			tag: {
+				mana: 2000000
+			}
+		}
+	}]
+}

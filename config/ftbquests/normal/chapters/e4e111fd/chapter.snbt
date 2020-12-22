@@ -1,0 +1,24 @@
+{
+	title: "Part 1 - Forming Foundation on Botanic",
+	icon: {
+		id: "thermalexpansion:machine",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				3b,
+				1b,
+				2b,
+				2b,
+				2b,
+				2b
+			],
+			Level: 0b
+		},
+		Damage: 1s
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

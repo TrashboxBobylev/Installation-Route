@@ -1,0 +1,31 @@
+{
+	title: "Metallurgy In Two Blocks (not really)",
+	x: -11.5d,
+	y: 19.0d,
+	description: "Make fridge that quickly cast metals",
+	text: [
+		"Using clay to make ingots, seeing how balanced is molten casting, wouldn't you mind to make it less balanced?",
+		"",
+		"Let's see: this freezer allows to not use clay, and also casts stuff a lot faster. Ideal way to throw away balance and use it for bricks!"
+	],
+	dependencies: [
+		"07061e85"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "ab4be92f",
+		type: "item",
+		items: [{
+			item: "factorytech:fridge"
+		}]
+	}],
+	rewards: [{
+		uid: "7ec53d01",
+		type: "choice",
+		title: "Choose your convience: teleportation or energy storage.",
+		icon: "botania:cosmetic 1 31",
+		team_reward: true,
+		table: 0
+	}]
+}

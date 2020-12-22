@@ -1,0 +1,39 @@
+{
+	title: "Tokamaktania",
+	icon: "botania:manabomb",
+	x: 8.0d,
+	y: 3.5d,
+	description: "Build Manastorm Reactor",
+	text: [
+		"Manastorm Charge is most powerful source of mana. It releases burst from its Terrasteel core, empowered by blobs of primordial energy.",
+		"",
+		"The reactor with full efficiency will yield 330000 mana in matter of minute."
+	],
+	dependencies: [
+		"9d937e88"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f939a49c",
+		type: "item",
+		items: [{
+			item: "botania:manabomb"
+		}]
+	},
+	{
+		uid: "33ed5c87",
+		type: "botania_mana",
+		value: 3000000L
+	}],
+	rewards: [{
+		uid: "4fd6cf5b",
+		type: "item",
+		item: "contenttweaker:back_upgrade_2"
+	},
+	{
+		uid: "08caa684",
+		type: "item",
+		item: "contenttweaker:mysterious_actuator"
+	}]
+}

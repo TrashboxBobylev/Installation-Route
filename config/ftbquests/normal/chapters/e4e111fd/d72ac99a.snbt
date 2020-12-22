@@ -1,0 +1,26 @@
+{
+	title: "Alternative Material",
+	x: -7.0d,
+	y: -6.0d,
+	description: "Save your iron for machinery",
+	text: [
+		"This interesting metal is durable, light and is not magnetic. Along with being cheap, aluminum can be used as replacement for iron in quite many places."
+	],
+	dependencies: [
+		"a4a06338"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "2d84544e",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 132"
+		}]
+	}],
+	rewards: [{
+		uid: "b05a3dec",
+		type: "item",
+		item: "minecraft:dye 1 3"
+	}]
+}

@@ -1,0 +1,28 @@
+{
+	title: "Breaking Out Of Box",
+	x: 1.5d,
+	y: -5.0d,
+	shape: "gear",
+	description: "Lift the curse of void box and reach overworld",
+	text: [
+		"With help of ultimate alloy, you can make your card out of jail!",
+		"",
+		"We hope that you enjoyed this path to freedom and will be fine on returning back.",
+		"",
+		"Note: bring Flugel Tiara and mana supply just in case."
+	],
+	dependencies: [
+		"b461ddd3"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "3391dfa1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:reality_breaker"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

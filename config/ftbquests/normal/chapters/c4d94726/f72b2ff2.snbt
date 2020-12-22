@@ -1,0 +1,60 @@
+{
+	title: "Totally not Starters",
+	icon: {
+		id: "thermalexpansion:device",
+		tag: {
+			RSControl: 0b,
+			Facing: 3b,
+			Energy: 0,
+			SideCache: [B;
+				2b,
+				1b,
+				1b,
+				1b,
+				1b,
+				1b
+			]
+		},
+		Damage: 5s
+	},
+	x: 1.5d,
+	y: 1.5d,
+	description: "Prepare factory foundation",
+	text: [
+		"How these boxes, named fabricators, works? They transfer resources from overworld to this box through interdimensional translocat... teleports.",
+		"Sadly, the transfer rate is very small due to complications of building this channel in first place, so don't complain!",
+		"Fabricators can't push items by itself, so any item transporter is needed.",
+		"Hoppers are sufficient for this."
+	],
+	dependencies: [
+		"4352c04e"
+	],
+	tasks: [{
+		uid: "32b79a93",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}],
+		count: 5L
+	}],
+	rewards: [{
+		uid: "94c7d8e4",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "customblockfabricator:fabricator",
+			tag: {
+				BlockEntityTag: {
+					ticks_required: 60,
+					colour: 8339240,
+					block_count: 1,
+					counter: 0,
+					block_string: "minecraft:log"
+				},
+				display: {
+					Name: "Wood Fabricator"
+				}
+			}
+		}
+	}]
+}
