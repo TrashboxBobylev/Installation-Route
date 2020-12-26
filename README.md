@@ -4,6 +4,8 @@
 
 **"Master mode"** means than difficulty of overall progression is set beyond most of expert packs, escalates quickly and relies on logistical puzzles and challenges rather than recipe dumps.
 
+This thing is set under [Botania License](http://botaniamod.net/license.php).
+
 ## Textures credits
 
 One of reasons why I am created this repo is crediting textures.

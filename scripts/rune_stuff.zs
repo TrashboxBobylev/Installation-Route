@@ -29,9 +29,6 @@ recipes.addShaped(<minecraft:sapling>, [[<ore:oreLiving>, <ore:oreLiving>, <ore:
 //melon slice
 recipes.addShaped(<minecraft:melon>, [[<ore:oreLiving>, <ore:oreLiving>, <ore:oreLiving>], [<minecraft:wheat_seeds>, <ore:dyeRed>, <minecraft:wheat_seeds>], [<ore:oreLiving>, <ore:oreLiving>, <ore:oreLiving>]]);
 
-//slimeball
-recipes.addShaped(<minecraft:slime_ball>*3, [[<ore:oreLiving>, <ore:oreLiving>, <ore:oreLiving>], [<ore:oreLiving>, <minecraft:water_bucket>.giveBack(<minecraft:bucket>), <ore:oreLiving>], [<ore:oreLiving>, <ore:oreLiving>, <ore:oreLiving>]]);
-
 //spider eye
 recipes.addShaped(<minecraft:spider_eye>, [[null, <ore:dyeLime>, null], [<ore:oreLiving>, <ore:slimeball>, <ore:oreLiving>], [null, <ore:dyeMagenta>, null]]);
 

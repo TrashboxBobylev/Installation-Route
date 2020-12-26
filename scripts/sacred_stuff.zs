@@ -96,7 +96,7 @@ recipes.remove(<extendedcrafting:crafting_core>);
 
 //pedestal
 recipes.remove(<extendedcrafting:pedestal>);
-recipes.addShaped(<extendedcrafting:pedestal>, [[null, <ore:blockFuelCoke>, null], [null, <thermalfoundation:rockwool>, null], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<extendedcrafting:pedestal>, [[null, <ore:blockFuelCoke>, null], [null, <botania:quartztypedark>, null], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 
 CombinationCrafting.addRecipe(<thermalexpansion:frame:128>, 50000, <thermalexpansion:frame>, [<ore:blockLapis>, <ore:ingotTerrasteel>, <ore:gearSteel>, <ore:ingotTerrasteel>, <ore:gearSteel>]);
 
