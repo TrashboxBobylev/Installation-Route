@@ -90,7 +90,7 @@ recipes.addShaped(<botania:manaweavelegs>.withTag({ench: [{lvl: 8 as short, id: 
 recipes.remove(<botania:manaweaveboots>);
 recipes.addShaped(<botania:manaweaveboots>.withTag({ench: [{lvl: 8 as short, id: 2 as short}]}), [[<ore:powderMana>, <ore:manaString>, <ore:powderMana>], [<ore:clothManaweave>, <ore:runeAirB>, <ore:clothManaweave>]]);
 
-mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:slimeball>, <contenttweaker:livingmatter>, <liquid:water>*100, 800);
+mods.thermalexpansion.Transposer.addFillRecipe(<minecraft:slime_ball>, <contenttweaker:livingmatter>, <liquid:water>*100, 800);
 
 recipes.remove(<botania:spreader:3>);
 recipes.addShaped(<botania:spreader:3>, [[<contenttweaker:magnesium>, <contenttweaker:magnesium>, null], [<contenttweaker:magnesium>, <botania:spreader:2>, <ore:elvenDragonstone>], [<contenttweaker:magnesium>, <contenttweaker:magnesium>, null]]);
