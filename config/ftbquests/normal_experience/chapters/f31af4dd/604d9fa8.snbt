@@ -1,0 +1,25 @@
+{
+	title: "Magical Computation",
+	x: 9.5d,
+	y: -2.5d,
+	description: "Use Cygnus for magical data processing",
+	text: [
+		"The one of latest elven technologic inventions was Cygnus, the sentient magical construct that can learn and memorize information.",
+		"",
+		"The base of Cygnus is master spark, as with Corporea. It stores the stack of information, that can be used.",
+		"",
+		"We only have brief data about Cygnus, so please consult upgraded Lexica Botania for detailed explaination."
+	],
+	dependencies: [
+		"60a5c566"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "eddb7f36",
+		type: "item",
+		items: [{
+			item: "incorporeal:cygnus_spark"
+		}]
+	}]
+}

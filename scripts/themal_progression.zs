@@ -1,3 +1,5 @@
+#packmode normal_experience
+
 import mods.modularmachinery.RecipeBuilder;
 import mods.thermalexpansion.Refinery;
 

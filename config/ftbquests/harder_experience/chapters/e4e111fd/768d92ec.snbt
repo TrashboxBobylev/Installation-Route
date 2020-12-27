@@ -1,0 +1,33 @@
+{
+	title: "Pipe Logistics",
+	icon: "thermallogistics:manager",
+	x: 18.5d,
+	y: -2.0d,
+	description: "Barter to get very dynamic pipes",
+	text: [
+		"Elves knows about your situation and can provide you some pipes for easier logistics.",
+		"",
+		"The problem is in fact, than contract was not quite fair. You need to supply a lot more resources to get X amount of pipes.",
+		"",
+		"Guess, you will need to place pipes accurately to not waste resources."
+	],
+	dependencies: [
+		"60d7bf3e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "803cfc22",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_16 1 1"
+		}]
+	},
+	{
+		uid: "b0040b91",
+		type: "item",
+		items: [{
+			item: "thermaldynamics:duct_32 1 1"
+		}]
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "Return me My Ore Processing!",
+	x: 5.0d,
+	y: -6.0d,
+	description: "Create centrifuge for ore processing",
+	text: [
+		"G.R.Egoriust also were studying the power of centrifuge. He have discovered than processing a huge amount of dust yields actual metallic dust. This could be fast way to get secondary elements."
+	],
+	dependencies: [
+		"9d5d6d6a"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "7f02d2d3",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 10s
+		}]
+	}]
+}

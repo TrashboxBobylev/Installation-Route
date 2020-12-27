@@ -1,0 +1,25 @@
+{
+	title: "Greg Tech: Ace Ore Processor",
+	icon: "thermalfoundation:material 1 1",
+	x: -7.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Alternative ores and whatever",
+	text: [
+		"With access of mana you can actually try to mess with ores, given you before. Did you know, than iron can actually contain gold?",
+		"",
+		"Pouring ores into mana pool will yield their alternative element according to hidden laws of ore processing by one of greatest engineers and political leaders of our time, G.R. Egourist. Don't ask, how we did acquire his books."
+	],
+	dependencies: [
+		"dc963e89"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7937e4c9",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ore"
+		}],
+		count: 5L
+	}]
+}

@@ -59,15 +59,5 @@
 		uid: "8873aea5",
 		type: "item",
 		item: "minecraft:chest"
-	},
-	{
-		uid: "73db6fd0",
-		type: "item",
-		item: "minecraft:crafting_table"
-	},
-	{
-		uid: "70282864",
-		type: "item",
-		item: "minecraft:stone_pickaxe"
 	}]
 }

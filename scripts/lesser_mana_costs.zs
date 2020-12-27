@@ -1,3 +1,5 @@
+#packmode normal_experience
+
 import mods.botania.ManaInfusion;
 
 ManaInfusion.removeRecipe(<botania:manaresource>); 

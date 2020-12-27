@@ -1,0 +1,34 @@
+{
+	title: "Engage in High Voltage",
+	x: -2.5d,
+	y: -3.5d,
+	description: "Build a fully sustainable 15000+ RF/t Enervation Dynamo setup. Bonus points for making it work with 48000+ RF/t.",
+	dependencies: [
+		"d2d950ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d87c4fb2",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "a4c37b0f",
+		type: "item",
+		item: {
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 49,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:core_battery",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 44,
+				TrophyName: "LuV Energy Field",
+				TrophyColorRed: 179
+			}
+		}
+	}]
+}

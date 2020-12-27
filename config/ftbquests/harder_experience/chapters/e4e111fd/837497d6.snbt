@@ -1,0 +1,98 @@
+{
+	title: "Programmable Plating",
+	x: 15.5d,
+	y: -6.5d,
+	description: "Use gates to send signals over redstone and wires",
+	text: [
+		"With help of terrasteel and signalum, you can create small gadgets that can send signals over configured triggers.",
+		"",
+		"It can be done with regular redstone or specialized pipe wires, designed to fit in same space as gates.",
+		"",
+		"There is many different triggers, however they can be split into several categories: signal-related, triggers related to type of pipe and other triggers, like mana burst.",
+		"",
+		"You can upgrade gates with various plates, increasing their efficiency and capacity."
+	],
+	dependencies: [
+		"948ddbcb"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "7c356ddc",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {}
+		}]
+	},
+	{
+		uid: "4f2eb4c7",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {
+				gate: {
+					material: 1b,
+					modifier: 1b,
+					logic: 0b
+				}
+			}
+		}]
+	},
+	{
+		uid: "9ed5c167",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {
+				gate: {
+					material: 2b,
+					modifier: 1b,
+					logic: 0b
+				}
+			}
+		}]
+	},
+	{
+		uid: "aaf59ecb",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {
+				gate: {
+					material: 3b,
+					modifier: 1b,
+					logic: 1b
+				}
+			}
+		}]
+	},
+	{
+		uid: "55f913e5",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {
+				gate: {
+					material: 2b,
+					modifier: 2b,
+					logic: 0b
+				}
+			}
+		}]
+	},
+	{
+		uid: "49f48b2d",
+		type: "item",
+		items: [{
+			id: "buildcraftsilicon:plug_gate",
+			tag: {
+				gate: {
+					material: 1b,
+					modifier: 0b,
+					logic: 0b
+				}
+			}
+		}]
+	}]
+}

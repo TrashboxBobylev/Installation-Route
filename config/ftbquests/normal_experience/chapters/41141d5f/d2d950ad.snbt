@@ -1,0 +1,23 @@
+{
+	title: "The hope",
+	x: -1.0d,
+	y: 3.0d,
+	description: "This quest will activate last pieces of Installation Route experience. Don't use until you are ready.",
+	dependencies: [
+		"a0997d47"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b8ecf91",
+		type: "checkmark",
+		title: "I am ready."
+	}],
+	rewards: [{
+		uid: "cf027e44",
+		type: "gamestage",
+		title: "Unlock OpenComputers, MegaCorp and Weirding Gadget.",
+		icon: "opencomputers:storage 1 1",
+		auto: "no_toast",
+		stage: "overworld"
+	}]
+}

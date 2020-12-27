@@ -1,0 +1,35 @@
+{
+	title: "Finishing Moves",
+	icon: "botania:manaresource 1 5",
+	x: 5.5d,
+	y: -5.0d,
+	shape: "rsquare",
+	description: "Assemble last materials in Resource Reactor",
+	text: [
+		"There is two other materials than Reactor can produce.",
+		"",
+		"Gaia Spirit is best magic-based product and used for top-tier artifacts.",
+		"",
+		"Enderium is last step in known technology and allows to make best machines."
+	],
+	dependencies: [
+		"60a5c566"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "2c0bf192",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 5"
+		}]
+	},
+	{
+		uid: "b12fe3c3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 167"
+		}],
+		count: 5L
+	}]
+}

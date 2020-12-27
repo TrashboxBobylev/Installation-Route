@@ -1,0 +1,38 @@
+{
+	title: "Medieval Ages are Amazing!",
+	icon: "factorytech:crucible",
+	x: -4.0d,
+	y: 0.0d,
+	description: "Create crucible that melts ores into liquids",
+	text: [
+		"W-what? You thought that using modern induction melting is most profitable way to refine materials? Hah.",
+		"",
+		"Well, check this new way to produce more ingots in more primitive way. Sounds disrespectful to modern technology?",
+		"Well, everybody should learn to accept defeat."
+	],
+	dependencies: [
+		"d7ab226a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "63b26b1a",
+		type: "item",
+		items: [{
+			item: "factorytech:crucible"
+		}]
+	},
+	{
+		uid: "9dda00d0",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 80"
+		}]
+	},
+	{
+		uid: "7ed36303",
+		type: "item",
+		items: [{
+			item: "factorytech:machinepart 1 40"
+		}]
+	}]
+}

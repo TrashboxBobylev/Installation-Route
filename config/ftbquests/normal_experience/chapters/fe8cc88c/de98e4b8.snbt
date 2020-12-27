@@ -1,0 +1,30 @@
+{
+	title: "Let's Close This Grandy, Guys!",
+	x: 2.0d,
+	y: -1.0d,
+	description: "Make Phoenix Wright trophy.",
+	dependencies: [
+		"d2d950ad"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4536c386",
+		type: "item",
+		items: [{
+			id: "simple_trophies:trophy",
+			tag: {
+				TrophyColorGreen: 151,
+				TrophyVariant: "classic",
+				TrophyShowsTooltip: 1b,
+				TrophyItem: {
+					id: "contenttweaker:phonix",
+					Count: 1b,
+					Damage: 0s
+				},
+				TrophyColorBlue: 222,
+				TrophyName: "Journey's End",
+				TrophyColorRed: 189
+			}
+		}]
+	}]
+}

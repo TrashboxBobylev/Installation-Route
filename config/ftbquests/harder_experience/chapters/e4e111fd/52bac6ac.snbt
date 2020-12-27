@@ -1,0 +1,22 @@
+{
+	title: "Legendary Crystal",
+	icon: "botania:storage 1 3",
+	x: 2.5d,
+	y: -6.5d,
+	description: "Use power of explosion and graphite",
+	text: [
+		"Remember ol' days, when diamonds were craftable from fossils? We neither, and because of that, you can compress explosions and sturdy coal to make these precious brilliants."
+	],
+	dependencies: [
+		"abb0c140"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "0956db5b",
+		type: "item",
+		items: [{
+			item: "botania:manaresource 1 2"
+		}]
+	}]
+}

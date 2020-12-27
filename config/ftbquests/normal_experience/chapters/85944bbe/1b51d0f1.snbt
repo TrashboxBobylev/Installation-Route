@@ -1,0 +1,51 @@
+{
+	title: "Infinity Pieces of Primordial",
+	x: -8.5d,
+	y: 6.0d,
+	shape: "rsquare",
+	description: "Materialize the fundamental powers",
+	text: [
+		"To use artifacts's power, you need the shell for it.",
+		"",
+		"Fortunately, you can use new ingots to apply artifacts on them. As sacred items are infinitely powerful, you can create infinite amount of energy."
+	],
+	dependencies: [
+		"a9288b08"
+	],
+	hide: true,
+	tasks: [{
+		uid: "075888e3",
+		type: "item",
+		items: [{
+			item: "contenttweaker:element_pickaxe"
+		}]
+	},
+	{
+		uid: "9b83d071",
+		type: "item",
+		items: [{
+			item: "contenttweaker:element_hoe"
+		}]
+	},
+	{
+		uid: "59a44630",
+		type: "item",
+		items: [{
+			item: "contenttweaker:element_axe"
+		}]
+	},
+	{
+		uid: "3c46ccbc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:element_shovel"
+		}]
+	},
+	{
+		uid: "332f73e1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:element_sword"
+		}]
+	}]
+}

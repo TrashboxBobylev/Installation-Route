@@ -1,0 +1,39 @@
+{
+	title: "Grow Up!",
+	x: -14.5d,
+	y: 7.5d,
+	description: "Assemble crop machine",
+	text: [
+		"This garden cloche looks really weird. Maybe due to poisionous smell?",
+		"",
+		"That's right. To make this piece of agricultural masterpiece, you must assemble most disgusting potato from one of most poisonous things in this realm.",
+		"This process costs 15k mana, but it worth it."
+	],
+	dependencies: [
+		"1b51d0f1"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "cb40e289",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 4s
+		}]
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Impactful Modernization",
+	x: 5.0d,
+	y: -2.5d,
+	description: "Create first thermal upgrade",
+	text: [
+		"Upgrade kits are harder to come, but they will increase machine's efficency greatly.",
+		"",
+		"They also got a tooltip, how effective they will be."
+	],
+	dependencies: [
+		"9d5d6d6a"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "e57bf2ce",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:upgrade"
+		}]
+	}]
+}

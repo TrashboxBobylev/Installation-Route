@@ -1,0 +1,23 @@
+{
+	title: "Quick Stainless Ingots",
+	x: -5.5d,
+	y: 19.0d,
+	description: "Make tempering furnace",
+	text: [
+		"Producing steel is slow. We knew that and we introduce Tempering Oven, which produces steel with needed quality.",
+		"",
+		"Slap some timers and prepare Iron. It will be hot."
+	],
+	dependencies: [
+		"07061e85"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "91462915",
+		type: "item",
+		items: [{
+			item: "factorytech:temperer"
+		}]
+	}]
+}

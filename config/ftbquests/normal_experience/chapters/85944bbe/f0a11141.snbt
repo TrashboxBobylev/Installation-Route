@@ -1,0 +1,25 @@
+{
+	title: "High-Temperature Shenenigans",
+	x: -8.5d,
+	y: 13.5d,
+	shape: "rsquare",
+	description: "Make high-end furnace",
+	text: [
+		"To engrave wiring into circuits, you need high-temperature furnace. This is when you first need Arc Furnace.",
+		"",
+		"It is also needed to make most technically impressive alloys.",
+		"",
+		"Unfortunately, this thing eats wires with speed of light."
+	],
+	dependencies: [
+		"2d812a52"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a0863180",
+		type: "item",
+		items: [{
+			item: "factorytech:htfurnace"
+		}]
+	}]
+}

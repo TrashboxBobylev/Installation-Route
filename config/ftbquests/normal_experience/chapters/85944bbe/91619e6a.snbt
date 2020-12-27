@@ -1,0 +1,25 @@
+{
+	title: "Warp Engine",
+	x: -11.5d,
+	y: 24.5d,
+	description: "Create powerful tick accelerator",
+	text: [
+		"When upgrades are not enough, you gonna compress the timeline itself to improve the production.",
+		"",
+		"This is why we invented supercharger. It extracts energy cores to speedup time for adjacent machines by 100%!",
+		"",
+		"Lack of ores? Solved! Lack of energy? Solved! Lack of patience? Solved either!"
+	],
+	dependencies: [
+		"113e9287"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "20fdc9ac",
+		type: "item",
+		items: [{
+			item: "factorytech:energizer"
+		}]
+	}]
+}

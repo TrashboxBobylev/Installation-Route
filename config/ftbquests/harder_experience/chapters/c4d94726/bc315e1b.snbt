@@ -1,0 +1,18 @@
+{
+	title: "Go Bang Yourself",
+	x: -2.0d,
+	y: -2.0d,
+	description: "Accept the fact, that you enabled official hardmode",
+	text: [
+		"Welcome to Harder Experience pack mode! You will meet changes across whole progression, so stay tuned and don't miss anything, that will frustrate you later."
+	],
+	dependencies: [
+		"4352c04e"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "1c6cbbb5",
+		type: "checkmark"
+	}]
+}

@@ -1,0 +1,36 @@
+{
+	title: "The End",
+	icon: "minecraft:rotten_flesh",
+	x: -1.0d,
+	y: 1.0d,
+	shape: "rsquare",
+	description: "You won, probably!",
+	text: [
+		"April 12, 2026",
+		"",
+		"We can't resist any longer. We need food, we need ammo, we can't fight flames anymore...",
+		"Everybody needs the rest, we can't continue without being well.",
+		"",
+		"Give us more time, please. The void experiment is still going...",
+		"They will return, I promise...",
+		"They will...",
+		"",
+		"",
+		"April 20, 2026",
+		"If you are reading this, then I am dead with rest of humanity. We got the flames, but unevitable happened. The godly monster exploded, wiping every creature and even strongest materials. I am recording this in ruins of our center.",
+		"Our hopes achieved nothing, the survivors have abandoned project \"Installing Route\", with only me left in charge. You probably will never see your home again.",
+		"But don't worry, we have discovered some new ores, formed during apocalypsis. Maybe they will be useful.",
+		"",
+		"",
+		"As last note: please, rebuild electronic tech and trading organization. The Earth might still have a hope."
+	],
+	dependencies: [
+		"57ca8e8e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aec52ec0",
+		type: "dimension",
+		dim: 4
+	}]
+}

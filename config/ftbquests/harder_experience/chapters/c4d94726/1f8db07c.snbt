@@ -1,0 +1,95 @@
+{
+	title: "Wooden Billionaire",
+	icon: "minecraft:log",
+	x: 1.5d,
+	y: -1.0d,
+	description: "Craft wooden things",
+	text: [
+		"You're actually not billionaire, but who cares?",
+		"",
+		"But we should point, than this wood boxie is one. One. We can't give you another, we are suffering from fireborn creature, that melts our buildings and factories...",
+		"How it was called? Hibliss?.."
+	],
+	dependencies: [
+		"f72b2ff2"
+	],
+	hide: true,
+	tasks: [{
+		uid: "83e8560a",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}],
+		count: 12L,
+		consume_items: false
+	},
+	{
+		uid: "3710f324",
+		type: "item",
+		items: [{
+			item: "minecraft:chest"
+		}],
+		count: 2L,
+		consume_items: false
+	}],
+	rewards: [{
+		uid: "27363117",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "customblockfabricator:fabricator",
+			tag: {
+				BlockEntityTag: {
+					ticks_required: 320,
+					colour: 1116165,
+					block_count: 1,
+					counter: 0,
+					block_string: "contenttweaker:magnetiteore"
+				},
+				display: {
+					Name: "Magnetite Fabricator"
+				}
+			}
+		}
+	},
+	{
+		uid: "a5509aa3",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "customblockfabricator:fabricator",
+			tag: {
+				BlockEntityTag: {
+					ticks_required: 320,
+					colour: 10268070,
+					block_count: 1,
+					counter: 0,
+					block_string: "contenttweaker:cassiteriteore"
+				},
+				display: {
+					Name: "Cassiterite Fabricator"
+				}
+			}
+		}
+	},
+	{
+		uid: "3346349a",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "customblockfabricator:fabricator",
+			tag: {
+				BlockEntityTag: {
+					ticks_required: 320,
+					colour: 2850647,
+					block_count: 1,
+					counter: 0,
+					block_string: "contenttweaker:tetrahedriteore"
+				},
+				display: {
+					Name: "Chalcocite Fabricator"
+				}
+			}
+		}
+	}]
+}

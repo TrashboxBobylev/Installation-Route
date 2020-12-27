@@ -1,0 +1,31 @@
+{
+	title: "Who Need Steampunk?",
+	x: 0.0d,
+	y: -0.5d,
+	description: "Heat water and produce RF with it",
+	text: [
+		"Doesn't burning tons of saw materials makes your mind short-sighted?",
+		"",
+		"We have a solution for you: teapot! We are serious, just heat some water and use its heat to power things!",
+		"",
+		"Yeah, it's unrealistic, but it saves wood and atmosphere!"
+	],
+	dependencies: [
+		"abb0c140"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "faed5a43",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "hot_water",
+				Amount: 1000
+			}
+		}],
+		count: 5L,
+		ignore_damage: true
+	}]
+}

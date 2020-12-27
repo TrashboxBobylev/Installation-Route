@@ -1,3 +1,5 @@
+#packmode normal_experience
+
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
