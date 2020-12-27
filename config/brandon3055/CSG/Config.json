@@ -1,0 +1,10 @@
+{
+  "inventory": {
+    "0:1": "minecraft:stone_pickaxe",
+    "0:3": "botania:twigwand,1,0,{color1:9,color2:9,boundTileZ:0,boundTileX:0,boundTileY:-1}",
+    "0:5": "minecraft:crafting_table",
+    "0:2": "thermalfoundation:wrench",
+    "0:4": "thermalfoundation:meter",
+    "0:0": "ftbquests:book"
+  }
+}
