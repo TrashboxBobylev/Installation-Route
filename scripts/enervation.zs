@@ -13,7 +13,7 @@ recipes.addShaped(<contenttweaker:mana_battery>*3, [[<ore:dustGold>, null, <ore:
 mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:mana_battery>, 64000);
 
 recipes.addShaped(<contenttweaker:steel_battery>*4, [[<thermalfoundation:material:225>, null, <thermalfoundation:material:225>], [<ore:gemLapis>, <ore:gemLapis>, <ore:gemLapis>], [<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>]]);
-mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:steel_battery>, 20000);
+mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:steel_battery>, 100000);
 
 recipes.addShaped(<contenttweaker:terra_battery>*4, [[<ore:ingotElectrum>, null, <ore:ingotElectrum>], [<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:terra_battery>, 225000);
