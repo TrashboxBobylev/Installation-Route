@@ -1,7 +1,12 @@
 [
  {
-  "id": "wip",
-  "title": "Work In Progress",
+  "id": "space",
+  "title": "Conserving Space",
+  "icon": "item:ftbquests:book"
+ },
+ {
+  "id": "obsidian",
+  "title": "Blaze Rods Economy",
   "icon": "item:ftbquests:book"
  }
 ]
