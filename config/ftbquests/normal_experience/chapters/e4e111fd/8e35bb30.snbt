@@ -11,6 +11,7 @@
 		"",
 		"You can either try to fabricate lava by combining heavy water and elemental fire on runic altar, or farm blaze power for mesh to transform it into obsidian."
 	],
+	guide_page: "space",
 	dependencies: [
 		"f8211ac2"
 	],
