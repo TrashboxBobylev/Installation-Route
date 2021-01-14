@@ -1,0 +1,22 @@
+{
+	title: "Tired Beyond Recognition",
+	x: 10.5d,
+	y: 6.0d,
+	description: "Walk over 4.13 km.",
+	dependencies: [
+		"c73b6746"
+	],
+	hide: true,
+	tasks: [{
+		uid: "727beea6",
+		type: "stat",
+		icon: "botania:manasteelboots",
+		stat: "stat.walkOneCm",
+		value: 413000
+	}],
+	rewards: [{
+		uid: "e3f063d5",
+		type: "item",
+		item: "extendedcrafting:singularity_custom 1 100"
+	}]
+}

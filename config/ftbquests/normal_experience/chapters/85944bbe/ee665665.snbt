@@ -32,7 +32,9 @@
 				}
 			}
 		}],
-		count: 64L
+		count: 64L,
+		ignore_damage: true,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "947d6601",

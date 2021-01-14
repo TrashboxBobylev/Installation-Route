@@ -1,0 +1,19 @@
+{
+	x: 11.5d,
+	y: 5.0d,
+	description: "Make from any corner of room to opposite corner in under 3 seconds.",
+	dependencies: [
+		"c73b6746"
+	],
+	tasks: [{
+		uid: "73b0ebf7",
+		type: "checkmark",
+		title: "Zooming Through the Stage",
+		icon: "minecraft:diamond_horse_armor"
+	}],
+	rewards: [{
+		uid: "f74b9edd",
+		type: "item",
+		item: "extendedcrafting:singularity_custom 1 103"
+	}]
+}

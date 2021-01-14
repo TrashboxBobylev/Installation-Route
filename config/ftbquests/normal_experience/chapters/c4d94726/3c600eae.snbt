@@ -1,0 +1,26 @@
+{
+	x: 8.5d,
+	y: 6.5d,
+	description: "Organise the system with every metal that you produce. They should be produced automatically too.",
+	dependencies: [
+		"c73b6746"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb8c01ad",
+		type: "checkmark",
+		title: "Storageston, We Have Problems",
+		icon: {
+			id: "thermalexpansion:strongbox",
+			tag: {
+				Facing: 3b,
+				Level: 0b
+			}
+		}
+	}],
+	rewards: [{
+		uid: "00eb81e0",
+		type: "item",
+		item: "extendedcrafting:singularity_custom 1 101"
+	}]
+}

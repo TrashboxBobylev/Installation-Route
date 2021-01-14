@@ -19,13 +19,5 @@
 		items: [{
 			item: "factorytech:fridge"
 		}]
-	}],
-	rewards: [{
-		uid: "7ec53d01",
-		type: "choice",
-		title: "Choose your convience: teleportation or energy storage.",
-		icon: "botania:cosmetic 1 31",
-		team_reward: true,
-		table: 0
 	}]
 }

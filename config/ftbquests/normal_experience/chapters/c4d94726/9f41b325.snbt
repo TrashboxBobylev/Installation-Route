@@ -1,0 +1,26 @@
+{
+	x: 5.5d,
+	y: 5.0d,
+	description: "Generate 2500 RF/t or more.",
+	dependencies: [
+		"c73b6746"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b19338fa",
+		type: "checkmark",
+		title: "Oh, My Flux!",
+		icon: {
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "redstone",
+				Amount: 1000
+			}
+		}
+	}],
+	rewards: [{
+		uid: "b48b1ee5",
+		type: "item",
+		item: "extendedcrafting:singularity_custom 1 104"
+	}]
+}

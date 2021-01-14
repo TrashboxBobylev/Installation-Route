@@ -62,3 +62,46 @@ mods.extendedcrafting.TableCrafting.addShaped(2, <extendedcrafting:crafting_core
 	[<ore:ingotBlackIron>, <ore:blockElectrum>, <extendedcrafting:pedestal>, <ore:blockElectrum>, <ore:ingotBlackIron>], 
 	[<ore:ingotBlackIron>, <ore:blockCobalt>, <ore:blockCobalt>, <ore:blockCobalt>, <ore:ingotBlackIron>]
 ]);
+
+recipes.remove(<cyclicmagic:inventory_food>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <cyclicmagic:inventory_food>, [
+	[null, null, <aim:craftingcomponent>, null, null], 
+	[<ore:ingotCadmium>, <ore:chest>, <ore:chest>, <ore:chest>, <ore:ingotCadmium>], 
+	[<ore:ingotCadmium>, <ore:chest>, <extendedcrafting:singularity_custom:101>, <ore:chest>, <ore:ingotCadmium>], 
+	[<ore:ingotCadmium>, <ore:chest>, <factorytech:machinepart:90>, <ore:chest>, <ore:ingotCadmium>], 
+	[null, null, <ore:elvenDragonstone>, null, null]
+]);
+
+recipes.removeByRecipeName("cyclicmagic:item.charm_speed_1");
+mods.extendedcrafting.TableCrafting.addShaped(2, <cyclicmagic:charm_speed>.withTag({}), [
+	[null, null, null, null, null], 
+	[null, <ore:ingotCobalt>, <ore:ingotCobalt>, <ore:ingotCobalt>, null], 
+	[<ore:ingotCobalt>, <ore:gearAluminum>, <extendedcrafting:singularity_custom:100>, <ore:gearAluminum>, <ore:ingotCobalt>], 
+	[<ore:ingotCobalt>, <ore:gearAluminum>, <factorytech:machinepart:100>, <ore:gearAluminum>, <ore:ingotCobalt>], 
+	[null, null, <botania:speedupbelt>, null, null]
+]);
+
+recipes.remove(<cyclicmagic:crafting_food>);
+mods.extendedcrafting.TableCrafting.addShaped(2, <cyclicmagic:crafting_food>, [
+	[null, null, <thermallogistics:crafter:3>, null, null], 
+	[<ore:ingotChrome>, <ore:ingotChrome>, <extendedcrafting:table_basic>, <ore:ingotChrome>, <ore:ingotChrome>], 
+	[<ore:ingotChrome>, <ore:runeSlothB>, <extendedcrafting:singularity_custom:102>, <ore:runeSlothB>, <ore:ingotChrome>], 
+	[<ore:ingotChrome>, <ore:ingotChrome>, <botania:opencrate:1>, <ore:ingotChrome>, <ore:ingotChrome>], 
+	[null, <ore:ingotChrome>, <factorytech:machinepart:110>, <ore:ingotChrome>, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <cyclicmagic:book_ender>.withTag({location_back: ""}), [
+	[null, null, <aim:xprelay>, null, null], 
+	[<ore:ingotBeryllium>, <aim:craftingcomponent>, <botania:specialflower>.withTag({type: "spectranthemum"}), <aim:craftingcomponent>, <ore:ingotBeryllium>], 
+	[<ore:ingotBeryllium>, <aim:craftingcomponent>, <extendedcrafting:singularity_custom:103>, <aim:craftingcomponent>, <ore:ingotBeryllium>], 
+	[<ore:ingotBeryllium>, <aim:craftingcomponent>, <botania:pistonrelay>, <aim:craftingcomponent>, <ore:ingotBeryllium>], 
+	[null, null, <factorytech:machinepart:110>, null, null]
+]);
+
+mods.extendedcrafting.TableCrafting.addShaped(2, <thermalexpansion:cell>.withTag({Recv: 2048, RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [2, 1, 1, 1, 1, 1] as byte[] as byte[], Level: 4 as byte, Send: 16384}), [
+	[<thermalexpansion:frame:128>, null, null, null, <thermalexpansion:frame:128>], 
+	[<ore:ingotLumium>, <thermalfoundation:material:513>, <ore:gearPlatinum>, <thermalfoundation:material:513>, <ore:ingotLumium>], 
+	[<ore:ingotLumium>, <thermalfoundation:material:513>, <extendedcrafting:singularity_custom:104>, <thermalfoundation:material:513>, <ore:ingotLumium>], 
+	[<ore:ingotLumium>, <thermalfoundation:material:513>, <thermalexpansion:capacitor:4>, <thermalfoundation:material:513>, <ore:ingotLumium>], 
+	[<thermalexpansion:frame:128>, null, <factorytech:machinepart:121>, null, <thermalexpansion:frame:128>]
+]);

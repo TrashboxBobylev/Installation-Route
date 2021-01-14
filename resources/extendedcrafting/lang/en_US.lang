@@ -86,8 +86,8 @@ item.ec.handheld_table.name=Handheld Crafting Table
 
 item.ec.recipe_maker.name=Recipe Maker
 
-item.ec.singularity.name=Singularity
-item.ec.singularity_ultimate.name=The Ultimate Singularity
+item.ec.singularity.name=Star
+item.ec.singularity_ultimate.name=
 
 # CONTAINERS
 container.ec.crafting_core=Crafting Core

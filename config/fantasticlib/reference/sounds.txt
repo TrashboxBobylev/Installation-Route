@@ -574,6 +574,12 @@ quark:entity.pickarang.clank
 quark:entity.pickarang.pickup
 quark:item.horse_whistle.blow
 quark:block.tiny_potato.shia_labeouf
+psi:bullet_create
+psi:cad_create
+psi:cad_shoot
+psi:compile_error
+psi:level_up
+psi:loopcast
 botania:airrod
 botania:agricarnation
 botania:altarcraft
@@ -651,6 +657,7 @@ cyclicmagic:doorbell_mikekoenig
 cyclicmagic:dice_mike_koenig
 incorporeal:shrine
 incorporeal:unstable
+psicosts:psio.effect.draw_psi
 thermalfoundation:mob_blizz_ambient
 thermalfoundation:mob_blizz_attack
 thermalfoundation:mob_blitz_ambient

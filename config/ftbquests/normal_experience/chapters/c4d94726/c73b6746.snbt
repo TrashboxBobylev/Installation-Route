@@ -1,0 +1,22 @@
+{
+	title: "Astralux Zone",
+	icon: "extendedcrafting:singularity_custom 1 100",
+	x: 8.5d,
+	y: 3.0d,
+	description: "Complete custom challenges to get stars",
+	text: [
+		"You are advanced enough to take on some serious business.",
+		"",
+		"We offer you 5 not easy challenges, which reward you with Stars. Those stars can be crafted into artifacts that may help you in your journey."
+	],
+	dependencies: [
+		"d7ab226a"
+	],
+	hide: true,
+	rewards: [{
+		uid: "c88e690a",
+		type: "custom",
+		title: "Let's start.",
+		icon: "extendedcrafting:singularity_ultimate"
+	}]
+}
