@@ -1,0 +1,24 @@
+{
+	title: "Psionic Capabilities",
+	x: 10.0d,
+	y: 2.5d,
+	description: "Use Psi to control psionic energy and use it for good",
+	text: [
+		"Psi is magic mod, introducing programmable spells. They consume Psi energy from special cells and can do various tricks.",
+		"",
+		"As exclusive offer, we made auto-casting device, that can cast spells without human interaction."
+	],
+	dependencies: [
+		"9d937e88"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "f44aa1e8",
+		type: "item",
+		items: [{
+			item: "psi:cad_assembly 1 2"
+		}],
+		ignore_nbt: 1b
+	}]
+}
