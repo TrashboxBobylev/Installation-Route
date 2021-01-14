@@ -1,0 +1,23 @@
+{
+	title: "Supercharged Ingot",
+	x: 15.5d,
+	y: -1.5d,
+	description: "Infuse manasteel with loads of mana to get mithril",
+	text: [
+		"Mithril, or mana-infused ingot, is very strong magic material, that excels at providing energy to items.",
+		"",
+		"It can be used to get more terrasteel and elementium, it can replace mana diamond in bunch of recipes and also useful in psionic research."
+	],
+	dependencies: [
+		"948ddbcb"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "7d1b735b",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 136"
+		}]
+	}]
+}

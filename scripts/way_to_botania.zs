@@ -73,6 +73,8 @@ mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 Agglomeration.removeDefaultRecipe();
 var terraNewRecipe = AgglomerationRecipe.create().output(<botania:manaresource:4>).inputs([<botania:manaresource>, <ore:itemBiomass>, <botania:cellblock>, <ore:gunpowder>, <minecraft:clay>, <ore:slimeball>, <botania:petal:13>, <ore:gemEmerald>]).manaCost(30000);
 Agglomeration.addRecipe(terraNewRecipe);
+var terraNewRecipeCheaper = AgglomerationRecipe.create().output(<botania:manaresource:4>*3).inputs([<thermalfoundation:material:136>, <ore:itemBiomass>, <botania:cellblock>, <ore:gunpowder>, <minecraft:clay>, <ore:slimeball>, <botania:petal:13>, <ore:gemEmerald>]).manaCost(30000);
+Agglomeration.addRecipe(terraNewRecipeCheaper);
 AgglomerationPage.add("botania.page.terrasteel3", "botania.entry.terrasteel", 4, terraNewRecipe);
 
 //meat
@@ -124,3 +126,23 @@ InductionSmelter.addRecipe(<botania:manaresource:7>, <minecraft:sand>, <contentt
 
 mods.botania.Apothecary.removeRecipe("petro_petunia");
 mods.botania.Apothecary.addRecipe("petro_petunia", [<ore:petalLime>, <ore:petalGreen>, <ore:petalLightBlue>, <ore:runeWaterB>, <ore:dustPyrotheum>, <ore:obsidian>, <ore:redstoneRoot>]);
+
+
+//mana-infused
+var mythril = AgglomerationRecipe.create().output(<thermalfoundation:material:136>).inputs([<ore:ingotManasteel>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<ore:blockSilver>, <botania:storage:1>))
+	.manaCost(60000);
+Agglomeration.addRecipe(mythril);
+
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>, <botania:manaresource:7>], [<thermalfoundation:material:136>]);
+
+<ore:manaDiamond>.add(<thermalfoundation:material:136>);
+
+recipes.remove(<botania:storage:3>);
+recipes.addShaped(<botania:storage:3>, [
+	[<botania:manaresource:2>, <botania:manaresource:2>, <botania:manaresource:2>],
+	[<botania:manaresource:2>, <botania:manaresource:2>, <botania:manaresource:2>],
+	[<botania:manaresource:2>, <botania:manaresource:2>, <botania:manaresource:2>]]);
+
+mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:9>);
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:9>], [<botania:manaresource:2>]);
