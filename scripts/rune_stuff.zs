@@ -41,7 +41,7 @@ recipes.addShaped(<minecraft:leaves>*40, [[null, <ore:oreLiving>, null], [<ore:o
 recipes.addShaped(<minecraft:milk_bucket>, [[<ore:dyeWhite>, <ore:dyeWhite>, <ore:dyeWhite>], [<ore:dyeWhite>, <minecraft:bone_block>, <ore:dyeWhite>], [<ore:oreLiving>, <minecraft:water_bucket>, <ore:oreLiving>]]);
 
 //egg
-recipes.addShaped(<minecraft:egg>, [[<ore:logWood>, <ore:oreLiving>, <ore:logWood>], [<minecraft:hay_block>, <thermalexpansion:device:12>.withTag({Facing: 3 as byte}).reuse(), <minecraft:hay_block>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
+recipes.addShaped(<minecraft:egg>*4, [[<ore:logWood>, <ore:oreLiving>, <ore:logWood>], [<minecraft:hay_block>, <thermalexpansion:device:12>.withTag({Facing: 3 as byte}).reuse(), <minecraft:hay_block>], [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>]]);
 
 //new tier 3 rune recipes
 mods.botania.RuneAltar.removeRecipe(<botania:rune:9>);
