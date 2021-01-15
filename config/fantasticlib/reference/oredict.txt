@@ -528,13 +528,13 @@ blockLuminessence
 blockNetherStar
 blockCrystaltine
 blockUltimate
-ingotUltimate
-nuggetUltimate
-nuggetBlackIron
+nuggetCrystaltine
 nuggetNetherStar
 ingotCrystaltine
+nuggetBlackIron
 ingotBlackIron
-nuggetCrystaltine
+nuggetUltimate
+ingotUltimate
 book
 stonePolished
 plankStained

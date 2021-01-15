@@ -352,13 +352,6 @@ aim:positioneditor
 aim:fluid_moltenxp
 aim:networksignalbridge
 aim:shulkerboxrelay
-quark:gravisand
-quark:glowstone_dust_block
-quark:gunpowder_block
-quark:pipe
-quark:frame
-quark:frame_slab
-quark:frame_slab_double
 quark:sandstone_new
 quark:sandstone_bricks_stairs
 quark:red_sandstone_bricks_stairs
@@ -628,6 +621,11 @@ quark:polished_netherrack_bricks_slab
 quark:polished_netherrack_bricks_slab_double
 quark:polished_netherrack_bricks_wall
 quark:quilted_wool
+quark:gravisand
+quark:frame
+quark:frame_slab
+quark:frame_slab_double
+quark:pipe
 quark:spruce_trapdoor
 quark:birch_trapdoor
 quark:jungle_trapdoor
@@ -675,6 +673,8 @@ quark:acacia_button
 quark:dark_oak_button
 quark:grate
 quark:blaze_rod
+quark:glowstone_dust_block
+quark:gunpowder_block
 psi:cad_assembler
 psi:programmer
 psi:psi_decorative
