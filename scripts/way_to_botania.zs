@@ -1,5 +1,3 @@
-#packmode normal_experience
-
 import mods.botaniatweaks.Agglomeration;
 import mods.botaniatweaks.AgglomerationRecipe;
 import mods.botaniatweaks.AgglomerationPage;

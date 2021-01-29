@@ -1,5 +1,3 @@
-#packmode normal_experience
-
 //extracting ender air from endstone
 mods.thermalexpansion.Pulverizer.addRecipe(<botania:manaresource:15>, <minecraft:end_stone>, 5000, <minecraft:end_stone>, 75);
 

@@ -227,7 +227,7 @@ fluid5.register();
 var fluid6 = VanillaFactory.createFluid("pride", Color.fromHex("121228"));
 fluid6.register();
 
-var fluid7 = VanillaFactory.createFluid("hot_water", Color.fromHex("52B5CE"));
+var fluid7 = VanillaFactory.createFluid("hot_water", Color.fromHex("1FD3D3"));
 fluid7.register();
 
 var item2 = VanillaFactory.createItem("small_battery");

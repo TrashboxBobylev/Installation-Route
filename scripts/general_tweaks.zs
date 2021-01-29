@@ -1,4 +1,4 @@
-#packmode normal_experience
+
 
 import crafttweaker.block.IBlockDefinition;
 import crafttweaker.item.IItemStack;
@@ -117,3 +117,12 @@ JEI.hideCategory("incorporeal.skytouch");
 JEI.hideCategory("thermalexpansion.compactor_gear");
 
 JEI.removeAndHide(<psicosts:psi_cell:3>);
+
+events.onPortalSpawn(function(event as crafttweaker.event.PortalSpawnEvent) {
+	event.cancel();
+});
+
+// events.onProjectileImpactThrowable(function(event as crafttweaker.event.ProjectileImpactThrowableEvent) {
+	// if (event.throwable.id == 14 && (event.rayTrace.isBlock || event.rayTrace.isEntity))
+		// event.cancel();
+// });

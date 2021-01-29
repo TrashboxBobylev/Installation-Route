@@ -1,7 +1,0 @@
-{
-	title: "Part 2 - Advanced Factorization",
-	icon: "factorytech:grindstone",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}

@@ -1,7 +1,0 @@
-{
-	title: "Part 3 - History of Escape from Box, I Guess",
-	icon: "modularmachinery:blockcontroller",
-	always_invisible: false,
-	group: 0,
-	default_quest_shape: ""
-}
