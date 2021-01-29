@@ -17,7 +17,7 @@
 		uid: "397c5f61",
 		type: "item",
 		items: [{
-			item: "minecraft:emerald"
+			item: "minecraft:prismarine"
 		}]
 	}],
 	rewards: [{

@@ -11,7 +11,7 @@
 		"Pouring ores into mana pool will yield their alternative element according to hidden laws of ore processing by one of greatest engineers and political leaders of our time, G.R. Egourist. Don't ask, how we did acquire his books."
 	],
 	dependencies: [
-		"dc963e89"
+		"8c638f01"
 	],
 	hide: true,
 	tasks: [{

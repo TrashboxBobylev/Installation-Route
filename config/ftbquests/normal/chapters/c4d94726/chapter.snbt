@@ -1,6 +1,6 @@
 {
-	title: "Part 0 - So This is My Life for Now",
-	icon: "thermalfoundation:wrench",
+	title: "Astral Challenges",
+	icon: "extendedcrafting:singularity_ultimate",
 	always_invisible: false,
 	group: 0,
 	default_quest_shape: ""

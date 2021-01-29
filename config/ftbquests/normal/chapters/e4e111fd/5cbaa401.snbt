@@ -1,0 +1,25 @@
+{
+	title: "Less Routine",
+	x: -9.5d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Botania is slighty less daunting now",
+	text: [
+		"Floral Fertilizer is slow way to acquire every single petal. What if we could do better?",
+		"",
+		"Those rainbow petals allow you to craft any selected flower for small cost. This is pretty useful thing to quickly start mana generation.",
+		"",
+		"Also mana costs for essential items are slighty lower; an another time save for you."
+	],
+	dependencies: [
+		"8c638f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "699e0733",
+		type: "item",
+		items: [{
+			item: "contenttweaker:bifrostpetal"
+		}]
+	}]
+}

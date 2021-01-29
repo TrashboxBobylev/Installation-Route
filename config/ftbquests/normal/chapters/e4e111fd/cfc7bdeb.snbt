@@ -24,5 +24,15 @@
 		items: [{
 			item: "minecraft:item_frame"
 		}]
+	},
+	{
+		uid: "23ebff15",
+		type: "item",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "hopperhock"
+			}
+		}]
 	}]
 }

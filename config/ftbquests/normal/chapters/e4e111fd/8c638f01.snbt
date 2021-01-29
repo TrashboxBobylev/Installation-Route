@@ -1,0 +1,34 @@
+{
+	title: "What About Meal?",
+	icon: "botania:tinypotato",
+	x: -12.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "Use new obtained resources to get into botanic blueprints",
+	text: [
+		"Now you have fabricators for base ores and some weird substance that is composed from cells? Don't worry about cells, they are just needed for organics."
+	],
+	dependencies: [
+		"c686ac24"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b1ee48f1",
+		type: "item",
+		items: [{
+			item: "minecraft:bone_block"
+		}]
+	},
+	{
+		uid: "f6ba7183",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}],
+	rewards: [{
+		uid: "27ed46dc",
+		type: "item",
+		item: "botania:grassseeds"
+	}]
+}

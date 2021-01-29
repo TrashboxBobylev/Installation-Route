@@ -1,21 +1,21 @@
 {
-	title: "Aaa, I am confused!",
+	title: "Argh, what happened?",
 	icon: "incorporeal:lokiw",
-	x: -2.0d,
-	y: 1.5d,
-	shape: "gear",
-	description: "Do something productive at once",
+	x: -17.0d,
+	y: -4.0d,
+	shape: "octagon",
+	description: "Awake from horrible events",
 	text: [
 		"If you are awake, then the experiment was successful. Or it is? Well, it's doesn't matter for you, because regardless of answer, you are stuck in this confusing sky box!"
 	],
 	hide_text_until_complete: true,
 	size: 2.0d,
 	tasks: [{
-		uid: "16024df4",
+		uid: "91311c70",
 		type: "checkmark"
 	}],
 	rewards: [{
-		uid: "4314f91f",
+		uid: "4ebd4958",
 		type: "item",
 		team_reward: true,
 		item: {
@@ -35,7 +35,7 @@
 		}
 	},
 	{
-		uid: "a38760d5",
+		uid: "b74d9c94",
 		type: "item",
 		item: {
 			id: "thermalexpansion:device",
@@ -53,11 +53,33 @@
 				]
 			},
 			Damage: 5s
-		}
+		},
+		count: 2
 	},
 	{
-		uid: "8873aea5",
+		uid: "41e7eead",
 		type: "item",
-		item: "minecraft:chest"
+		item: "minecraft:chest",
+		count: 2
+	},
+	{
+		uid: "115b8d75",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "customblockfabricator:fabricator",
+			tag: {
+				BlockEntityTag: {
+					ticks_required: 60,
+					colour: 8339240,
+					block_count: 1,
+					counter: 0,
+					block_string: "minecraft:log"
+				},
+				display: {
+					Name: "Wood Fabricator"
+				}
+			}
+		}
 	}]
 }

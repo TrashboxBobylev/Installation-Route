@@ -1,0 +1,23 @@
+{
+	title: "Changes in Narrative",
+	x: -17.0d,
+	y: -6.0d,
+	description: "You don't starve and there is no mobs",
+	text: [
+		"You don't need to fight at all.",
+		"All lootable components can be obtained with crafting or processing other items.",
+		"",
+		"Therefore, almost all weapons are excluded from your timeline, with almost every armor. You should check for Manaweave and Terrasteel sets.",
+		"",
+		"Also, your metabolism is stopped, so you don't get hungry from doing tasks."
+	],
+	dependencies: [
+		"3558e8ac"
+	],
+	hide: true,
+	optional: true,
+	tasks: [{
+		uid: "24eca8a2",
+		type: "checkmark"
+	}]
+}
