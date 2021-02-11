@@ -6,13 +6,13 @@
 	shape: "rsquare",
 	description: "Fabricate Terrasteel",
 	text: [
-		"While natural field in this void is pretty much enough for most of magical utlities, creating something more powerful is impossible with just mana-based items.",
+		"While the natural field in this void is pretty much enough for most magical utilities, creating something more powerful is impossible with just mana-based items.",
 		"",
-		"To concentrate your etherial energy in this enviroment, you need a lot of elemental magic.",
+		"To concentrate your ethereal energy in this environment, you need a lot of elemental magic.",
 		"",
-		"Specifically for Terrasteel, the botanical iron require source of earth power. Once put on familiar agglomeration plate, those power will be extracted to augment incoming mana energy.",
+		"Specifically for Terrasteel, the botanical iron requires a source of earth power. Once put on the familiar agglomeration plate, those powers will be extracted to augment incoming mana energy.",
 		"",
-		"You should aim for automatic production of those alloy, as terrasteel is ideal for handling machines, than require no forge energy."
+		"You should aim for automatic production of this alloy as terrasteel is ideal for handling machines that require no forge energy."
 	],
 	dependencies: [
 		"8bd7af21"

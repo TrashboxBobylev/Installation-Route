@@ -5,9 +5,9 @@
 	y: -0.5d,
 	description: "Create autocrafting device",
 	text: [
-		"As accessing Alfheim is slighty more difficult, we have ported crafty crate to overworld specifically for you.",
+		"As accessing Alfheim is slighty more difficult, we have ported the crafty crate to the overworld specifically for you.",
 		"",
-		"Bulk Stack Mover works best with this gadget, as it allows to push all ingredients at once.",
+		"Bulk Stack Mover works best with this gadget, as it allows you push all ingredients at once.",
 		"",
 		"Alternatively, you can try to push things into hoppers with Hopperhock sorting feature."
 	],

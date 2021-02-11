@@ -4,7 +4,7 @@
 	y: 0.0d,
 	description: "We inhibited your metabolism",
 	text: [
-		"In this void box, your stomach no longer cries about help, so you don't need to actually eat. Except when you hurt in some way or another."
+		"In this void box, your stomach no longer cries about hunger so you don't need to actually eat. Except when you are hurt in some way or another."
 	],
 	dependencies: [
 		"4352c04e"

@@ -4,7 +4,7 @@
 	y: 8.5d,
 	description: "Use Redstone Processor to process redstone pulses.",
 	text: [
-		"This circuit-powered trinket is capable of processing standard 8-bit assembly code to generate or recieve redstone pulses.",
+		"This circuit-powered trinket is capable of processing standard 8-bit assembly code to generate or receive redstone pulses.",
 		"",
 		"To learn about using it, go to this link: https://www.curseforge.com/minecraft/mc-mods/minecoprocessors/pages/getting-started"
 	],

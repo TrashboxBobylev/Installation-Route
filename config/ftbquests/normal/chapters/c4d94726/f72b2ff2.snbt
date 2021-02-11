@@ -19,12 +19,12 @@
 	},
 	x: 1.5d,
 	y: 1.5d,
-	description: "Prepare factory foundation",
+	description: "Prepare factory foundations",
 	text: [
-		"How these boxes, named fabricators, works? They transfer resources from overworld to this box through interdimensional translocat... teleports.",
+		"How do these boxes, named fabricators, work? They transfer resources from our overworld to this box through interdimensional translocat... teleports.",
 		"Sadly, the transfer rate is very small due to complications of building this channel in first place, so don't complain!",
-		"Fabricators can't push items by itself, so any item transporter is needed.",
-		"Hoppers are sufficient for this."
+		"Fabricators can't push items by itself, so an item transporter is needed.",
+		"Hoppers are basic, but sufficient for this."
 	],
 	dependencies: [
 		"4352c04e"

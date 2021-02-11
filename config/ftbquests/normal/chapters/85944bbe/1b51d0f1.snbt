@@ -5,9 +5,9 @@
 	shape: "rsquare",
 	description: "Materialize the fundamental powers",
 	text: [
-		"To use artifacts's power, you need the shell for it.",
+		"To use an artifacts' power, you need the shell for it.",
 		"",
-		"Fortunately, you can use new ingots to apply artifacts on them. As sacred items are infinitely powerful, you can create infinite amount of energy."
+		"Fortunately, you can use new ingots to apply artifacts on them. As sacred items are infinitely powerful, you can create an infinite amount of energy."
 	],
 	dependencies: [
 		"a9288b08"

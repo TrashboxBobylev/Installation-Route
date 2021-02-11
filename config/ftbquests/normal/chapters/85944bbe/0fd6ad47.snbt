@@ -4,7 +4,7 @@
 	y: 19.0d,
 	description: "Make tempering furnace",
 	text: [
-		"Producing steel is slow. We knew that and we introduce Tempering Oven, which produces steel with needed quality.",
+		"Producing steel is slow. We know that and so we introduce the Tempering Oven! This machine produces steel in a fraction of the time.",
 		"",
 		"Slap some timers and prepare Iron. It will be hot."
 	],

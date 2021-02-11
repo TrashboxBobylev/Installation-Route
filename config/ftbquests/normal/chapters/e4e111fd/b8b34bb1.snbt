@@ -3,11 +3,11 @@
 	x: 21.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "Achieve the pinacle of primitive technology",
+	description: "Achieve the pinnacle of primitive technology",
 	text: [
-		"Those items represent the essence of five interactions in our world: mining, farming, chopping, hunting and digging. We call them \"sacred items\".",
+		"These items represent the essence of the five interactions in our world: mining, farming, chopping, hunting and digging. We call them \"sacred items\".",
 		"",
-		"Each sacred item can conjure the bit of their unlimited power for processing resources in new, more familiar ways."
+		"Each sacred item can conjure a bit of their unlimited power for processing resources in new, yet familiar ways."
 	],
 	dependencies: [
 		"60d7bf3e"

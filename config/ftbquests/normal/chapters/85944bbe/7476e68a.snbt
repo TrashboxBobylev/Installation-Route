@@ -6,7 +6,7 @@
 	text: [
 		"Don't you think that those pesky trees cost too much space on your factory?",
 		"",
-		"We invented minituarization tool that shrinks trees enough to fit inside insolator! Now you can grow trees even more boring than before!"
+		"We invented miniaturization tool that shrinks trees enough to fit inside insolator! Now you can grow trees even more boring than before!"
 	],
 	dependencies: [
 		"8db1d97f",

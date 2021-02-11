@@ -5,9 +5,9 @@
 	y: 3.5d,
 	description: "Build Manastorm Reactor",
 	text: [
-		"Manastorm Charge is most powerful source of mana. It releases burst from its Terrasteel core, empowered by blobs of primordial energy.",
+		"Manastorm Charge is the most powerful source of mana. It releases burst from its Terrasteel core, empowered by blobs of primordial energy.",
 		"",
-		"The reactor with full efficiency will yield 330000 mana in matter of minute."
+		"The reactor with full efficiency will yield 330000 mana in matter of minutes."
 	],
 	dependencies: [
 		"9d937e88"

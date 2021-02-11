@@ -5,7 +5,7 @@
 	y: -1.0d,
 	description: "Examine living matter and break your way into botanica",
 	text: [
-		"This living matter is very essence of living creatures... sounds too like magic. It's cells, packed in block.",
+		"This living matter is the very essence of living creatures... sounds too much like magic. Its cells, packed in block.",
 		"",
 		"These cells can be used to craft items, normally obtainable through killing animals or growing plants."
 	],

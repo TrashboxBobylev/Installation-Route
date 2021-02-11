@@ -6,9 +6,9 @@
 	text: [
 		"With Soul Cores and bit of machinery, it's possible to create devices that interact with your profile directly.",
 		"",
-		"One useful case is connected to parallel universes and item transport between them.",
+		"One useful case is connected to a parallel universes and item transport between them.",
 		"",
-		"Our own researches on this topic are incomplete, so we recommend to check out book written by Techi Ciguy, called Inventory Management Manual; beware of outdated blueprints."
+		"Our own research on this topic is incomplete, so we recommend checking out the book written by Techi Ciguy, called Inventory Management Manual; beware of outdated blueprints."
 	],
 	dependencies: [
 		"2d812a52"

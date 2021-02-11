@@ -6,7 +6,7 @@
 	shape: "rsquare",
 	description: "Crush ores to make way into alternative metals",
 	text: [
-		"Yes, dusts can be processed in mana pool as well. This is more effective process, than infusing ores, because you get nuggets without smelting!"
+		"Yes, dusts can be processed in a mana pool as well. This is a more effective process than infusing ores, because you get nuggets without smelting!"
 	],
 	dependencies: [
 		"abb0c140"

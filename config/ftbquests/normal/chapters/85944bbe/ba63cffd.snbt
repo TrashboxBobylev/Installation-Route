@@ -5,9 +5,9 @@
 	shape: "rsquare",
 	description: "Create the flower that provides additional resources",
 	text: [
-		"There is different types of conjuring resources from nowhere. This kind of device is kinda resource-intensive: you need 17500 mana and stone blocks.",
+		"There is different types of conjuring resources from nowhere. This kind of device is resource-intensive: you need 17500 mana and stone blocks.",
 		"",
-		"There is 4 different blocks, that can be made with Orechid: Blue Matter, Untamed Plant Matter, Infected Andesite and Elemental Stone."
+		"There are 4 different blocks that can be made with the Orechid: Blue Matter, Untamed Plant Matter, Infected Andesite and Elemental Stone."
 	],
 	dependencies: [
 		"1b51d0f1"

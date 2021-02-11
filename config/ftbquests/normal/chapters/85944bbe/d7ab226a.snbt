@@ -7,10 +7,10 @@
 	text: [
 		"Congratulations, you have unlocked another type of crafting!",
 		"",
-		"Crafting Core is more advanced type of machine construction. It requires power, the shell and materials to make machines.",
+		"Crafting Core is a more advanced type of machine construction. It requires power, the shell and materials to make machines.",
 		"Items need to be placed on pedestals, which are made from really dark materials.",
 		"",
-		"The first item that you need to make with crafting core is new form of machine frame. It's very durable and reinforced with power of earth, tears and forged money."
+		"The first item that you need to make with the crafting core is a new form of machine frame. It's very durable and reinforced with the power of earth, tears and forged money."
 	],
 	dependencies: [
 		"b8b34bb1"

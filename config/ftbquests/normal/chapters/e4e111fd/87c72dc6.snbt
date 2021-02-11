@@ -4,7 +4,7 @@
 	y: -6.0d,
 	description: "Create centrifuge for ore processing",
 	text: [
-		"G.R.Egoriust also were studying the power of centrifuge. He have discovered than processing a huge amount of dust yields actual metallic dust. This could be fast way to get secondary elements."
+		"G. R. Egoriust was also studying the power of centrifuging. He has discovered that processing a huge amount of dust yields actual metallic dust. This could be fast way to get secondary elements."
 	],
 	dependencies: [
 		"9d5d6d6a"

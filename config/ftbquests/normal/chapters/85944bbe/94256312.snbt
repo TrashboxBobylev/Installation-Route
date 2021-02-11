@@ -5,9 +5,9 @@
 	y: 0.0d,
 	description: "Create crucible that melts ores into liquids",
 	text: [
-		"W-what? You thought that using modern induction melting is most profitable way to refine materials? Hah.",
+		"W-what? You thought that using modern induction melting is the most profitable way to refine materials? Hah.",
 		"",
-		"Well, check this new way to produce more ingots in more primitive way. Sounds disrespectful to modern technology?",
+		"Well, check this new way to produce more ingots in a more primitive way. Sounds disrespectful to modern technology?",
 		"Well, everybody should learn to accept defeat."
 	],
 	dependencies: [

@@ -4,9 +4,9 @@
 	y: -6.5d,
 	description: "Create fake gems",
 	text: [
-		"Have you imagining, than your wife gets real jewelry at price of glass? Well, now this is real.",
+		"Have you imagined that your lover gets real jewelry at the price of cheap glass? Well, now this is real.",
 		"",
-		"Painting glass and smelting it with hardened glass makes high-quality gems, than can be used as regular Minecraft gems."
+		"Painting glass and smelting it with hardened glass makes high-quality gem blocks that can be used as regular Minecraft gems."
 	],
 	dependencies: [
 		"8e35bb30"
