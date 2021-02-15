@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/upgrade_speed",
+      "all": "contenttweaker:blocks/upgrade_speed",
       "particle": "contenttweaker:blocks/upgrade_speed"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

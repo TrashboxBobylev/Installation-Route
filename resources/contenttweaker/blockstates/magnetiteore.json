@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/magnetiteore",
+      "all": "contenttweaker:blocks/magnetiteore",
       "particle": "contenttweaker:blocks/magnetiteore"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

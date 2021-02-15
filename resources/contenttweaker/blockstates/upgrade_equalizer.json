@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/upgrade_equalizer",
+      "all": "contenttweaker:blocks/upgrade_equalizer",
       "particle": "contenttweaker:blocks/upgrade_equalizer"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

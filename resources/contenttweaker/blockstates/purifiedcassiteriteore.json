@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/purifiedcassiteriteore",
+      "all": "contenttweaker:blocks/purifiedcassiteriteore",
       "particle": "contenttweaker:blocks/purifiedcassiteriteore"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

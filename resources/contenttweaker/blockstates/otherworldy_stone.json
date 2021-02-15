@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/otherworldy_stone",
+      "all": "contenttweaker:blocks/otherworldy_stone",
       "particle": "contenttweaker:blocks/otherworldy_stone"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

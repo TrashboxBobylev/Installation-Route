@@ -6,7 +6,7 @@
 				"type": "large-vein",
 				"block": "contenttweaker:magnetiteore",
 				"sparse": true,
-				"cluster-size": 275,
+				"cluster-size": 40,
 				"material": [
 					"minecraft:stone",
 					"minecraft:dirt",
@@ -18,7 +18,7 @@
 			"spread": 30,
 			"smoothness": 1,
 			"chunk-chance": 1,
-			"cluster-count": 4,
+			"cluster-count": 16,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -32,7 +32,7 @@
 				"type": "large-vein",
 				"block": "contenttweaker:tetrahedriteore",
 				"sparse": true,
-				"cluster-size": 180,
+				"cluster-size": 40,
 				"material": [
 					"minecraft:stone",
 					"minecraft:dirt",
@@ -46,7 +46,7 @@
 			"vertical-density": 80,
 			"horizontal-density": 40,
 			"chunk-chance": 1,
-			"cluster-count": 3,
+			"cluster-count": 10,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -59,7 +59,7 @@
 			"generator": {
 				"type": "sparse-cluster",
 				"block": "contenttweaker:galenaore",
-				"cluster-size": 200,
+				"cluster-size": 30,
 				"material": [
 					"minecraft:stone",
 					"minecraft:dirt",
@@ -70,7 +70,7 @@
 			"ceiling": true,
 			"ground-level": 114,
 			"chunk-chance": 1,
-			"cluster-count": 2,
+			"cluster-count": 6,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -90,16 +90,16 @@
 					"minecraft:grass",
 					"minecraft:air"
 				],
-				"min-height": 10,
-				"height-variance": 10,
-				"height-mod": 6,
-				"size-variance": 4,
+				"min-height": 3,
+				"height-variance": 5,
+				"height-mod": 1,
+				"size-variance": 2,
 				"alt-sinc": true
 			},
 			"min-height": 60,
 			"max-height": 101,
 			"chunk-chance": 1,
-			"cluster-count": 2,
+			"cluster-count": 6,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {
@@ -112,7 +112,7 @@
 			"generator": {
 				"type": "plate",
 				"block": "contenttweaker:sheldoniteore",
-				"radius": 7,
+				"radius": 3,
 				"height": 1,
 				"material": [
 					"minecraft:stone",
@@ -126,7 +126,7 @@
 			"spread": 18,
 			"smoothness": 4,
 			"chunk-chance": 1,
-			"cluster-count": 3,
+			"cluster-count": 12,
 			"biome": "all",
 			"retrogen": true,
 			"dimension": {

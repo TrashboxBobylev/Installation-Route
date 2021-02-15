@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/reactor_casing",
+      "all": "contenttweaker:blocks/reactor_casing",
       "particle": "contenttweaker:blocks/reactor_casing"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

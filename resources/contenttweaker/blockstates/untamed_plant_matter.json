@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/untamed_plant_matter",
+      "all": "contenttweaker:blocks/untamed_plant_matter",
       "particle": "contenttweaker:blocks/untamed_plant_matter"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

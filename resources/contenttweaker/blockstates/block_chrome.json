@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/block_chrome",
+      "all": "contenttweaker:blocks/block_chrome",
       "particle": "contenttweaker:blocks/block_chrome"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

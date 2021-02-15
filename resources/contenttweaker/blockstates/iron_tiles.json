@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/iron_tiles",
+      "all": "contenttweaker:blocks/iron_tiles",
       "particle": "contenttweaker:blocks/iron_tiles"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

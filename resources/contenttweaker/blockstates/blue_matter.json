@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/blue_matter",
+      "all": "contenttweaker:blocks/blue_matter",
       "particle": "contenttweaker:blocks/blue_matter"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/golden_hull",
+      "all": "contenttweaker:blocks/golden_hull",
       "particle": "contenttweaker:blocks/golden_hull"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

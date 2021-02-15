@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/driedmatterblock",
+      "all": "contenttweaker:blocks/driedmatterblock",
       "particle": "contenttweaker:blocks/driedmatterblock"
     },
-    "model": "base:storage",
+    "model": "cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },
