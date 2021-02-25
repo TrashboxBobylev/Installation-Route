@@ -1,8 +1,8 @@
 {
 	title: "Your Little Mailmans",
 	icon: "packagedauto:package_component",
-	x: -11.5d,
-	y: 14.0d,
+	x: -13.0d,
+	y: 3.0d,
 	description: "Assemble the core of packaging machinery",
 	text: [
 		"After making some circuits and mashing them with ender eyes you can make advanced processors capable of manipulating large amount of items.",
@@ -10,7 +10,7 @@
 		"This component can be used to design some kind of mailing system for making auto-crafting easier."
 	],
 	dependencies: [
-		"f0a11141"
+		"a9288b08"
 	],
 	hide: true,
 	optional: true,

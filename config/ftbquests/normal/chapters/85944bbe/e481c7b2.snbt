@@ -1,7 +1,7 @@
 {
 	title: "Three E: Extend, Extend, Extend",
-	x: -11.5d,
-	y: 11.0d,
+	x: -14.5d,
+	y: 4.0d,
 	description: "Use packaging to automate extended things",
 	text: [
 		"Unpackager can use its power to help automate extended crafting. While for most crafting it will just put items in order, combination crafting requires special pedestals to make recipes."

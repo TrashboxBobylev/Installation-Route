@@ -3,9 +3,6 @@
 	x: -1.0d,
 	y: 3.0d,
 	description: "This quest will activate the last pieces of Installation Route experience. Don't use until you are ready.",
-	dependencies: [
-		"a0997d47"
-	],
 	hide: true,
 	tasks: [{
 		uid: "4b8ecf91",

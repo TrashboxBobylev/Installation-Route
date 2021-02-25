@@ -1,7 +1,7 @@
 import mods.jei.JEI;
 
 recipes.remove(<packagedauto:package_component>);
-recipes.addShaped(<packagedauto:package_component>, [[<ore:ingotChrome>, <factorytech:machinepart:90>, <ore:ingotChrome>], [<ore:ingotChrome>, <minecraft:ender_eye>, <ore:ingotChrome>], [<ore:ingotChrome>, <factorytech:machinepart:110>, <ore:ingotChrome>]]);
+recipes.addShaped(<packagedauto:package_component>, [[<ore:ingotChrome>, <ore:dustChrome>, <ore:ingotChrome>], [<ore:dustChrome>, <minecraft:ender_eye>, <ore:dustChrome>], [<ore:ingotChrome>, <ore:dustChrome>, <ore:ingotChrome>]]);
 
 recipes.remove(<packagedauto:recipe_holder>);
 recipes.addShaped(<packagedauto:recipe_holder>*2, [[<ore:paneGlass>, <ore:ingotSignalum>, <ore:paneGlass>], [<ore:ingotSignalum>, <packagedauto:package_component>, <ore:ingotSignalum>], [<ore:paneGlass>, <ore:ingotSignalum>, <ore:paneGlass>]]);
