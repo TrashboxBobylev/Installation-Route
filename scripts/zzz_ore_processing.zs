@@ -112,10 +112,10 @@ mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:64>*6, <
 mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:65>*6, <thermalfoundation:material:68>*6], <contenttweaker:cassiteritedust>*12, null, 24000);
 
 //elemental dusts, cuz why not
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:1025>*4, <botania:rune>, <minecraft:snowball>*16, 15000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:1024>*4, <botania:rune:1>, <thermalfoundation:material:771>*16, 15000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:1027>*4, <botania:rune:2>, <thermalfoundation:material:770>*16, 15000);
-mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:1026>*4, <botania:rune:3>, <thermalfoundation:material:772>*16, 15000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:2049>*10, <botania:rune>, <minecraft:snowball>*16, 15000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:blaze_powder>*10, <botania:rune:1>, <thermalfoundation:material:771>*16, 15000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:2053>*10, <botania:rune:2>, <thermalfoundation:material:770>*16, 15000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:2051>*10, <botania:rune:3>, <thermalfoundation:material:772>*16, 15000);
 
 //making diamonds
 mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:diamond>, <minecraft:coal>*40, <minecraft:tnt>*3, 40000);
