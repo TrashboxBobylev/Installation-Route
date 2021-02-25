@@ -5,9 +5,9 @@
 	y: -6.5d,
 	description: "Fabricate Ender Air and turn it into the pearls",
 	text: [
-		"Seems like this void space doesn't belong to The End, so it's impossible to use regular glass bottling method. ",
+		"Seems like this void space doesn't belong to The End, so it's impossible to use the regular glass bottling method. ",
 		"",
-		"But pulverizers don't care, because you can extract this gas from end stone. Beware, than this is very risky process; there is a chance, than ender rock will crack and dissolve into nothing.",
+		"But pulverizers don't care because you can extract this gas from end stone. Beware, that this is very risky process; there is a chance that ender rock will crack and dissolve into nothing.",
 		"",
 		"This void gas can be used to turn living matter into ender matter.",
 		"",

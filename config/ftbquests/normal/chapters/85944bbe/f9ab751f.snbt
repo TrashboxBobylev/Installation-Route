@@ -5,11 +5,11 @@
 	y: 12.5d,
 	description: "Overload Crafty Crate to autocraft many different kind of items",
 	text: [
-		"Unpackager is capable of inserting items in correct order. This can be used to make very compact and efficient autocrafting setups.",
+		"Unpackager is capable of inserting items in the correct order. This can be used to make very compact and efficient autocrafting setups.",
 		"",
-		"Only packing and unpacking requires energy, while Crafty Crate produces result as fast as it recieves items and doesn't require mana.",
+		"Only packing and unpacking requires energy, while Crafty Crate produces result as fast as it receives items and doesn't require mana.",
 		"",
-		"Combine with crafters, and you get very compact autocrafter that can process up to 100 different items (with 5 pairs of packager and unpackager)."
+		"Combined with crafty crates and you get a very compact autocrafter that can process up to 100 different items (with 5 pairs of packager and unpackager)."
 	],
 	dependencies: [
 		"8b83c5cb"

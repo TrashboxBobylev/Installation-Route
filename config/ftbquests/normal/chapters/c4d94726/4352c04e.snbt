@@ -4,9 +4,9 @@
 	x: -2.0d,
 	y: 1.5d,
 	shape: "gear",
-	description: "Do something productive at once",
+	description: "Do something productive at once!",
 	text: [
-		"If you are awake, then the experiment was successful. Or it is? Well, it's doesn't matter for you, because regardless of answer, you are stuck in this confusing sky box!"
+		"If you are awake, then the experiment was successful. Or was is? Well, it's doesn't matter for you, because regardless of answer, you are stuck in this confusing sky box!"
 	],
 	hide_text_until_complete: true,
 	size: 2.0d,

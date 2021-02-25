@@ -4,9 +4,9 @@
 	y: -2.5d,
 	description: "Create first thermal upgrade",
 	text: [
-		"Upgrade kits are harder to come, but they will increase machine's efficency greatly.",
+		"Upgrade kits are harder to come by but they will increase a machine's efficiency greatly.",
 		"",
-		"They also got a tooltip, how effective they will be."
+		"They also got a tooltip for how effective they will be."
 	],
 	dependencies: [
 		"9d5d6d6a"

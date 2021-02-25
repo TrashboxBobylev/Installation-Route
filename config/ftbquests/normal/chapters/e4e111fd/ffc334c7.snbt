@@ -6,9 +6,9 @@
 	text: [
 		"FactoryTech provides some tools to distribute items in simple ways.",
 		"",
-		"Some of them drops items into world. To make those work with Buildcraft pipes, use Vacuum pipe right next to them.",
+		"Some of them drop items into the world. To make those work with Buildcraft pipes, use Vacuum pipe right next to them.",
 		"",
-		"Inventory Sensor is valueable for autocrafting, as it allows to detect when all needed items are in chest."
+		"Inventory Sensor is valuable for autocrafting, as it allows detection of when all needed items are in a chest."
 	],
 	dependencies: [
 		"1edff9b4"

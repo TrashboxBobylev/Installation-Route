@@ -6,9 +6,9 @@
 	text: [
 		"If you alloy Quark pipes and various metals, you can get more capable pipes with various functions.",
 		"",
-		"Any previous law is not observed on those pipes; items in them go in random directions on intersections and pop out when inventory is full.",
+		"Any previous law is not observed on those pipes; items in them go in random directions on intersections and pop out when the inventory is full.",
 		"",
-		"There is 12 different kind of pipes to talk about, so check their tooltips."
+		"There are 12 different kinds of pipes to talk about, so check their tooltips."
 	],
 	dependencies: [
 		"8134da7a"

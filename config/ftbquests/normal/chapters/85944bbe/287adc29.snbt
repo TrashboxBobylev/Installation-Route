@@ -4,11 +4,11 @@
 	y: 24.5d,
 	description: "Use new power source to make mobs out of thin air",
 	text: [
-		"Using genetic engineering is good, but can you make mobs without morbs?",
+		"Genetic engineering is good, but can you make mobs without morbs?",
 		"",
-		"This awesome tool can do it! Supply some mob drops, supply other things and wait until darkness allow to spawn zombies and other hostile mobs.",
+		"This awesome tool can do it! Supply some mob drops and other things and wait until darkness allow it to spawn zombies and other hostile mobs.",
 		"",
-		"Yes, this tool need to be in dark, if you want zombies."
+		"Yes, this tool need to be in dark if you want zombies."
 	],
 	dependencies: [
 		"113e9287"

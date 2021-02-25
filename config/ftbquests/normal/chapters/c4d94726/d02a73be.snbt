@@ -7,7 +7,7 @@
 	text: [
 		"Wait, these ores are not like home?",
 		"",
-		"Yes, sadly, while your state is important, we also need metals for weapons and survivng during calamity. Because of that, these ores are more poor than normal, but can give you more resources in theory."
+		"Yes, sadly, while your state is important, we also need metals for weapons to survive during calamity. Because of that, these ores are more poor than normal, but can give you more resources in theory."
 	],
 	dependencies: [
 		"1f8db07c"

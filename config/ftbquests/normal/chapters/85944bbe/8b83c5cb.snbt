@@ -4,13 +4,13 @@
 	y: 12.5d,
 	description: "Make item mail system",
 	text: [
-		"Each mail system relies on encoding, sending and recieving.",
+		"Each mail system relies on encoding, sending and receiving.",
 		"",
-		"To make encoding, use package encoder. It supports many types of crafting, including extended. To store encoding, use signalum holders.",
+		"To encode, use a package encoder. It supports many types of crafting including extended crafting. To store the encoding pattern, use signalum holders.",
 		"",
-		"To create letters with items, you need packager. Pretty straightforward: place recipe holder and pump items to get transferable letters with items.",
+		"To send letters with items you need the packager. Pretty straightforward: place recipe holder and pump items to get transferable letters with items.",
 		"",
-		"As final part in mail system, you need something that recieves letters. It will be unpackager. It put items from packaged letters into adjacent inventories."
+		"As the final part in a mail system, you need something that receives letters. This is the unpackager. It put items from packaged letters into adjacent inventories."
 	],
 	dependencies: [
 		"a4995583"

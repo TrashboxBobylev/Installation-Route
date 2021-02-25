@@ -5,13 +5,13 @@
 	y: -0.5d,
 	description: "Cultivate biomass for all botanic needs",
 	text: [
-		"After learning some botanical magic, you might wondering, how to make more living biomass?",
+		"After learning some botanical magic, you might wondering how to make more living biomass?",
 		"",
 		"The answer can be very shocking...",
 		"",
-		"Add more biomass to biomass to get 2x biomass, that's it, simple math.",
+		"Add more biomass to biomass to get 2x biomass. That's it, simple math.",
 		"",
-		"Mix biocrude liquid with living matter to get two living matter. How to produce biocrude? Macerate vegetables; hopefully, there is no vegans to sue us."
+		"Mix biocrude liquid with living matter to get two living matter. How to produce biocrude? Macerate vegetables; hopefully, there are no vegans to sue us."
 	],
 	dependencies: [
 		"abb0c140"

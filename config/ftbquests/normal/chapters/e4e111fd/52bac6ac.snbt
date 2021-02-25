@@ -3,9 +3,9 @@
 	icon: "botania:storage 1 3",
 	x: 2.5d,
 	y: -6.5d,
-	description: "Use power of explosion and graphite",
+	description: "Use the power of explosions and graphite",
 	text: [
-		"Remember ol' days, when diamonds were craftable from fossils? We neither, and because of that, you can compress explosions and sturdy coal to make these precious brilliants."
+		"Remember the ol' days, when diamonds were craftable from fossils? We neither, and because of that you can compress explosions and sturdy coal to make these precious brilliants."
 	],
 	dependencies: [
 		"abb0c140"

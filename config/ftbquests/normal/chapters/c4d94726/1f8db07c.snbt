@@ -5,10 +5,10 @@
 	y: -1.0d,
 	description: "Craft wooden things",
 	text: [
-		"You're actually not billionaire, but who cares?",
+		"You're actually not a billionaire, but who cares?",
 		"",
-		"But we should point, than this wood boxie is one. One. We can't give you another, we are suffering from fireborn creature, that melts our buildings and factories...",
-		"How it was called? Hibliss?.."
+		"But we should point out that this wood boxie is one. One. We can't give you another, we are suffering from some fireborn creature, that melts our buildings and factories...",
+		"How was it was called? Hibliss?.."
 	],
 	dependencies: [
 		"f72b2ff2"

@@ -4,11 +4,11 @@
 	y: 24.5d,
 	description: "Create powerful tick accelerator",
 	text: [
-		"When upgrades are not enough, you gonna compress the timeline itself to improve the production.",
+		"When upgrades are not enough, you are going to compress the timeline itself to improve their production.",
 		"",
 		"This is why we invented supercharger. It extracts energy cores to speedup time for adjacent machines by 100%!",
 		"",
-		"Lack of ores? Solved! Lack of energy? Solved! Lack of patience? Solved either!"
+		"Lack of ores? Solved! Lack of energy? Solved! Lack of patience? Solved!"
 	],
 	dependencies: [
 		"113e9287"

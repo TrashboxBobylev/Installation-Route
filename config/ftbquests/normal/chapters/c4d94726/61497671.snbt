@@ -1,7 +1,7 @@
 {
 	x: 11.5d,
 	y: 5.0d,
-	description: "Make from any corner of room to opposite corner in under 3 seconds.",
+	description: "Travel from any corner of room to the opposite corner in under 3 seconds.",
 	dependencies: [
 		"c73b6746"
 	],

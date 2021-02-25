@@ -6,7 +6,7 @@
 	text: [
 		"Psi is magic mod, introducing programmable spells. They consume Psi energy from special cells and can do various tricks.",
 		"",
-		"As exclusive offer, we made auto-casting device, that can cast spells without human interaction."
+		"As an exclusive offer we made an auto-casting device, which can cast spells without human interaction."
 	],
 	dependencies: [
 		"9d937e88"
