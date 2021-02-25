@@ -4,7 +4,7 @@
 	y: 5.5d,
 	description: "Use less resources to make factory",
 	text: [
-		"This new crafting table allows to reduce cost of popular automation components, if you need resources for more important things.",
+		"This new crafting table allows you to reduce the cost of popular automation components, if you need resources for more important things.",
 		"",
 		"It's also usable for making some tricky machine components."
 	],

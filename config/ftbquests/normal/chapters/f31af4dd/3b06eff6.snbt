@@ -3,11 +3,11 @@
 	x: 0.0d,
 	y: -1.5d,
 	shape: "rsquare",
-	description: "Syntesise black iron",
+	description: "Synthesize black iron",
 	text: [
-		"Welcome to end-game. You are finally reaching our last instructions on way of escape.",
+		"Welcome to the end-game. You are finally reaching our last instructions on your way of escape.",
 		"",
-		"It's time for using your new fusion reactor. for creating the darkness. It can be useful for most advanced devices."
+		"It's time for using your new fusion reactor. for creating the darkness. It can be used for most advanced devices."
 	],
 	dependencies: [
 		"b2d093c4"

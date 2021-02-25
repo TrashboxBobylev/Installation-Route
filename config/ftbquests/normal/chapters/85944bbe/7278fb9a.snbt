@@ -7,9 +7,9 @@
 	text: [
 		"Another day of improving our ore duplication options, another downgrade into ancient methods.",
 		"",
-		"As if we weren't enough mad with filtering ores through magical liquid, we present drill that goes brrr!",
+		"As if we weren't mad enough with filtering ores through magical liquids, we present drill that goes brrr!",
 		"",
-		"This grinder drills your ores to stature of gravels, that can be centrifuged into metallic dust.",
+		"This grinder drills your ores to a gravel powder, that can be centrifuged into metallic dusts.",
 		"The advantage of using this drill is obtaining new metals."
 	],
 	dependencies: [

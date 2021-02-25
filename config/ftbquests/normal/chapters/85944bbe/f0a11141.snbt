@@ -5,11 +5,11 @@
 	shape: "rsquare",
 	description: "Make high-end furnace",
 	text: [
-		"To engrave wiring into circuits, you need high-temperature furnace. This is when you first need Arc Furnace.",
+		"To engrave wiring into circuits, you need a high-temperature furnace. This is when you first need an Arc Furnace.",
 		"",
-		"It is also needed to make most technically impressive alloys.",
+		"It is also needed to make the most technically impressive alloys.",
 		"",
-		"Unfortunately, this thing eats wires with speed of light."
+		"Unfortunately, this thing eats wires at speed of light."
 	],
 	dependencies: [
 		"2d812a52"

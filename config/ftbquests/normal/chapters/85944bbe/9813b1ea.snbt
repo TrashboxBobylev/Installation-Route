@@ -6,9 +6,9 @@
 	shape: "rsquare",
 	description: "Assemble fluid agitator, capable of mixing items and fluids",
 	text: [
-		"Have you noticed that you can mix only one liquid and item, and it yields only item or only liquid? Well, this technological advancement does exactly what you want: it adds new tank as input and allows to get both item and liquid for some cases.",
+		"Have you noticed that you can only mix one liquid and item at the same time? And that it only yields an item or a liquid? Well, this technological advancement does exactly what you want: it adds new tank as input and allows to get both items and liquids for some recipes.",
 		"",
-		"You can use it as coffee machine or chemical reactor."
+		"You can use it as a coffee machine or chemical reactor."
 	],
 	dependencies: [
 		"f0a11141"

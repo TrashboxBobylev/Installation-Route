@@ -5,9 +5,9 @@
 	y: -0.5d,
 	description: "Make industrial power dynamo that uses batteries",
 	text: [
-		"If you need to supply a large machine or many small devices with only one dynamo, you should look into this brand old energy generator.",
+		"If you need to supply a large machine or many small devices with only a single dynamo, you should look into this brand old energy generator.",
 		"",
-		"This thing provides 200 RF/t, but need a big supply of batteries. Can you make enough?"
+		"This thing provides 200 RF/t, but need a large supply of batteries. Can you make enough?"
 	],
 	dependencies: [
 		"abb0c140"

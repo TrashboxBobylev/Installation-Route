@@ -4,9 +4,9 @@
 	y: -1.5d,
 	description: "Infuse manasteel with loads of mana to get mithril",
 	text: [
-		"Mithril, or mana-infused ingot, is very strong magic material, that excels at providing energy to items.",
+		"Mithril, or mana-infused ingot, is a very strong magic material that excels at providing energy to items.",
 		"",
-		"It can be used to get more terrasteel and elementium, it can replace mana diamond in bunch of recipes and also useful in psionic research."
+		"It can be used to get more terrasteel and elementium, it can replace mana diamond in a bunch of recipes and is also useful in psionic research."
 	],
 	dependencies: [
 		"948ddbcb"

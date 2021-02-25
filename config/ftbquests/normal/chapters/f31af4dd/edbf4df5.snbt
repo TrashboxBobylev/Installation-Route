@@ -5,11 +5,11 @@
 	shape: "rsquare",
 	description: "Build Recycler and produce scrap in it",
 	text: [
-		"Black Iron on putting under furnace does something unbelievable: instead of smelting item, the machine eradicates it, leaving some kind of waste, called scrap.",
+		"Putting Black Iron under furnace heat does something unbelievable: instead of smelting the item, the machine eradicates it, leaving some kind of waste, called scrap.",
 		"",
-		"Unfortunately, doing so in unrestrained enviroment unleashes deadly clouds of darkness, which makes this interaction unreliable without any plating.",
+		"Unfortunately, doing so in an unrestrained environment unleashes deadly clouds of darkness, which makes this interaction unreliable without any plating.",
 		"",
-		"Fortunately, we made a blueprint for using this interaction in factory."
+		"Fortunately, we made a blueprint for using this interaction in your factory."
 	],
 	dependencies: [
 		"3b06eff6"

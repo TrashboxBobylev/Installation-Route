@@ -6,7 +6,7 @@
 	shape: "rsquare",
 	description: "Use shovel unintentionally",
 	text: [
-		"Have you thinked, why bashing stone with shovel doesn't crush it? No?",
+		"Have you thought why bashing stone with shovel doesn't crush it? No?",
 		"",
 		"Now you can. Bash stone to get sand, and bash cobble to get gravel."
 	],

@@ -5,11 +5,11 @@
 	shape: "rsquare",
 	description: "Create obsidian with magma and water",
 	text: [
-		"Obsidian is very useful thing.",
+		"Obsidian is a very useful thing.",
 		"",
-		"You put water on lava and get obsidian, but how to mine that? Manasteel pick is defintely a choice for this.",
+		"You put water on lava and get obsidian, but how to mine that? Manasteel pick is definitely a choice for this.",
 		"",
-		"You can either try to fabricate lava by combining heavy water and elemental fire on runic altar, or farm blaze power for mesh to transform it into obsidian."
+		"You can either try to fabricate lava by combining heavy water and elemental fire on the runic altar, or farm blaze power for mesh to transform it into obsidian."
 	],
 	guide_page: "obsidian",
 	dependencies: [

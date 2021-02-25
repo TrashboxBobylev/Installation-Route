@@ -5,7 +5,7 @@
 	y: 14.0d,
 	description: "Assemble the core of packaging machinery",
 	text: [
-		"After making some circuits and mashing them with ender eye, you can make advanced processor capable of manipulating large amount of items.",
+		"After making some circuits and mashing them with ender eyes you can make advanced processors capable of manipulating large amount of items.",
 		"",
 		"This component can be used to design some kind of mailing system for making auto-crafting easier."
 	],

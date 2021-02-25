@@ -5,13 +5,13 @@
 	shape: "rsquare",
 	description: "Learn about some potential troubles with technology",
 	text: [
-		"While working on flux production, you might have noticed lack of energy bars on control panels.",
+		"While working on flux production, you might have noticed a lack of energy bars on control panels.",
 		"",
 		"That's because your contraptions can't store flux. You need to keep dynamos going to make machines work constantly.",
 		"",
 		"Fluxducts can store minor amount of RF that should be used during emergencies, but don't rely on this feature.",
 		"",
-		"The one way around is charging capacitors in separate energy network, then using them when main dynamos can't keep up."
+		"One way around is charging capacitors in separate energy network, then using them when the main dynamos can't keep up."
 	],
 	dependencies: [
 		"9d5d6d6a"

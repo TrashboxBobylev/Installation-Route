@@ -5,11 +5,11 @@
 	y: -2.0d,
 	description: "Barter to get very dynamic pipes",
 	text: [
-		"Elves knows about your situation and can provide you some pipes for easier logistics.",
+		"The Elves know about your situation and can provide you some pipes for easier logistics.",
 		"",
-		"The problem is in fact, than contract was not quite fair. You need to supply a lot more resources to get X amount of pipes.",
+		"The problem is the fact the contract is not quite fair. You need to supply a lot of resources to get a small amount of pipes.",
 		"",
-		"Guess, you will need to place pipes accurately to not waste resources."
+		"I guess you will need to place pipes accurately to not waste resources."
 	],
 	dependencies: [
 		"60d7bf3e"

@@ -4,9 +4,9 @@
 	y: 5.5d,
 	description: "Learn interdimensional transport",
 	text: [
-		"On new location, you need the way to transport your precious resources from main universe. No regular item transportation works far enough... except for one interdimensional storage.",
+		"At the new location, you need a way to transport your precious resources from the main universe. No regular item transportation works at that distance... except for one interdimensional storage.",
 		"",
-		"This magenta cube needs mana and your soul to work as relay between universes. Actually, you need two of them. One as input and one as output. That's right. In one you push items, and you extract items from another."
+		"This magenta cube needs mana and your soul to work as a relay between universes. Actually, you need two of them. One as an input and one as an output. That's right. In one you push items and in the other you extract items."
 	],
 	dependencies: [
 		"9731a105"
