@@ -18,10 +18,10 @@ mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:steel_battery>, 1
 recipes.addShaped(<contenttweaker:terra_battery>*4, [[<ore:ingotElectrum>, null, <ore:ingotElectrum>], [<ore:ingotTerrasteel>, <ore:ingotTerrasteel>, <ore:ingotTerrasteel>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:terra_battery>, 225000);
 
-recipes.addShaped(<contenttweaker:cadmium_battery>*4, [[<ore:ingotElectrum>, null, <ore:ingotElectrum>], [ <ore:ingotCadmium>, <ore:ingotCadmium>,  <ore:ingotCadmium>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<contenttweaker:cadmium_battery>*4, [[<ore:ingotElectrum>, null, <ore:ingotElectrum>], [ <ore:dustCadmium>, <ore:dustCadmium>,  <ore:dustCadmium>], [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
 mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:cadmium_battery>, 200000);
 
-recipes.addShaped(<contenttweaker:cobalt_battery>*2, [[<factorytech:machinepart:90>, null, <factorytech:machinepart:100>], [ <ore:ingotCobalt>, <ore:ingotCadmium>,  <ore:ingotCobalt>], [<ore:ingotSteel>, <ore:ingotIridium>, <ore:ingotSteel>]]);
+recipes.addShaped(<contenttweaker:cobalt_battery>*2, [[<factorytech:machinepart:90>, null, <factorytech:machinepart:100>], [ <ore:ingotCobalt>, <ore:dustCadmium>,  <ore:ingotCobalt>], [<ore:ingotSteel>, <ore:ingotIridium>, <ore:ingotSteel>]]);
 mods.thermalexpansion.EnervationDynamo.addFuel(<contenttweaker:cobalt_battery>, 1000000);
 
 recipes.addShaped(<contenttweaker:energy_battery>*8, [[<factorytech:machinepart:141>, null, <factorytech:machinepart:141>], [ <ore:ingotAluminum>, <ore:ingotAluminum>,  <ore:ingotAluminum>]]);
