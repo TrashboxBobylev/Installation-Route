@@ -59,6 +59,7 @@ JEI.removeAndHide(<factorytech:pipe>);
 JEI.removeAndHide(<factorytech:valve>);
 JEI.removeAndHide(<factorytech:tankblock>);
 JEI.removeAndHide(<factorytech:autominer>);
+JEI.removeAndHide(<factorytech:circuitscribe>);
 JEI.removeAndHide(<factorytech:sluice>);
 JEI.removeAndHide(<factorytech:fluiddrill>);
 JEI.removeAndHide(<factorytech:fluidpuller>);
@@ -238,7 +239,6 @@ recipes.remove(<factorytech:machinepart:81>);
 recipes.addShaped(<factorytech:machinepart:80>, [[null, <ore:ingotIron>, null], [<ore:ingotChrome>, null, <ore:ingotChrome>], [<ore:ingotIron>, null, <ore:ingotIron>]]);
 
 CombinationCrafting.addRecipe(<factorytech:reclaimer>, 25000, <thermalexpansion:frame:128>, [<ore:dustAerotheum>, <ore:dustAerotheum>, <ore:dustAerotheum>, <ore:dustAerotheum>, <ore:plateSteel>, <factorytech:machinepart:21>, <ore:plateSteel>]);
-CombinationCrafting.addRecipe(<factorytech:circuitscribe>, 25000, <thermalexpansion:frame:128>, [<ore:blockCobalt>, <thermalfoundation:glass_alloy:1>, <factorytech:machinepart:21>, <thermalfoundation:material:1024>, <ore:plankWood>, <ore:plankWood>]);
 CombinationCrafting.addRecipe(<factorytech:planter>, 25000, <thermalexpansion:frame:128>, [<ore:gearEmerald>, <contenttweaker:element_hoe>, <ore:plateCopper>, <ore:plateCopper>, <ore:plateAluminum>, <factorytech:machinepart:120>]);
 
 //runic altar for circuitscribing
