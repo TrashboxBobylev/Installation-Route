@@ -115,6 +115,7 @@ JEI.hideCategory("ftbquests.quests");
 JEI.hideCategory("botania.orechid_ignem");
 JEI.hideCategory("incorporeal.skytouch");
 JEI.hideCategory("thermalexpansion.compactor_gear");
+JEI.hideCategory("ftcircuitscribe");
 
 JEI.removeAndHide(<psicosts:psi_cell:3>);
 

@@ -2,6 +2,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI;
+import mods.botania.RuneAltar;
 import mods.extendedcrafting.CombinationCrafting;
 import mods.factorytech.Crucible;
 import mods.factorytech.DrillGrinder;
@@ -239,7 +240,12 @@ recipes.addShaped(<factorytech:machinepart:80>, [[null, <ore:ingotIron>, null], 
 CombinationCrafting.addRecipe(<factorytech:reclaimer>, 25000, <thermalexpansion:frame:128>, [<ore:dustAerotheum>, <ore:dustAerotheum>, <ore:dustAerotheum>, <ore:dustAerotheum>, <ore:plateSteel>, <factorytech:machinepart:21>, <ore:plateSteel>]);
 CombinationCrafting.addRecipe(<factorytech:circuitscribe>, 25000, <thermalexpansion:frame:128>, [<ore:blockCobalt>, <thermalfoundation:glass_alloy:1>, <factorytech:machinepart:21>, <thermalfoundation:material:1024>, <ore:plankWood>, <ore:plankWood>]);
 CombinationCrafting.addRecipe(<factorytech:planter>, 25000, <thermalexpansion:frame:128>, [<ore:gearEmerald>, <contenttweaker:element_hoe>, <ore:plateCopper>, <ore:plateCopper>, <ore:plateAluminum>, <factorytech:machinepart:120>]);
-Sawmill.addRecipe(<factorytech:circuit_intermediate:8>*5, <minecraft:quartz_block>, 3000);
+
+//runic altar for circuitscribing
+RuneAltar.addRecipe(<factorytech:circuit_intermediate>*3, [<minecraft:grass>, <contenttweaker:wood_casing>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:1>*3, [<minecraft:dirt:2>, <contenttweaker:lead_hull>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:2>*3, [<minecraft:mycelium>, <contenttweaker:bronze_sheet>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:3>*3, [<botania:altgrass:1>, <contenttweaker:iron_tiles>, <ore:gemQuartz>], 1000);
 
 //rewamping reclaimer recipes
 ScrapFurnace.removeRecipe(<minecraft:iron_nugget>*7);
