@@ -1,0 +1,19 @@
+{
+  "loader": "prjtags:tag",
+  "conditions": [
+    {
+      "type": "prjtags:mc",
+      "version": "1.12.2"
+    }
+  ],
+  "tag": "food",
+  "targets": [
+    {
+      "type": "dymm:item_meta_range",
+      "registry_name": "tconstruct:edible",
+      "metadata_begin": 0,
+      "metadata_end": 34
+    },
+    "tconstruct:moms_spaghetti"
+  ]
+}

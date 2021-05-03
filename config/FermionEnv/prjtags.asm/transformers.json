@@ -1,0 +1,12 @@
+{
+  "ingredient_filter": {
+    "description": "Transforms JEI's Ingredient Filter to allow for a custom prefix to be added in order to search for tags",
+    "enabled": true,
+    "configuration": {}
+  },
+  "item_stack_renderer": {
+    "description": "Transforms ItemStackRenderer so that it fires an event to signal that the current tooltip is being rendered inside JEI",
+    "enabled": true,
+    "configuration": {}
+  }
+}

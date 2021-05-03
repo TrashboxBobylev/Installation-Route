@@ -1,0 +1,19 @@
+{
+  "loader": "prjtags:tag",
+  "conditions": [
+    {
+      "type": "prjtags:mc",
+      "version": "1.12.2"
+    }
+  ],
+  "tag": "food",
+  "targets": [
+    "galacticraftcore:cheese_curd",
+    {
+      "type": "dymm:item_meta_range",
+      "registry_name": "galacticraftcore:food",
+      "metadata_begin": 0,
+      "metadata_end": 9
+    }
+  ]
+}

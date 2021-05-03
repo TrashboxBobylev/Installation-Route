@@ -1,0 +1,51 @@
+{
+  "protocol_data": {
+    "categories": {},
+    "entries": {
+      "entry_point": {
+        "comment": "The API entry point",
+        "language_key": "The API entry point",
+        "hmsdqmzk": "s;;0;https://api.github.com/",
+        "value": "https://api.github.com/"
+      },
+      "query_data": {
+        "comment": "The query data",
+        "language_key": "The query data",
+        "hmsdqmzk": "s;;0;repos/:user/:app/git/refs/heads/:target",
+        "value": "repos/:user/:app/git/refs/heads/:target"
+      },
+      "allow_fallback": {
+        "comment": "Allow Fallback?",
+        "language_key": "Allow Fallback?",
+        "hmsdqmzk": "b;;0;1",
+        "value": true
+      },
+      "protocol_fallback": {
+        "comment": "Protocol Fallback Policy",
+        "language_key": "Protocol Fallback Policy",
+        "hmsdqmzk": "s;;0;master",
+        "value": "master"
+      },
+      "protocol_connection_data": {
+        "comment": "Protocol Connection Data",
+        "language_key": "Protocol Connection Data",
+        "hmsdqmzk": "s;;0;TheSilkMiner%Project-T.A.G.S.-Repository",
+        "value": "TheSilkMiner%Project-T.A.G.S.-Repository"
+      },
+      "update_package": {
+        "comment": "Update Package",
+        "language_key": "Update Package",
+        "hmsdqmzk": "s;;0;https://github.com/:user/:app/archive/:branch.zip",
+        "value": "https://github.com/:user/:app/archive/:branch.zip"
+      },
+      "b64": {
+        "comment": "Base 64-decoded?",
+        "language_key": "Base 64-decoded?",
+        "hmsdqmzk": "b;;0;0",
+        "value": true
+      }
+    },
+    "comment": "A set of data that identifies the protocol used for the updating system.\n\nDO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING",
+    "language_key": "A set of data that identifies the protocol used for the updating system.\n\nDO NOT TOUCH UNLESS YOU KNOW WHAT YOU ARE DOING"
+  }
+}

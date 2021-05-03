@@ -1,0 +1,14 @@
+{
+  "loader": "prjtags:tag",
+  "conditions": [
+    {
+      "type": "prjtags:mc",
+      "version": "1.12.2"
+    }
+  ],
+  "tag": "guide_book",
+  "targets": [
+    "guideapi:bloodmagic-guide",
+    "guideapi:cyclicmagic-guide"
+  ]
+}

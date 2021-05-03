@@ -12,8 +12,8 @@ Centrifuge.addRecipeMob(<entity:minecraft:vex>, [], null, 32000, 3);
 Centrifuge.removeRecipeMob(<entity:minecraft:slime>);
 Centrifuge.addRecipeMob(<entity:minecraft:slime>, [(<minecraft:slime_ball>*2)%50], null, 70000, 2);
 
-Centrifuge.removeRecipeMob(<entity:thermalfoundation:bazalz>);
-Centrifuge.addRecipeMob(<entity:thermalfoundation:bazalz>, [<thermalfoundation:material:2052>%40, <thermalfoundation:material:770>%75], null, 400000, 10);
+Centrifuge.removeRecipeMob(<entity:thermalfoundation:basalz>);
+Centrifuge.addRecipeMob(<entity:thermalfoundation:basalz>, [<thermalfoundation:material:2052>%40, <thermalfoundation:material:770>%75], null, 400000, 10);
 
 Centrifuge.removeRecipeMob(<entity:minecraft:guardian>);
 Centrifuge.addRecipeMob(<entity:minecraft:guardian>, [(<minecraft:prismarine_shard>*2)%50, <minecraft:prismarine_crystals>%75], null, 350000, 10);

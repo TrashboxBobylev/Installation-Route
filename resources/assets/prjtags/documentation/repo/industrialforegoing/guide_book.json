@@ -1,0 +1,13 @@
+{
+  "loader": "prjtags:tag",
+  "conditions": [
+    {
+      "type": "prjtags:mc",
+      "version": "1.12.2"
+    }
+  ],
+  "tag": "guide_book",
+  "targets": [
+    "industrialforegoing:book_manual"
+  ]
+}
