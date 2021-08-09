@@ -48,8 +48,8 @@ Centrifuge.addRecipeMob(<entity:minecraft:shulker>, [(<minecraft:shulker_shell>)
 Centrifuge.removeRecipeMob(<entity:minecraft:enderman>);
 Centrifuge.addRecipeMob(<entity:minecraft:enderman>, [(<minecraft:ender_pearl>)%50], null, 125000, 5);
 
-Centrifuge.removeRecipeMob(<entity:minecraft:vindicator>);
-Centrifuge.addRecipeMob(<entity:minecraft:vindicator>, [(<minecraft:emerald>)%50], null, 125000, 5);
+Centrifuge.removeRecipeMob(<entity:minecraft:vindication_illager>);
+Centrifuge.addRecipeMob(<entity:minecraft:vindication_illager>, [(<minecraft:emerald>)%50], null, 125000, 5);
 
 Centrifuge.removeRecipeMob(<entity:minecraft:silverfish>);
 Centrifuge.addRecipeMob(<entity:minecraft:silverfish>, [], null, 32000, 2);
@@ -129,8 +129,8 @@ Centrifuge.addRecipeMob(<entity:minecraft:skeleton>, [(<minecraft:arrow>*2)%75, 
 Centrifuge.removeRecipeMob(<entity:minecraft:stray>);
 Centrifuge.addRecipeMob(<entity:minecraft:stray>, [(<minecraft:arrow>*2)%75, (<minecraft:bone>*2)%75], null, 100000, 5);
 
-Centrifuge.removeRecipeMob(<entity:minecraft:evoker>);
-Centrifuge.addRecipeMob(<entity:minecraft:evoker>, [(<minecraft:totem_of_undying>)%100, (<minecraft:emerald>)%50], null, 150000, 10);
+Centrifuge.removeRecipeMob(<entity:minecraft:evocation_illager>);
+Centrifuge.addRecipeMob(<entity:minecraft:evocation_illager>, [(<minecraft:totem_of_undying>)%100, (<minecraft:emerald>)%50], null, 150000, 10);
 
 Centrifuge.removeRecipeMob(<entity:minecraft:cow>);
 Centrifuge.addRecipeMob(<entity:minecraft:cow>, [(<minecraft:leather>*2)%50, (<minecraft:beef>*3)%50], null, 40000, 2);

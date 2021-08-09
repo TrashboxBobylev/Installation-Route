@@ -1,7 +1,7 @@
 {
 	title: "Ways To Speed-Up Production",
-	x: -1.0d,
-	y: 5.0d,
+	x: -0.5d,
+	y: 4.0d,
 	description: "Learn of emergency resources",
 	text: [
 		"Untamed Plant Matter is a highly concentrated amount of organic matter, which can be uncompressed or turned into biomass.",

@@ -1,7 +1,7 @@
 {
 	title: "Escaping Soul Shards",
 	x: -5.5d,
-	y: 24.5d,
+	y: 22.0d,
 	description: "Use new power source to make mobs out of thin air",
 	text: [
 		"Genetic engineering is good, but can you make mobs without morbs?",

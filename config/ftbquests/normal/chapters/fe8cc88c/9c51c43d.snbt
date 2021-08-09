@@ -2,10 +2,7 @@
 	title: "Manufactory Route",
 	x: 5.0d,
 	y: -1.0d,
-	description: "Build mob farm that produces 10000 mB of XP per minute.",
-	dependencies: [
-		"d2d950ad"
-	],
+	description: "Build mob farm that produces 500000 mB of XP per minute.",
 	hide: true,
 	tasks: [{
 		uid: "da5ea7d7",

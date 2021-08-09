@@ -1,8 +1,8 @@
 {
 	title: "Genetic Memetation",
 	icon: "extendedcrafting:table_elite",
-	x: -11.5d,
-	y: 5.5d,
+	x: -4.5d,
+	y: 3.5d,
 	description: "Explore the power of genetic engineering",
 	text: [
 		"Have you ever dreamed of creating your own monsters?",

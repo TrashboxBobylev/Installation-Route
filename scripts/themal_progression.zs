@@ -24,6 +24,9 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <thermalfoundation:upgrade:3>, 
 	[<extendedcrafting:material:13>, <factorytech:machinepart:170>, <extendedcrafting:material:13>]
 ]);
 
+mods.thermalexpansion.Coolant.addCoolant(<liquid:blue_matter_f>, 15000000, 60);
+mods.thermalexpansion.Coolant.addCoolant(<liquid:mana_energy>, 2147483640, 100);
+
 recipes.remove(<thermalfoundation:upgrade:2>);
 recipes.remove(<thermalfoundation:upgrade:3>);
 
@@ -46,6 +49,13 @@ mods.botania.ManaInfusion.addAlchemy(<cyclicmagic:fluid_placer>, <thermalexpansi
 mods.botania.ManaInfusion.addAlchemy(<thermalexpansion:device:6>, <cyclicmagic:fluid_placer>, 3000);
 
 Refinery.removeRecipe(<liquid:coal>);
+
+recipes.remove(<botania:rfgenerator>);
+recipes.addShaped(<botania:rfgenerator>, [
+	[<botania:shimmerrock>, <ore:gearSignalum>, <botania:shimmerrock>],
+	[<botania:manaresource:9>, <thermalexpansion:frame:128>, <botania:manaresource:9>],
+	[<botania:manaresource:9>, <botania:manatablet>.withTag({}), <botania:manaresource:9>]
+]);
 
 RecipeBuilder.newBuilder("reactorR_enderium", "reactorR", 175)
 	.addEnergyPerTickInput(3750)

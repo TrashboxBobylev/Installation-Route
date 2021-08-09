@@ -41,6 +41,7 @@ recipes.remove(<botania:pylon:2>);
 
 //kill boats and minecarts
 JEI.removeAndHide(<minecraft:boat>);
+JEI.removeAndHide(<minecraft:spruce_boat>);
 JEI.removeAndHide(<minecraft:jungle_boat>);
 JEI.removeAndHide(<minecraft:acacia_boat>);
 JEI.removeAndHide(<minecraft:birch_boat>);

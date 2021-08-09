@@ -1,7 +1,7 @@
 {
 	title: "Comfortable Engineering",
-	x: -5.5d,
-	y: 5.5d,
+	x: -4.5d,
+	y: 1.5d,
 	description: "Use less resources to make factory",
 	text: [
 		"This new crafting table allows you to reduce the cost of popular automation components, if you need resources for more important things.",

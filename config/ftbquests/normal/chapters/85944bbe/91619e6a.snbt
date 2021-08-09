@@ -1,7 +1,7 @@
 {
 	title: "Warp Engine",
-	x: -11.5d,
-	y: 24.5d,
+	x: -10.0d,
+	y: 22.0d,
 	description: "Create powerful tick accelerator",
 	text: [
 		"When upgrades are not enough, you are going to compress the timeline itself to improve their production.",

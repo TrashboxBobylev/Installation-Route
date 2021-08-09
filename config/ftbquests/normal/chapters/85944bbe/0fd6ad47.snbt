@@ -1,7 +1,7 @@
 {
 	title: "Quick Stainless Ingots",
-	x: -5.5d,
-	y: 19.0d,
+	x: -5.0d,
+	y: 18.0d,
 	description: "Make tempering furnace",
 	text: [
 		"Producing steel is slow. We know that and so we introduce the Tempering Oven! This machine produces steel in a fraction of the time.",

@@ -61,9 +61,9 @@ furnace.addRecipe(<minecraft:coal:1>, <botania:livingwood:1>);
 recipes.remove(<botania:alfheimportal>);
 mods.extendedcrafting.TableCrafting.addShaped(0, <botania:alfheimportal>, [
 	[<ore:dustCryotheum>, <contenttweaker:plate_manasteel>, <ore:ingotPlatinum>, <contenttweaker:plate_manasteel>, <ore:dustAerotheum>], 
-	[<contenttweaker:plate_manasteel>, <ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>, <contenttweaker:plate_manasteel>], 
-	[<ore:gearSilver>, <ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>, <ore:gearSilver>], 
-	[<contenttweaker:plate_manasteel>, <ore:livingwood>, <ore:nuggetTerrasteel>, <ore:livingwood>, <contenttweaker:plate_manasteel>], 
+	[<contenttweaker:plate_manasteel>, <ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>, <contenttweaker:plate_manasteel>], 
+	[<ore:gearSilver>, <ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>, <ore:gearSilver>], 
+	[<contenttweaker:plate_manasteel>, <ore:livingwood>, <ore:ingotTerrasteel>, <ore:livingwood>, <contenttweaker:plate_manasteel>], 
 	[<ore:dustPetrotheum>, <contenttweaker:plate_manasteel>, <ore:ingotPlatinum>, <contenttweaker:plate_manasteel>, <ore:dustPyrotheum>]
 ]);
 
@@ -144,3 +144,33 @@ recipes.addShaped(<botania:storage:3>, [
 
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:9>);
 mods.botania.ElvenTrade.addRecipe([<botania:manaresource:9>], [<botania:manaresource:2>]);
+
+var core = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:25>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(220000);
+Agglomeration.addRecipe(core);
+var core1 = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:23>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(190000);
+Agglomeration.addRecipe(core1);
+var core2 = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:21>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(150000);
+Agglomeration.addRecipe(core2);
+var core3 = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:19>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(125000);
+Agglomeration.addRecipe(core3);
+var core4 = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:17>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(110000);
+Agglomeration.addRecipe(core4);
+var core5 = AgglomerationRecipe.create().output(<factorytech:machinepart:170>).inputs([<factorytech:core_unfinished:15>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<minecraft:emerald_block>, <botania:storage:2>))
+	.manaCost(100000);
+Agglomeration.addRecipe(core5);
+
+var ultimate = AgglomerationRecipe.create().output(<extendedcrafting:material:32>.withTag({"Quark:RuneColor": 16, "Quark:RuneAttached": 1 as byte})).inputs([<ore:ingotTerrasteel>, <ore:ingotMithril>, <contenttweaker:core_of_natura>, <contenttweaker:core_of_flux>, <contenttweaker:core_of_mechanic>, <contenttweaker:core_of_waste>, <contenttweaker:core_of_boson>]).multiblock(
+	mods.botaniatweaks.AgglomerationMultiblock.create().checker(<ore:blockEnderium>, <psi:psi_decorative:8>))
+	.manaCost(1000000);
+Agglomeration.addRecipe(ultimate);

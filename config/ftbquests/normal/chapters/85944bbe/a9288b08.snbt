@@ -2,7 +2,7 @@
 	title: "Exploring Mendeleev's Table",
 	icon: "contenttweaker:ingot_chrome",
 	x: -8.5d,
-	y: 3.0d,
+	y: 0.0d,
 	shape: "rsquare",
 	description: "Make new metals with new machines",
 	text: [

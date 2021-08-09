@@ -1,7 +1,7 @@
 {
 	title: "Bonsais are Not Realistic!",
-	x: -14.0d,
-	y: 15.5d,
+	x: -14.5d,
+	y: 11.0d,
 	description: "Learn about progress in murdering trees",
 	text: [
 		"Don't you think that those pesky trees cost too much space on your factory?",

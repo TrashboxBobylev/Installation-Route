@@ -1,6 +1,6 @@
 {
 	title: "Mob-Less Processing",
-	x: -13.5d,
+	x: -11.5d,
 	y: 20.0d,
 	description: "Learn about peaceful mob farms",
 	text: [
@@ -8,7 +8,7 @@
 		"",
 		"There should be a right way to do this without forcing yourself to be vegan? Yes!",
 		"",
-		"This augment helps to get drops without swinging swords or throwing potions."
+		"This augment helps to get drops without swinging swords or throwing potions, although the energy cost are outrageously high."
 	],
 	dependencies: [
 		"07061e85"

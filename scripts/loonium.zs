@@ -15,6 +15,7 @@ function addFlower(name as string, weight as int){
 			Functions.setCount(2, 4),
 			Functions.setNBT({"type": name})
 		], []);
+	scripts.magicalJei.add(<assembly:loonium>, {[<contenttweaker:mob_kills>*64] : [<botania:specialflower>.withTag({type: name}) * (max(1, (weight*64/3280)) as int)]});
 }
 
 addFlower("kekimurus", 60);

@@ -1,8 +1,8 @@
 {
 	title: "This is Strategy of the Century",
 	icon: "botania:opencrate 1 1",
-	x: -15.5d,
-	y: 4.0d,
+	x: -14.5d,
+	y: 0.0d,
 	description: "Overload Crafty Crate to autocraft many different kind of items",
 	text: [
 		"Unpackager is capable of inserting items in the correct order. This can be used to make very compact and efficient autocrafting setups.",

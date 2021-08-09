@@ -1,8 +1,8 @@
 {
 	title: "Tokamaktania",
 	icon: "botania:manabomb",
-	x: 8.0d,
-	y: 3.5d,
+	x: 10.0d,
+	y: 0.5d,
 	description: "Build Manastorm Reactor",
 	text: [
 		"Manastorm Charge is the most powerful source of mana. It releases burst from its Terrasteel core, empowered by blobs of primordial energy.",

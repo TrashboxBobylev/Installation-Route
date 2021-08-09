@@ -230,24 +230,6 @@ fluid6.register();
 var fluid7 = VanillaFactory.createFluid("hot_water", Color.fromHex("1FD3D3"));
 fluid7.register();
 
-var item2 = VanillaFactory.createItem("small_battery");
-item2.maxStackSize = 16;
-item2.register();
-
-var item3 = VanillaFactory.createItem("bigger_battery");
-item3.maxStackSize = 16;
-item3.register();
-
-var item4 = VanillaFactory.createItem("mana_battery");
-item4.maxStackSize = 16;
-item4.rarity = "uncommon";
-item4.register();
-
-var item5 = VanillaFactory.createItem("steel_battery");
-item5.maxStackSize = 16;
-item5.rarity = "uncommon";
-item5.register();
-
 var item6 = VanillaFactory.createItem("terra_battery");
 item6.maxStackSize = 16;
 item6.rarity = "uncommon";
@@ -341,7 +323,7 @@ var fluid12 = VanillaFactory.createFluid("blue_matter_f", Color.fromHex("-1"));
 fluid12.stillLocation = "contenttweaker:blocks/fluids/matter_still";
 fluid12.flowingLocation = "contenttweaker:blocks/fluids/matter_flow";
 fluid12.density = 2000;
-fluid12.temperature = 200;
+fluid12.temperature = 50;
 fluid12.viscosity = 6000;
 fluid12.colorize = false;
 fluid12.material = <blockmaterial:water>;
@@ -430,7 +412,37 @@ item33.rarity = "epic";
 item33.creativeTab = null;
 item33.register();
 
+var item34 = VanillaFactory.createItem("core_of_natura");
+item34.glowing = true;
+item34.rarity = "epic";
+item34.register();
 
+var item35 = VanillaFactory.createItem("core_of_flux");
+item35.glowing = true;
+item35.rarity = "epic";
+item35.register();
+
+var item36 = VanillaFactory.createItem("core_of_mechanic");
+item36.glowing = true;
+item36.rarity = "epic";
+item36.register();
+
+var item37 = VanillaFactory.createItem("core_of_entropy");
+item37.glowing = true;
+item37.rarity = "epic";
+item37.register();
+
+var item38 = VanillaFactory.createItem("core_of_waste");
+item38.glowing = true;
+item38.rarity = "epic";
+item38.register();
+
+var item39 = VanillaFactory.createItem("core_of_boson");
+item39.glowing = true;
+item39.rarity = "epic";
+item39.register();
+
+VanillaFactory.createItem("mob_kills").register();
 
 metalBlock("reactor_casing");
 metalBlock("reactor_coil");
@@ -438,9 +450,9 @@ metalBlock("reactor_coil");
 var fluid16 = VanillaFactory.createFluid("mana_energy", Color.fromHex("-1"));
 fluid16.stillLocation = "contenttweaker:blocks/fluids/mana_still";
 fluid16.flowingLocation = "contenttweaker:blocks/fluids/mana_flow";
-fluid16.density = 200;
+fluid16.density = 0;
 fluid16.temperature = 0;
-fluid16.viscosity = 200;
+fluid16.viscosity = 0;
 fluid16.colorize = false;
 fluid16.material = <blockmaterial:lava>;
 fluid16.rarity = "EPIC";
@@ -452,6 +464,22 @@ metalBlock("upgrade_speed");
 metalBlock("upgrade_chance");
 metalBlock("upgrade_sun");
 metalBlock("upgrade_equalizer");
+
+gravel("unstable_garbage");
+gravel("stable_garbage");
+orechidOre("smelted_garbage");
+orechidOre("wet_garbage");
+metalBlock("clean_garbage");
+orechidOre("niter_ore");
+
+var block44 = VanillaFactory.createBlock("entropy_ore", <blockmaterial:rock>);
+	block44.setBlockHardness(77);
+	block44.setBlockResistance(2222);
+	block44.setToolClass("pickaxe");
+	block44.setToolLevel(2);
+	block44.blockSoundType = <soundtype:stone>;
+	block44.register();
+
 var block100 = VanillaFactory.createBlock("computer_ore", <blockmaterial:rock>);
 	block100.setBlockHardness(60);
 	block100.setBlockResistance(50);
@@ -460,21 +488,23 @@ var block100 = VanillaFactory.createBlock("computer_ore", <blockmaterial:rock>);
 	block100.blockSoundType = <soundtype:stone>;
 	block100.dropHandler = function(drops, world, position, state, fortune){
 		drops.clear();
-		drops.add(<item:opencomputers:material:2> % 40);
-		drops.add(<item:opencomputers:material:2> % 15);
-		drops.add(<item:opencomputers:material:2> % 5);
-		drops.add(<item:opencomputers:material:7> % 40);
-		drops.add(<item:opencomputers:material:7> % 15);
-		drops.add(<item:opencomputers:material:7> % 5);
-		drops.add(<item:opencomputers:material:6> % 40);
-		drops.add(<item:opencomputers:material:6> % 15);
-		drops.add(<item:opencomputers:material:6> % 5);
-		drops.add(<item:opencomputers:material:12> % 28);
-		drops.add(<item:opencomputers:material:12> % 10);
-		drops.add(<item:opencomputers:material:12> % 3);
-		drops.add(<item:opencomputers:material:13> % 25);
-		drops.add(<item:opencomputers:material:13> % 8);
-		drops.add(<item:opencomputers:material:13> % 2);
+		for i in 0 .. fortune {
+			drops.add(<item:opencomputers:material:2> % 40);
+			drops.add(<item:opencomputers:material:2> % 15);
+			drops.add(<item:opencomputers:material:2> % 5);
+			drops.add(<item:opencomputers:material:7> % 40);
+			drops.add(<item:opencomputers:material:7> % 15);
+			drops.add(<item:opencomputers:material:7> % 5);
+			drops.add(<item:opencomputers:material:6> % 40);
+			drops.add(<item:opencomputers:material:6> % 15);
+			drops.add(<item:opencomputers:material:6> % 5);
+			drops.add(<item:opencomputers:material:12> % 28);
+			drops.add(<item:opencomputers:material:12> % 10);
+			drops.add(<item:opencomputers:material:12> % 3);
+			drops.add(<item:opencomputers:material:13> % 25);
+			drops.add(<item:opencomputers:material:13> % 8);
+			drops.add(<item:opencomputers:material:13> % 2);
+		}
 		return;
 	};
 	block100.register();

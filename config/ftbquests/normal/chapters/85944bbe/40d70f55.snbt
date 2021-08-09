@@ -1,7 +1,7 @@
 {
 	title: "Pretty Weird, But Important",
-	x: -1.0d,
-	y: 9.5d,
+	x: -0.5d,
+	y: 7.5d,
 	shape: "rsquare",
 	description: "Learn about processing blue liquid and andesite dust",
 	text: [

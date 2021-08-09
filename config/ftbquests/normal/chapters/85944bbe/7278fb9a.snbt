@@ -2,7 +2,7 @@
 	title: "In Beginning, there was Brrrr",
 	icon: "factorytech:oredrill",
 	x: -13.0d,
-	y: 0.0d,
+	y: -2.5d,
 	description: "Create grinder that crushes ores into gravels",
 	text: [
 		"Another day of improving our ore duplication options, another downgrade into ancient methods.",

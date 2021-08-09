@@ -1,0 +1,27 @@
+{
+	title: "High-Voltage Guy",
+	x: -1.5d,
+	y: 1.5d,
+	description: "Make industrial tier generator that consumes batteries",
+	text: [
+		"If you need to supply a large machine or many small devices with only a single dynamo, you should look into this brand old energy generator.This thing provides 200 RF/t, but need a large supply of batteries. Can you make enough?"
+	],
+	dependencies: [
+		"44a30bfc"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3f023b2f",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:dynamo",
+			tag: {
+				RSControl: 0b,
+				Facing: 1b,
+				Energy: 0,
+				Level: 0b
+			},
+			Damage: 4s
+		}]
+	}]
+}

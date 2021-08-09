@@ -1,8 +1,8 @@
 {
 	title: "Fission Science",
 	icon: "modularmachinery:blockcontroller",
-	x: -8.5d,
-	y: 30.0d,
+	x: -7.5d,
+	y: 27.0d,
 	shape: "octagon",
 	description: "Assemble Resource Reactor",
 	text: [

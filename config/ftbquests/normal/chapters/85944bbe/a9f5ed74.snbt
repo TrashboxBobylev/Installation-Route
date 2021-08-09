@@ -1,7 +1,7 @@
 {
 	title: "Breakdown of Human Character",
 	x: -4.5d,
-	y: 11.0d,
+	y: 12.0d,
 	description: "Obtain power to manage player",
 	text: [
 		"With Soul Cores and bit of machinery, it's possible to create devices that interact with your profile directly.",

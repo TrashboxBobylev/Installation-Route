@@ -3,9 +3,6 @@
 	x: 3.5d,
 	y: 1.5d,
 	description: "Build the self-sustainable Ultimate Ingot production. Bonus points, if you manage to keep up with corresponding task in Manufactory Supplier.",
-	dependencies: [
-		"d2d950ad"
-	],
 	hide: true,
 	tasks: [{
 		uid: "c1559d06",

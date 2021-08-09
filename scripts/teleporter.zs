@@ -12,22 +12,13 @@ import mods.contenttweaker.ActionResult;
 
 var small_teleporter = VanillaFactory.createItem("small_teleporter");
 small_teleporter.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote) { 
-		var playerData = player.getNBT() as IData;
-		var x = playerData.SpawnX.asDouble();
-		var y = playerData.SpawnY.asDouble();
-		var z = playerData.SpawnZ.asDouble();
-
-		Commands.call("tp @p " + x as string + " " + y as string + " " + z as string, player, world, false, true);
-		
-		
+    if (!world.remote && hand has "MAIN_HAND") { 
 		Commands.call("pillar-spawn basement ~-13.5 ~-100 ~-13.5", player, world, false, true);
-		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + playerData.SpawnX.asString() + ",y:" + playerData.SpawnY.asString() + ",z:" + playerData.SpawnZ.asString() + "}", player, world, false, true);
+		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + player.x + ",y:" + player.y + ",z:" + player.z + "}", player, world, false, true);
 		
-		player.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.mainHand(), null);
+		stack.shrink(1);
 		
-		Commands.call("tp @p " + x as string + " " + (y - 96) as string + " " + z as string, player, world, false, true);
-		
+		Commands.call("tp @p " + (player.x) as string + " " + ((player.y - 96)) as string + " " + (player.z) as string, player, world, false, true);
 	}
     return "SUCCESS";
 };
@@ -35,7 +26,7 @@ small_teleporter.register();
 
 var teleporter = VanillaFactory.createItem("teleporter");
 teleporter.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote) {
+    if (!world.remote && hand == "MAIN_HAND") {
 		var teleportParams = stack.tag as IData;
 		var x = teleportParams.x.asDouble();
 		var y = teleportParams.y.asDouble();
@@ -57,21 +48,14 @@ teleporter.register();
 
 var dark_teleporter = VanillaFactory.createItem("dark_teleporter");
 dark_teleporter.itemRightClick = function(stack, world, player, hand) {
-    if (!world.remote) { 
-		var playerData = player.getNBT() as IData;
-		var x = playerData.SpawnX.asDouble();
-		var y = playerData.SpawnY.asDouble();
-		var z = playerData.SpawnZ.asDouble();
-
-		Commands.call("tp @p " + x as string + " " + y as string + " " + z as string, player, world, false, true);
-		
+    if (!world.remote && hand == "MAIN_HAND") { 
 		
 		Commands.call("pillar-spawn basement ~-13.5 ~-150 ~-13.5", player, world, false, true);
-		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + playerData.SpawnX.asString() + ",y:" + playerData.SpawnY.asString() + ",z:" + playerData.SpawnZ.asString() + "}", player, world, false, true);
+		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + player.x + ",y:" + player.y + ",z:" + player.z + "}", player, world, false, true);
 		
-		player.setItemToSlot(crafttweaker.entity.IEntityEquipmentSlot.mainHand(), null);
+		stack.shrink(1);
 		
-		Commands.call("tp @p " + x as string + " " + (y - 146) as string + " " + z as string, player, world, false, true);
+		Commands.call("tp @p " + (player.x) as string + " " + (player.y - 146) as string + " " + (player.z) as string, player, world, false, true);
 		
 	}
     return "SUCCESS";

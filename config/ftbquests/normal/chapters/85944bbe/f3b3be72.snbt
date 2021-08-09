@@ -1,7 +1,7 @@
 {
 	title: "Integrated Tunnels",
-	x: -15.5d,
-	y: 5.5d,
+	x: -1.5d,
+	y: -0.5d,
 	description: "Learn interdimensional transport",
 	text: [
 		"At the new location, you need a way to transport your precious resources from the main universe. No regular item transportation works at that distance... except for one interdimensional storage.",

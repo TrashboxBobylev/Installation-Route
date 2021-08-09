@@ -1,7 +1,7 @@
 {
 	title: "How Many Ores Are Here?",
 	x: -11.5d,
-	y: 21.0d,
+	y: 18.0d,
 	description: "Make secondary ore doubler",
 	text: [
 		"For your next projects, you probably need more ingots. Additional ore duplicaton is required.",

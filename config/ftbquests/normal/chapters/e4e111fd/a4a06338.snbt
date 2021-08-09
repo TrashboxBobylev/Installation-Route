@@ -11,7 +11,7 @@
 		"Submerging ores in a mana pool will yield their alternative element according to hidden laws of ore processing by one of greatest engineers and political leaders of our time, G.R. Egourist. Don't ask how we acquired his books."
 	],
 	dependencies: [
-		"8c638f01"
+		"5cbaa401"
 	],
 	hide: true,
 	tasks: [{

@@ -1,7 +1,7 @@
 {
 	title: "Essence of Conjuring",
 	x: -2.5d,
-	y: 7.5d,
+	y: 6.0d,
 	shape: "rsquare",
 	description: "Create the flower that provides additional resources",
 	text: [

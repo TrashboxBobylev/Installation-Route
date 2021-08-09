@@ -1,7 +1,7 @@
 {
 	title: "Compressing Micro-crafting",
-	x: -10.5d,
-	y: 22.5d,
+	x: -11.5d,
+	y: 19.0d,
 	description: "Use new resources to compose needed machines",
 	text: [
 		"With new ingots, you can make factory parts with just one craft right at Reinforced tier. This recipe is too good to fit inside regular crafting recipes so hurry up and bring your signalum and glass to the table."

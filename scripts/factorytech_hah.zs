@@ -62,6 +62,7 @@ JEI.removeAndHide(<factorytech:autominer>);
 JEI.removeAndHide(<factorytech:circuitscribe>);
 JEI.removeAndHide(<factorytech:sluice>);
 JEI.removeAndHide(<factorytech:fluiddrill>);
+JEI.removeAndHide(<factorytech:stabilizer>);
 JEI.removeAndHide(<factorytech:fluidpuller>);
 JEI.removeAndHide(<factorytech:blowtorch>);
 JEI.removeAndHide(<factorytech:deepdrill>);
@@ -110,6 +111,7 @@ JEI.removeAndHide(<factorytech:craftstopper>);
 JEI.removeAndHide(<factorytech:tuningfork>);
 JEI.removeAndHide(<factorytech:probe>);
 JEI.removeAndHide(<factorytech:handpump>);
+
 
 //replace factorytech nickel with expensive alloy
 recipes.addShapeless(<factorytech:ore_dust:9>*3, [<ore:dustSilver>, <ore:dustAluminum>, <ore:dustIridium>]);
@@ -305,19 +307,19 @@ Transposer.addFillRecipe(<factorytech:circuit_intermediate:6>, <factorytech:circ
 recipes.remove(<factorytech:circuit_intermediate:7>);
 Transposer.addFillRecipe(<factorytech:circuit_intermediate:7>, <factorytech:circuit_intermediate:3>, <liquid:molten_copper> * 75, 350);
 recipes.remove(<factorytech:circuit_intermediate:9>);
-Transposer.addFillRecipe(<factorytech:circuit_intermediate:9>, <factorytech:circuit_intermediate>, <liquid:molten_gold> * 75, 350);
+Transposer.addFillRecipe(<factorytech:circuit_intermediate:9>, <factorytech:circuit_intermediate>, <liquid:refined_fuel> * 75, 350);
 recipes.remove(<factorytech:circuit_intermediate:10>);
-Transposer.addFillRecipe(<factorytech:circuit_intermediate:10>, <factorytech:circuit_intermediate:1>, <liquid:molten_gold> * 75, 350);
+Transposer.addFillRecipe(<factorytech:circuit_intermediate:10>, <factorytech:circuit_intermediate:1>, <liquid:refined_fuel> * 75, 350);
 recipes.remove(<factorytech:circuit_intermediate:11>);
-Transposer.addFillRecipe(<factorytech:circuit_intermediate:11>, <factorytech:circuit_intermediate:2>, <liquid:molten_gold> * 75, 350);
+Transposer.addFillRecipe(<factorytech:circuit_intermediate:11>, <factorytech:circuit_intermediate:2>, <liquid:refined_fuel> * 75, 350);
 recipes.remove(<factorytech:circuit_intermediate:12>);
-Transposer.addFillRecipe(<factorytech:circuit_intermediate:12>, <factorytech:circuit_intermediate:3>, <liquid:molten_gold> * 75, 350);
+Transposer.addFillRecipe(<factorytech:circuit_intermediate:12>, <factorytech:circuit_intermediate:3>, <liquid:refined_fuel> * 75, 350);
 
 CombinationCrafting.addRecipe(<factorytech:magnetizer>, 25000, <thermalexpansion:frame:128>, [<ore:gearAluminum>, <factorytech:machinepart:21>, <factorytech:machinepart:21>, <factorytech:machinepart:21>, <ore:ingotCobalt>, <ore:ingotCobalt>]);
 
-CombinationCrafting.addRecipe(<factorytech:agitator>, 50000, <thermalexpansion:frame:128>, [<botania:specialflower>.withTag({type: "daffomill"}), <thermalexpansion:tank>, <thermalexpansion:tank>, <thermalexpansion:tank>, <ore:platePlatinum>, <factorytech:machinepart:121>]);
+CombinationCrafting.addRecipe(<factorytech:agitator>, 50000, <thermalexpansion:frame:128>, [<botania:specialflower>.withTag({type: "daffomill"}), <thermalexpansion:tank>, <thermalexpansion:tank>, <thermalexpansion:tank>, <ore:platePlatinum>, <factorytech:machinepart:124>]);
 
-CombinationCrafting.addRecipe(<factorytech:electroplater>, 50000, <thermalexpansion:frame:128>, [<ore:blockCadmium>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <forge:bucketfilled>.withTag({FluidName: "h2so4", Amount: 1000})]);
+CombinationCrafting.addRecipe(<factorytech:electroplater>, 50000, <thermalexpansion:frame:128>, [<ore:blockCadmium>, <factorytech:machinepart:101>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <forge:bucketfilled>.withTag({FluidName: "h2so4", Amount: 1000})]);
 
 Electroplater.removeRecipe(<factorytech:ingot:1>);
 Electroplater.removeRecipe(<factorytech:ingot:1>*2);
@@ -378,7 +380,7 @@ MagCent.removeRecipe([<minecraft:dye:4>*2, <minecraft:redstone>*6]);
 MagCent.removeRecipe([<minecraft:gravel>, <factorytech:mined_ore>*4]);
 MagCent.removeRecipe([<minecraft:iron_nugget>*2, <minecraft:flint>*2, <factorytech:ore_dust:5>*2]);
 
-CombinationCrafting.addRecipe(<factorytech:fridge>, 50000, <thermalexpansion:frame:128>, [<ore:blockCobalt>, <contenttweaker:ferozium>, <contenttweaker:ferozium>, <contenttweaker:ferozium>, <forge:bucketfilled>.withTag({FluidName: "blue_matter_f", Amount: 1000})]);
+CombinationCrafting.addRecipe(<factorytech:fridge>, 50000, <thermalexpansion:frame:128>, [<ore:blockCobalt>, <factorytech:machinepart:91>, <contenttweaker:ferozium>, <contenttweaker:ferozium>, <contenttweaker:ferozium>, <forge:bucketfilled>.withTag({FluidName: "blue_matter_f", Amount: 1000})]);
 Refrigerator.removeRecipe(<minecraft:glowstone>);
 Refrigerator.removeRecipe(<minecraft:coal>);
 Refrigerator.addRecipe(<minecraft:iron_ingot>, <liquid:molten_iron> * 100, true);
@@ -410,9 +412,9 @@ Refrigerator.addRecipe(<thermalfoundation:storage:6>, <liquid:molten_platinum> *
 Refrigerator.addRecipe(<thermalfoundation:material:135>, <liquid:molten_iridium> * 100, true);
 Refrigerator.addRecipe(<thermalfoundation:storage:7>, <liquid:molten_iridium> * 900, true);
 
-CombinationCrafting.addRecipe(<factorytech:disassembler>, 50000, <thermalexpansion:frame:128>, [<ore:blockBeryllium>, <contenttweaker:astratite>, <contenttweaker:astratite>, <contenttweaker:astratite>, <forge:bucketfilled>.withTag({FluidName: "experience", Amount: 1000})]);
+CombinationCrafting.addRecipe(<factorytech:disassembler>, 50000, <thermalexpansion:frame:128>, [<ore:blockBeryllium>, <factorytech:machinepart:111>, <contenttweaker:astratite>, <contenttweaker:astratite>, <contenttweaker:astratite>, <forge:bucketfilled>.withTag({FluidName: "experience", Amount: 1000})]);
 
-CombinationCrafting.addRecipe(<factorytech:temperer>, 50000, <thermalexpansion:frame:128>, [<ore:blockChrome>, <contenttweaker:infernium>, <contenttweaker:infernium>, <contenttweaker:infernium>, <forge:bucketfilled>.withTag({FluidName: "steam", Amount: 1000})]);
+CombinationCrafting.addRecipe(<factorytech:temperer>, 50000, <thermalexpansion:frame:128>, [<ore:blockChrome>, <factorytech:machinepart:121>, <contenttweaker:infernium>, <contenttweaker:infernium>, <contenttweaker:infernium>, <forge:bucketfilled>.withTag({FluidName: "steam", Amount: 1000})]);
 
 MetalCutter.addRecipe(<factorytech:machinepart:150>, <botania:managlass>, false);
 Temperer.removeRecipe(<factorytech:ingot:4>*2);
@@ -431,7 +433,7 @@ Agitator.addRecipe(<liquid:experience> * 1250, <liquid:h2so4> * 1250, <contenttw
 recipes.remove(<factorytech:intermediate:1>);
 mods.extendedcrafting.TableCrafting.addShaped(1, <factorytech:intermediate:1>, [
 	[<contenttweaker:astratite>, <ore:dustLapis>, <contenttweaker:infernium>], 
-	[<factorytech:machinepart:100>, <ore:blockAluminum>, <factorytech:machinepart:100>], 
+	[<factorytech:machinepart:91>, <ore:blockAluminum>, <factorytech:machinepart:91>], 
 	[<contenttweaker:magnesium>, <ore:dustLapis>, <contenttweaker:ferozium>]
 ]);
 Transposer.addFillRecipe(<factorytech:core_unfinished:99>, <factorytech:intermediate:1>, <liquid:energite> * 500, 40000);
@@ -440,23 +442,15 @@ ElectricFurnace.addRecipe(<thermalfoundation:material:166>, <contenttweaker:shin
 Transposer.addFillRecipe(<factorytech:machinepart:62>, <factorytech:machinepart:60>, <liquid:energite> * 500, 10000);
 Transposer.addFillRecipe(<factorytech:machinepart:141>, <factorytech:intermediate:2>, <liquid:energite> * 500, 10000);
 
-CombinationCrafting.addRecipe(<factorytech:charger>, 75000, <thermalexpansion:frame:128>, [<ore:ingotLumium>, <thermalfoundation:material:515>, <ore:ingotIridium>, <ore:gearEmerald>, <ore:plateSteel>, <ore:plateSteel>]);
+CombinationCrafting.addRecipe(<factorytech:charger>, 75000, <thermalexpansion:frame:128>, [<ore:ingotLumium>, <thermalfoundation:material:515>, <ore:ingotIridium>, <ore:gearEmerald>, <ore:plateSteel>, <factorytech:machinepart:91>, <ore:plateSteel>]);
 
-CombinationCrafting.addRecipe(<factorytech:stabilizer>, 75000, <thermalexpansion:frame:128>, [<ore:gearLumium>, <ore:blockCopper>, <ore:blockCopper>, <ore:ingotIridium>, <ore:plateInvar>, <ore:plateInvar>]);
+CombinationCrafting.addRecipe(<factorytech:spawner>, 75000, <thermalexpansion:frame:128>, [<factorytech:machinepart:170>, <contenttweaker:empty_dna_list>, <minecraft:chorus_flower>, <contenttweaker:element_sword>, <factorytech:machinepart:101>, <ore:plateLumium>, <ore:plateInvar>]);
 
-mods.extendedcrafting.TableCrafting.addShaped(1, <factorytech:magnetblock>, [
-	[<ore:ingotSteel>, <factorytech:machinepart:130>, <ore:ingotSteel>], 
-	[<ore:ingotSteel>, <factorytech:machinepart:130>, <ore:ingotSteel>], 
-	[<ore:ingotSteel>, <factorytech:machinepart:130>, <ore:ingotSteel>]
-]);
-
-CombinationCrafting.addRecipe(<factorytech:spawner>, 75000, <thermalexpansion:frame:128>, [<factorytech:machinepart:170>, <contenttweaker:empty_dna_list>, <minecraft:chorus_flower>, <contenttweaker:element_sword>, <ore:plateLumium>, <ore:plateInvar>]);
-
-CombinationCrafting.addRecipe(<factorytech:iondisperser>, 75000, <thermalexpansion:frame:128>, [<thermalexpansion:device:9>, <factorytech:machinepart:170>, <forge:bucketfilled>.withTag({FluidName: "blue_matter_f", Amount: 1000}), <ore:plateLumium>, <ore:plateLumium>, <ore:plateConstantan>]);
+CombinationCrafting.addRecipe(<factorytech:iondisperser>, 75000, <thermalexpansion:frame:128>, [<thermalexpansion:device:9>, <factorytech:machinepart:170>, <factorytech:machinepart:121>, <forge:bucketfilled>.withTag({FluidName: "blue_matter_f", Amount: 1000}), <ore:plateLumium>, <ore:plateLumium>]);
 
 JEI.removeAndHide(<factorytech:disruptor>);
 
-CombinationCrafting.addRecipe(<factorytech:energizer>, 300000, 1000, <thermalexpansion:frame:128>, [<factorytech:machinepart:170>, <thermalexpansion:device:2>, <ore:gearEmerald>, <ore:gearEmerald>, <ore:blockSteel>]);
+CombinationCrafting.addRecipe(<factorytech:energizer>, 300000, 1000, <thermalexpansion:frame:128>, [<factorytech:machinepart:170>, <thermalexpansion:device:2>, <ore:gearEmerald>, <ore:gearEmerald>, <ore:blockSteel>, <factorytech:machinepart:121>, <factorytech:machinepart:111>, <factorytech:machinepart:101>, <factorytech:machinepart:91>]);
 
 Temperer.addRecipe(<factorytech:machinepart:33>*2, <ore:ingotLumium>, 36);
 Temperer.addRecipe(<factorytech:machinepart:73>*3, <ore:blockLumium>, 44);

@@ -50,5 +50,10 @@
 		items: [{
 			item: "factorytech:itemredis"
 		}]
+	}],
+	rewards: [{
+		uid: "94f287f1",
+		type: "item",
+		item: "contenttweaker:back_upgrade"
 	}]
 }

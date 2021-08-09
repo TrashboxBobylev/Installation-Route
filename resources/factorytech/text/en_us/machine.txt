@@ -36,11 +36,6 @@ $brief %crucible% Melts items into liquids.
 The Crucible applies high enough temperatures to solids that they melt. It's essential for 3.25x ore doubling, as it melts ores into molten state.
 $machine TileEntityCrucible
 $end
-$title Circuit Scribe
-$brief %circuitscribe% Etches patterns onto quartz plates.
-The Circuit Scribe etches circuit patterns onto blank quartz plates. One of four patterns must be specified by the GUI; different machines require different circuit patterns. For further information on circuits, see their page in the Parts Specifications.
-$machine TileEntityCircuitScribe
-$end
 $title Seed Disperser
 $brief %planter% Scatters seeds, carrots, netherwart, etc.
 The Seed Disperser scatters wheat, pumpkin, melon, or beetroot seeds, as well as potatoes, carrots, and Nether Wart, in a 9x9 area around it. The area can be increased using a Range upgrade. It must be placed on the same y-level as the soil blocks to function properly.
@@ -69,7 +64,6 @@ $machine TileEntityRefrigerator
 $end
 $title Tempering Oven
 $brief %temperer% Tempers parts to last longer.
-$recipe machines/temperer
 Some machine parts can be tempered to increase their strength, and therefore their lifespan in machines. It can also temper iron ingots, which are used in crafting some higher-end machines, and iron tools, giving the equivalent of an Unbreaking I enchantment (doesn't stack). To run, it needs a sustained Redstone signal.
 
 Also, this is great tool for producing steel without carbon.

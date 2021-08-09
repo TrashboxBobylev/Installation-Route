@@ -51,6 +51,14 @@ mods.extendedcrafting.TableCrafting.addShaped(1, <thermalexpansion:device:5>.wit
 	[<ore:ingotTin>, <ore:ingotIron>, <ore:ingotTin>]
 ]);
 
+recipes.remove(<thermalexpansion:dynamo:4>);
+mods.extendedcrafting.TableCrafting.addShaped(1, <thermalexpansion:dynamo:4>.withTag({RSControl: 0 as byte, Facing: 1 as byte, Energy: 0, Level: 0 as byte}), 
+	[[null, <thermalfoundation:material:514>, null], 
+	[<ore:ingotIron>, <ore:gearElectrum>, <ore:ingotIron>], 
+	[<ore:ingotElectrum>, <ore:dustRedstone>, <ore:ingotElectrum>]
+]);
+
+
 mods.extendedcrafting.TableCrafting.addShaped(1, <thermalexpansion:device:1>.withTag({RSControl: 0 as byte, Facing: 3 as byte, Energy: 0, SideCache: [0, 1, 1, 1, 1, 1] as byte[] as byte[]}), [
 	[<ore:ingotTin>, <ore:ingotIron>, <ore:ingotTin>], 
 	[<ore:ingotIron>, <ore:blockCactus>, <ore:ingotIron>], 

@@ -3,9 +3,6 @@
 	x: -2.5d,
 	y: -3.5d,
 	description: "Build a fully sustainable 15000+ RF/t Enervation Dynamo setup. Bonus points for making it work with 48000+ RF/t.",
-	dependencies: [
-		"d2d950ad"
-	],
 	hide: true,
 	tasks: [{
 		uid: "d87c4fb2",

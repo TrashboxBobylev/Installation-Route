@@ -4,6 +4,7 @@ tile.contenttweaker.cassiteriteore.name=Cassiterite Ore
 tile.contenttweaker.magnetiteore.name=Magnetite Ore
 tile.contenttweaker.galenaore.name=Galena Ore
 tile.contenttweaker.co2waterore.name=Sulfur Ore
+tile.contenttweaker.niter_ore.name=Niter Ore
 tile.contenttweaker.oxygenore.name=Air Saturated Stone
 tile.contenttweaker.livingmatter.name=Living Matter
 tile.contenttweaker.driedmatterblock.name=Block of Dried Matter
@@ -15,6 +16,7 @@ tile.contenttweaker.purifiedgalenaore.name=Purified Galena Ore
 tile.contenttweaker.livingrock_gold.name=Livingrock Gold Ore
 tile.contenttweaker.livingrock_platinum.name=Livingrock Platinum Ore
 tile.contenttweaker.livingrock_silver.name=Livingrock Silver Ore
+tile.contenttweaker.entropy_ore.name=Dark Matter Stone
 
 tile.contenttweaker.gravel_magnetite.name=Crushed Magnetite Ore
 tile.contenttweaker.gravel_sheldonite.name=Crushed Sheldonite Ore
@@ -53,6 +55,12 @@ tile.contenttweaker.upgrade_equalizer.name=Reactor Equalizer Upgrade
 tile.contenttweaker.upgrade_sun.name=Reactor Afterburner Upgrade
 
 tile.contenttweaker.computer_ore.name=Electronic Garbage
+
+tile.contenttweaker.unstable_garbage.name=Unstable Garbage
+tile.contenttweaker.stable_garbage.name=Stabilized Garbage
+tile.contenttweaker.smelted_garbage.name=Smelted Garbage
+tile.contenttweaker.wet_garbage.name=Wet Garbage
+tile.contenttweaker.clean_garbage.name=Clean Garbage
 
 item.contenttweaker.bifrostpetal.name=Bifrost Petal
 item.contenttweaker.driedlifematter.name=Dried Living Matter
@@ -131,6 +139,17 @@ item.contenttweaker.phonix.name=Phoenix Wright
 item.contenttweaker.mana_reader.name=Theurgic Indicator
 item.contenttweaker.mysterious_actuator.name=Mysterious Actuator
 
+item.contenttweaker.core_of_natura.name=Core of Natura
+item.contenttweaker.core_of_flux.name=Core of Flux
+item.contenttweaker.core_of_mechanic.name=Core of Mechanic
+item.contenttweaker.core_of_entropy.name=Core of Entropy
+item.contenttweaker.core_of_waste.name=Core of Waste
+item.contenttweaker.core_of_boson.name=Core of Boson
+
+item.contenttweaker.overloaded_coil.name=Overloaded Coil
+
+item.contenttweaker.mob_kills.name=Mob Kills
+
 fluid.heavywater=Heavy Water
 fluid.blood=Sacrificing Blood
 fluid.lust=Unlimited Fervor
@@ -164,3 +183,7 @@ fluid.reactor_fuel_4=Overloading Plasma
 fluid.reactor_fuel_5=Asteroid Plasma
 
 item.thermalexpansion.frame.frameCell.name=Terra Machine Frame
+
+requious.jei.recipe.shovel=Crushing With Shovel
+requious.jei.recipe.loonium=Loonium Flower Probabilities
+requious.jei.recipe.factoryparts=FactoryTech Part Requirements

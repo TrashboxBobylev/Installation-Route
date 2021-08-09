@@ -1,4 +1,3 @@
-import mods.recipestages.Recipes;
 import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 import crafttweaker.mods.IMod;
@@ -9,124 +8,183 @@ recipes.remove(<opencomputers:material:7>);
 recipes.remove(<opencomputers:material:12>);
 recipes.remove(<opencomputers:material:13>);
 
-var oc = loadedMods["opencomputers"] as IMod;
-
 function changeRecipe(output as IItemStack, ingredients as IIngredient[][]){
 	recipes.remove(output);
-	Recipes.addShaped("overworld", output, ingredients);
+	recipes.addShaped(output, ingredients);
 }
 
-function changeRecipeShapeless(output as IItemStack, ingredients as IIngredient[]){
-	recipes.remove(output);
-	Recipes.addShapeless("overworld", output, ingredients);
-}
+// changeRecipe(<opencomputers:adapter>, [
+	// [<ore:ingotSteel>, <opencomputers:cable>, <ore:ingotSteel>],
+	// [<opencomputers:cable>, <ore:oc:circuitChip1>, <opencomputers:cable>],
+	// [<ore:ingotSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotSteel>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:ingotIron>, <ore:plateSteel>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:assembler>, [
+	// [<ore:gearSteel>, <extendedcrafting:table_basic>, <ore:gearSteel>],
+	// [<factorytech:machinepart:161>, <factorytech:machinepart:101>, <factorytech:machinepart:161>],
+	// [<ore:gearSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:gearSteel>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:nuggetGold>, <ore:ingotElectrum>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:capacitor>, [
+	// [<ore:ingotSteel>, <ore:oc:materialTransistor>, <ore:ingotSteel>],
+	// [<factorytech:machinepart:22>, <thermalexpansion:capacitor>.withTag({Energy: 25000}), <factorytech:machinepart:22>],
+	// [<ore:ingotSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotSteel>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:ingotGold>, <ore:plateElectrum>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:case1>, [
+	// [<ore:ingotSteel>, <ore:oc:circuitChip1>, <ore:ingotSteel>],
+	// [<ore:plateLead>, <ore:chest>, <ore:plateLead>], 
+	// [<ore:ingotSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotSteel>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:nuggetIron>, <ore:ingotTin>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:case2>, [
+	// [<ore:ingotLumium>, <ore:ingotUltimate>, <ore:ingotLumium>], 
+	// [<ore:plateLead>, <ore:chest>, <ore:plateLead>], 
+	// [<ore:ingotLumium>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotLumium>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:chipDiamond>, <ore:ingotEnderium>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:case3>, [
+	// [<ore:ingotEnderium>, <contenttweaker:core_of_entropy>, <ore:ingotEnderium>],
+	// [<ore:plateLead>, <ore:chest>, <ore:plateLead>],
+	// [<ore:ingotEnderium>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotEnderium>]
+// ]);
 
-recipes.replaceAllOccurences(<ore:gemDiamond>, <ore:ingotEnderium>, <*>.only(function(item){
-	return !isNull(item) && oc.items has (item);
-}));
+// changeRecipe(<opencomputers:charger>, [
+	// [<ore:ingotSteel>, <ore:ingotlumium>, <ore:ingotSteel>],
+	// [<ore:oc:capacitor>, <factorytech:machinepart:111>, <ore:oc:capacitor>],
+	// [<ore:ingotSteel>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotSteel>]
+// ]);
 
-recipes.remove(<opencomputers:material>);
-changeRecipeShapeless(<opencomputers:material:8>*2, [<opencomputers:material:7>,<opencomputers:material:7>,<botania:manaresource:5>]);
-recipes.remove(<opencomputers:material:9>);
-changeRecipeShapeless(<opencomputers:material:9>*8, [<opencomputers:material:8>,<opencomputers:material:8>,<opencomputers:material:8>, <opencomputers:material:8>, <opencomputers:material:8>, <opencomputers:material:8>, <opencomputers:material:8>, <opencomputers:material:8>, <ore:ingotUltimate>]);
+// changeRecipe(<opencomputers:disassembler>, [
+	// [<ore:oc:materialCU>, <ore:paneGlass>, <ore:oc:analyzer>],
+	// [<factorytech:machinepart:22>, null, <ore:blockBlackIron>],
+	// [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "pyrotheum", Amount: 1000}), <ore:ingotSteel>]
+// ]);
 
-Recipes.setRecipeStageByMod("overworld", "opencomputers");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-adapter0-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-assembler1-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-capacitor3-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-charger8-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-disassembler9-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-diskdrive10-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-geolyser11-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-case14-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-motionsensor15-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-powerconverter16-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-powerdistributor17-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-printer18-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-raid19-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-redstone20-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-relay21-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-rack25-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-case26-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-screen122-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-waypoint26-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-netsplitter28-modified");
-recipes.removeByRecipeName("opencomputers:material131");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material34-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-case35-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material34-remodified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material39-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material40-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material48-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material49-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material52-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-tool55-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-tool56-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-wrench59-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-hoverboots60-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component62-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component63-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component64-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component65-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component66-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component67-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component68-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component70-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component72-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component74-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component77-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-component78-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-card90-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-card91-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-card92-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade93-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade94-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade95-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade96-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade98-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade99-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade101-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade102-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade104-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade105-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade106-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade107-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade109-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-hologram112-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade113-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade114-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade115-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade118-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade119-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade120-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-upgrade121-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-storage125-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-storage126-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-storage127-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-storage129-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-material40-modified");
-Recipes.setRecipeStage("overworld", "crafttweaker:opencomputers-hologram213-modified");
-Recipes.setRecipeStageByMod("overworld", "opencomputers");
+// changeRecipe( <opencomputers:diskdrive>, [[<ore:ingotIron>, <ore:oc:circuitChip1>, <ore:ingotIron>], [<ore:craftingPiston>, <ore:stickWood>, null], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe( <opencomputers:geolyzer>, [[<ore:ingotGold>, <minecraft:compass>, <ore:ingotGold>], [<minecraft:ender_eye>, <ore:oc:circuitChip2>, <minecraft:ender_eye>], [<ore:ingotGold>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotGold>]]);
+
+// changeRecipe(<opencomputers:hologram1>, [[<ore:oc:circuitChip2>, <ore:paneGlass>, <ore:oc:circuitChip2>], [<ore:oc:materialCircuitBoardPrinted>, <ore:chipDiamond>, <ore:oc:materialCircuitBoardPrinted>], [<ore:obsidian>, <minecraft:glowstone_dust>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:hologram2>, [[<ore:oc:circuitChip3>, <ore:blockGlass>, <ore:oc:circuitChip3>], [<ore:oc:materialCircuitBoardPrinted>, <ore:gemDiamond>, <ore:oc:materialCircuitBoardPrinted>], [<ore:obsidian>, <minecraft:blaze_powder>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:keyboard>, [[<ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>, <ore:oc:materialButtonGroup>], [<ore:oc:materialButtonGroup>, <ore:oc:materialArrowKey>, <ore:oc:materialNumPad>]]);
+
+// changeRecipe(<opencomputers:motionsensor>, [[<ore:ingotGold>, <minecraft:daylight_detector>, <ore:ingotGold>], [<minecraft:daylight_detector>, <ore:oc:cpu2>, <minecraft:daylight_detector>], [<ore:ingotGold>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotGold>]]);
+
+// changeRecipe(<opencomputers:powerconverter>, [[<ore:ingotIron>, <ore:oc:cable>, <ore:ingotIron>], [<ore:ingotGold>, <ore:oc:circuitChip1>, <ore:ingotGold>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:powerdistributor>, [[<ore:ingotIron>, <ore:ingotGold>, <ore:ingotIron>], [<ore:oc:cable>, <ore:oc:circuitChip1>, <ore:oc:cable>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:printer>, [[<ore:ingotIron>, <ore:hopper>, <ore:ingotIron>], [<ore:craftingPiston>, <ore:oc:circuitChip3>, <ore:craftingPiston>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:raid>, [[<minecraft:iron_nugget>, <ore:oc:cpu3>, <minecraft:iron_nugget>], [<ore:oc:ram1>, <ore:oc:diskDrive>, <ore:oc:ram1>], [<minecraft:iron_nugget>, <ore:oc:circuitChip2>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:redstone>, [[<ore:ingotIron>, <ore:oc:circuitChip3>, <ore:ingotIron>], [<ore:blockRedstone>, <ore:oc:redstoneCard1>, <ore:blockRedstone>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:relay>, [[<ore:ingotIron>, <ore:oc:cable>, <ore:ingotIron>], [<ore:oc:cable>, <ore:oc:lanCard>, <ore:oc:cable>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:screen1>, [[<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>], [<minecraft:redstone>, <ore:oc:circuitChip1>, <ore:blockGlass>], [<ore:ingotIron>, <minecraft:redstone>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:screen3>, [[<ore:obsidian>, <minecraft:glowstone_dust>, <ore:obsidian>], [<minecraft:glowstone_dust>, <ore:oc:circuitChip3>, <ore:blockGlass>], [<ore:obsidian>, <minecraft:glowstone_dust>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:screen2>, [[<ore:ingotGold>, <ore:dyeRed>, <ore:ingotGold>], [<ore:dyeGreen>, <ore:oc:circuitChip2>, <ore:blockGlass>], [<ore:ingotGold>, <ore:dyeBlue>, <ore:ingotGold>]]);
+
+// changeRecipe(<opencomputers:rack>, [[<ore:gemDiamond>, <ore:oc:wlanCard2>, <ore:gemDiamond>], [<minecraft:iron_bars>, <ore:chest>, <minecraft:iron_bars>], [<ore:oc:relay>, <ore:oc:materialCircuitBoardPrinted>, <ore:oc:powerDistributor>]]);
+
+// changeRecipe(<opencomputers:waypoint>, [[<ore:ingotIron>, <ore:oc:circuitChip1>, <ore:ingotIron>], [<ore:oc:materialTransistor>, <ore:oc:materialInterweb>, <ore:oc:materialTransistor>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:netsplitter>, [[<ore:ingotIron>, <ore:oc:cable>, <ore:ingotIron>], [<ore:oc:cable>, <ore:craftingPiston>, <ore:oc:cable>], [<ore:ingotIron>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:transposer> * 4, [[<ore:ingotIron>, <ore:oc:inventoryControllerUpgrade>, <ore:ingotIron>], [<ore:hopper>, <minecraft:bucket>, <ore:hopper>], [<ore:ingotIron>, <ore:oc:tankControllerUpgrade>, <ore:ingotIron>]]);
+
+// changeRecipe(<opencomputers:material:10>, [[<minecraft:iron_nugget>, <minecraft:redstone>, <minecraft:iron_nugget>], [<ore:oc:materialTransistor>, <ore:oc:circuitChip1>, <ore:oc:materialTransistor>], [<minecraft:iron_nugget>, <ore:oc:materialTransistor>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:material:5>, [[<minecraft:iron_nugget>, null, null], [<minecraft:iron_nugget>, <ore:oc:materialCircuitBoardPrinted>, null], [<minecraft:iron_nugget>, <ore:nuggetGold>, null]]);
+
+// changeRecipe(<opencomputers:material:11>, [[<ore:nuggetGold>, <minecraft:redstone>, <ore:nuggetGold>], [<ore:oc:materialTransistor>, <minecraft:clock>, <ore:oc:materialTransistor>], [<ore:nuggetGold>, <ore:oc:materialTransistor>, <ore:nuggetGold>]]);
+
+// changeRecipe(<opencomputers:material:23>, [[<ore:oc:stoneEndstone>, <minecraft:compass>, <ore:oc:stoneEndstone>], [<ore:oc:circuitChip1>, <ore:oc:microcontrollerCase1>, <ore:oc:circuitChip1>], [<ore:oc:stoneEndstone>, <ore:oc:componentBus2>, <ore:oc:stoneEndstone>]]);
+
+// changeRecipe(<opencomputers:material:24>, [[<ore:oc:stoneEndstone>, <minecraft:compass>, <ore:oc:stoneEndstone>], [<ore:oc:circuitChip2>, <ore:oc:microcontrollerCase2>, <ore:oc:circuitChip2>], [<ore:oc:stoneEndstone>, <ore:oc:componentBus3>, <ore:oc:stoneEndstone>]]);
+
+// changeRecipe(<opencomputers:material:26>, [[<minecraft:iron_nugget>, <minecraft:dispenser>, <minecraft:iron_nugget>], [<ore:oc:materialTransistor>, <minecraft:bucket>, <ore:oc:materialTransistor>], [<minecraft:iron_nugget>, <ore:oc:materialCircuitBoardPrinted>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:tool:2>, [[<minecraft:iron_nugget>, <ore:oc:solarGeneratorUpgrade>, <minecraft:iron_nugget>], [<ore:oc:circuitChip3>, <ore:oc:screen2>, <ore:oc:wlanCard2>], [<minecraft:iron_nugget>, <ore:oc:keyboard>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:wrench>, [[<ore:ingotIron>, null, <ore:ingotIron>], [null, <ore:oc:circuitChip2>, null], [null, <ore:ingotIron>, null]]);
+
+// changeRecipe(<opencomputers:material:20>, [[<minecraft:iron_nugget>, <ore:oc:circuitChip1>, <minecraft:iron_nugget>], [<minecraft:redstone>, <ore:chest>, <minecraft:redstone>], [<minecraft:iron_nugget>, <ore:oc:materialCircuitBoardPrinted>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:material:21>, [[<ore:nuggetGold>, <ore:oc:circuitChip3>, <ore:nuggetGold>], [<ore:blockRedstone>, <ore:chest>, <ore:blockRedstone>], [<ore:nuggetGold>, <ore:oc:materialCircuitBoardPrinted>, <ore:nuggetGold>]]);
+
+// changeRecipe(<opencomputers:material:17>, [[<ore:ingotGold>, <minecraft:stone_button>, <ore:ingotGold>], [<ore:oc:componentBus1>, <ore:oc:screen2>, <ore:oc:circuitChip3>], [<ore:ingotGold>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotGold>]]);
+
+// changeRecipe(<opencomputers:material:18>, [[<ore:oc:circuitChip2>, <minecraft:stone_button>, <ore:ingotGold>], [<ore:oc:componentBus3>, <ore:oc:screen2>, <ore:oc:circuitChip3>], [<ore:oc:circuitChip2>, <ore:oc:materialCircuitBoardPrinted>, <ore:ingotGold>]]);
+
+// changeRecipe(<opencomputers:tool>, [[<ore:torchRedstoneActive>, null, null], [<ore:oc:materialTransistor>, <ore:nuggetGold>, null], [<ore:oc:materialCircuitBoardPrinted>, <ore:nuggetGold>, null]]);
+
+// changeRecipe(<opencomputers:tool:5>, [[<ore:oc:chamelium>, <ore:oc:wlanCard2>, <ore:oc:chamelium>], [<ore:oc:cpu2>, <ore:oc:materialAcid>, <ore:oc:ram1>], [<ore:oc:chamelium>, <ore:oc:capacitor>, <ore:oc:chamelium>]]);
+
+// changeRecipe(<opencomputers:hoverboots>, [[<minecraft:iron_nugget>, <ore:oc:hoverUpgrade2>, <minecraft:iron_nugget>], [<ore:leather>, <ore:oc:droneCase1>, <ore:leather>], [<minecraft:iron_nugget>, <ore:oc:capacitor>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:component:16>, [[<ore:nuggetGold>, <ore:oc:circuitChip1>, <ore:nuggetGold>], [<ore:oc:cpu2>, <ore:oc:componentBus1>, <ore:oc:graphicsCard1>], [<ore:nuggetGold>, <ore:oc:circuitChip1>, <ore:nuggetGold>]]);
+
+// changeRecipe(<opencomputers:component:17>, [[<ore:chipDiamond>, <ore:oc:circuitChip2>, <ore:chipDiamond>], [<ore:oc:cpu3>, <ore:oc:componentBus2>, <ore:oc:graphicsCard2>], [<ore:chipDiamond>, <ore:oc:circuitChip2>, <ore:chipDiamond>]]);
+
+// changeRecipe(<opencomputers:component:3>, [[<minecraft:iron_nugget>, <minecraft:redstone>, <minecraft:iron_nugget>], [<ore:oc:circuitChip1>, <ore:oc:materialCU>, null], [<minecraft:iron_nugget>, <ore:oc:materialCircuitBoardPrinted>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:component:4>, [[<ore:nuggetGold>, <minecraft:redstone>, <ore:nuggetGold>], [<ore:oc:circuitChip2>, <ore:oc:materialCU>, null], [<ore:nuggetGold>, <ore:oc:materialCircuitBoardPrinted>, <ore:nuggetGold>]]);
+
+// changeRecipe(<opencomputers:component:5>, [[<ore:chipDiamond>, <minecraft:redstone>, <ore:chipDiamond>], [<ore:oc:circuitChip3>, <ore:oc:materialCU>, null], [<ore:chipDiamond>, <ore:oc:materialCircuitBoardPrinted>, <ore:chipDiamond>]]);
+
+// changeRecipe(<opencomputers:component>, [[<minecraft:iron_nugget>, <minecraft:redstone>, <minecraft:iron_nugget>], [<ore:oc:circuitChip1>, <ore:oc:materialCU>, <ore:oc:circuitChip1>], [<minecraft:iron_nugget>, <ore:oc:materialALU>, <minecraft:iron_nugget>]]);
+
+// changeRecipe(<opencomputers:component:1>, [[<ore:nuggetGold>, <minecraft:redstone>, <ore:nuggetGold>], [<ore:oc:circuitChip2>, <ore:oc:materialCU>, <ore:oc:circuitChip2>], [<ore:nuggetGold>, <ore:oc:materialALU>, <ore:nuggetGold>]]);
+
+// changeRecipe(<opencomputers:component:2>, [[<ore:chipDiamond>, <minecraft:redstone>, <ore:chipDiamond>], [<ore:oc:circuitChip3>, <ore:oc:materialCU>, <ore:oc:circuitChip3>], [<ore:chipDiamond>, <ore:oc:materialALU>, <ore:chipDiamond>]]);
+
+// changeRecipe(<opencomputers:component:6>, [[<ore:oc:circuitChip1>, <minecraft:iron_nugget>, <ore:oc:circuitChip1>], [null, <ore:oc:materialCircuitBoardPrinted>, null]]);
+
+// changeRecipe(<opencomputers:component:20>, [[<ore:obsidian>, <ore:oc:circuitChip1>, <ore:obsidian>], [<minecraft:iron_bars>, <ore:oc:diskDrive>, <minecraft:iron_bars>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:component:7>, [[<ore:oc:circuitChip1>, <ore:oc:circuitChip2>, <ore:oc:circuitChip1>], [null, <ore:oc:materialCircuitBoardPrinted>, null]]);
+
+// changeRecipe(<opencomputers:component:8>, [[<ore:oc:circuitChip2>, <minecraft:iron_nugget>, <ore:oc:circuitChip2>], [null, <ore:oc:materialCircuitBoardPrinted>, null]]);
+
+// changeRecipe(<opencomputers:component:9>, [[<ore:oc:circuitChip2>, <ore:oc:circuitChip3>, <ore:oc:circuitChip2>], [null, <ore:oc:materialCircuitBoardPrinted>, null]]);
+
+// changeRecipe(<opencomputers:component:10>, [[<ore:oc:circuitChip3>, <minecraft:iron_nugget>, <ore:oc:circuitChip3>], [null, <ore:oc:materialCircuitBoardPrinted>, null]]);
+
+// changeRecipe(<opencomputers:component:11>, [[<ore:oc:circuitChip3>, <ore:oc:circuitChip3>, <ore:oc:circuitChip3>], [<ore:oc:circuitChip2>, <ore:oc:materialCircuitBoardPrinted>, <ore:oc:circuitChip2>]]);
+
+// changeRecipe(<opencomputers:component:13>, [[<ore:ingotIron>, <ore:oc:ram2>, <ore:ingotIron>], [<ore:oc:circuitChip1>, <ore:oc:componentBus1>, <ore:oc:circuitChip1>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:component:14>, [[<ore:ingotGold>, <ore:oc:ram4>, <ore:ingotGold>], [<ore:oc:circuitChip2>, <ore:oc:componentBus2>, <ore:oc:circuitChip2>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:component:15>, [[<ore:gemDiamond>, <ore:oc:ram6>, <ore:gemDiamond>], [<ore:oc:circuitChip3>, <ore:oc:componentBus3>, <ore:oc:circuitChip3>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:component:19>, [[<ore:obsidian>, <ore:oc:wlanCard>, <ore:obsidian>], [<ore:oc:wlanCard>, <ore:oc:circuitChip2>, <ore:oc:wlanCard2>], [<ore:obsidian>, <ore:oc:materialCircuitBoardPrinted>, <ore:obsidian>]]);
+
+// changeRecipe(<opencomputers:card:10>, [[<minecraft:iron_nugget>, <ore:oc:materialALU>, <ore:oc:circuitChip2>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:11>, [[<ore:nuggetGold>, <ore:oc:cpu1>, <ore:oc:circuitChip3>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:12>, [[<ore:chipDiamond>, <ore:oc:cpu2>, <ore:oc:ram5>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:1>, [[<ore:oc:circuitChip1>, <ore:oc:materialALU>, <ore:oc:ram1>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:2>, [[<ore:oc:circuitChip2>, <ore:oc:materialALU>, <ore:oc:ram3>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:3>, [[<ore:oc:circuitChip3>, <ore:oc:materialALU>, <ore:oc:ram5>], [null, <ore:oc:materialCard>, null]]);
+
+// changeRecipe(<opencomputers:card:8>, [[<ore:oc:materialInterweb>, <ore:oc:circuitChip2>, <ore:torchRedstoneActive>], [null, <ore:oc:materialCard>, <ore:obsidian>]]);
+
+// changeRecipe("opencomputers:card89", <opencomputers:card:9> * 2, [[<minecraft:ender_eye>, null, <minecraft:ender_eye>], [<ore:oc:lanCard>, <ore:oc:materialInterweb>, <ore:oc:lanCard>], [<ore:oc:circuitChip3>, null, <ore:oc:circuitChip3>]]);
+// recipes.addShapeless(<opencomputers:card:9> * 2, [<opencomputers:card:9>, <opencomputers:card:9>]);
+
+
 
 changeRecipe(<opencomputers:material:19>, [
 	[<ore:ingotUltimate>, null, <ore:ingotUltimate>],

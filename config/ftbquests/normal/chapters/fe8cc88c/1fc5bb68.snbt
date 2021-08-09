@@ -3,9 +3,6 @@
 	x: -1.0d,
 	y: -1.0d,
 	description: "Construct the quarry based on Botania or OpenComputers.",
-	dependencies: [
-		"d2d950ad"
-	],
 	hide: true,
 	tasks: [{
 		uid: "a3a72181",

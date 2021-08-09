@@ -120,6 +120,11 @@ mods.thermalexpansion.InductionSmelter.addRecipe(<thermalfoundation:material:205
 //making diamonds
 mods.thermalexpansion.InductionSmelter.addRecipe(<minecraft:diamond>, <minecraft:coal>*40, <minecraft:tnt>*3, 40000);
 
+//making niter
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:niter_ore>, <thermalfoundation:material:772>, <minecraft:sandstone>, 2000);
+mods.thermalexpansion.Pulverizer.addRecipe(<thermalfoundation:material:772> * 3, <contenttweaker:niter_ore>, 2000);
+
+
 //casting
 recipes.addShaped(<contenttweaker:cast_ingot>*4, [[<minecraft:clay_ball>, null, <minecraft:clay_ball>], [null, <minecraft:clay_ball>, null]]);
 recipes.addShaped(<contenttweaker:cast_block>*4, [[<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>], [<minecraft:clay_ball>, null, <minecraft:clay_ball>], [<minecraft:clay_ball>, <minecraft:clay_ball>, <minecraft:clay_ball>]]);
@@ -172,7 +177,7 @@ mods.thermalexpansion.Crucible.addRecipe(<liquid:blue_matter_f> * 1000, <content
 
 //produce blocks
 mods.factorytech.Agitator.addRecipe(<liquid:blue_matter_f> * 250, <liquid:petrotheum> * 125, null, null,<contenttweaker:otherworldy_stone>);
-mods.factorytech.Agitator.addRecipe(<liquid:blue_matter_f> * 250, <liquid:aerotheum> * 125, null, null,<minecraft:end_stone>);
+mods.factorytech.Agitator.addRecipe(<liquid:blue_matter_f> * 1000, <liquid:aerotheum> * 1000, null, null,<thermalfoundation:storage:4>);
 mods.factorytech.Agitator.addRecipe(<liquid:blue_matter_f> * 250, <liquid:pyrotheum> * 125, null, null,<thermalfoundation:ore_fluid:1>);
 mods.factorytech.Agitator.addRecipe(<liquid:blue_matter_f> * 250, <liquid:cryotheum> * 125, null, null,<minecraft:purpur_block>);
 
@@ -206,3 +211,10 @@ mods.factorytech.Agitator.addRecipe(<liquid:blood> * 250, <liquid:pyrotheum> * 2
 mods.factorytech.Agitator.addRecipe(<liquid:pride> * 250, <liquid:cryotheum> * 250, <contenttweaker:andesite_dust>, null, <contenttweaker:ferozium>);
 mods.factorytech.Agitator.addRecipe(<liquid:lust> * 250, <liquid:aerotheum> * 250, <contenttweaker:andesite_dust>, null, <contenttweaker:magnesium>);
 mods.factorytech.Agitator.addRecipe(<liquid:greed> * 250, <liquid:petrotheum> * 250, <contenttweaker:andesite_dust>, null, <contenttweaker:astratite>);
+
+mods.thermalexpansion.Compactor.addPressRecipe(<contenttweaker:stable_garbage>, <contenttweaker:unstable_garbage>, 100000);
+mods.thermalexpansion.RedstoneFurnace.addRecipe(<contenttweaker:smelted_garbage>, <contenttweaker:stable_garbage>, 200000);
+mods.thermalexpansion.Transposer.addFillRecipe(<contenttweaker:wet_garbage>, <contenttweaker:smelted_garbage>, <liquid:water>*10000, 300000);
+mods.thermalexpansion.Centrifuge.addRecipe([<contenttweaker:clean_garbage>], <contenttweaker:wet_garbage>, <liquid:heavywater>*5000, 400000);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:core_of_waste>, <contenttweaker:clean_garbage>*3, <thermalfoundation:material:802>*16, 650000, <contenttweaker:computer_ore>, 100);
+mods.thermalexpansion.InductionSmelter.addRecipe(<contenttweaker:core_of_entropy>, <contenttweaker:entropy_ore>*2, <contenttweaker:otherworldy_stone>*16, 2200000);

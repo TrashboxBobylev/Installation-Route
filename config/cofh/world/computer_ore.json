@@ -6,7 +6,7 @@
 				"type": "cluster",
 				"block": "contenttweaker:computer_ore",
 				"sparse": true,
-				"cluster-size": 10,
+				"cluster-size": 25,
 				"material": [
 					"minecraft:stone",
 					"minecraft:dirt",
@@ -15,11 +15,34 @@
 				]
 			},
 			"chunk-chance": 1,
-			"cluster-count": 10,
+			"cluster-count": 12,
 			"min-height": 200,
 			"max-height": 250,
 			"biome": "all",
 			"retrogen": true,
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [4]
+			}
+		},
+		
+		"entropy": {
+			"distribution": "uniform",
+			"generator": {
+				"block": {
+					"name": "contenttweaker:entropy_ore"
+				},
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": {
+				"min": 14,
+				"max": 44
+			},
+			"min-height": 5,
+			"max-height": 256,
+			"retrogen": false,
+			"biome": "all",
 			"dimension": {
 				"restriction": "whitelist",
 				"value": [4]

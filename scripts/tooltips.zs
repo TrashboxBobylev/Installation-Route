@@ -99,3 +99,10 @@ mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "petro_petuni
 <buildcraftcore:list>.withTag({}).addTooltip("Can be used as substitution for several items in Filtering pipes.");
 
 <minecraft:minecart>.addTooltip("Disabled due to clipping issues and for being ineffective in general.");
+
+<contenttweaker:core_of_natura>.addTooltip(format.italic("The power of nature elements shines inside this crystallized living rock."));
+<contenttweaker:core_of_flux>.addTooltip(format.italic("This thing is shining with redstone fluxations."));
+<contenttweaker:core_of_mechanic>.addTooltip(format.italic("Try to comprehend the complexity of this shard."));
+<contenttweaker:core_of_entropy>.addTooltip(format.italic("You feel the void dispersing from ashes of this element."));
+<contenttweaker:core_of_waste>.addTooltip(format.italic("It's no use!"));
+<contenttweaker:core_of_boson>.addTooltip(format.italic("It's a miracle how this clump of primordial matter didn't disintegrate into chalk the moment it was synthesized."));

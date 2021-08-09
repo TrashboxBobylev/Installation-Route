@@ -47,6 +47,7 @@ recipes.removeByRecipeName("thermaldynamics:duct_16_5");
 mods.botania.ElvenTrade.addRecipe([<thermaldynamics:duct_16:5>], [<thermaldynamics:duct_16:3>, <thermalfoundation:material:289>, <thermalfoundation:material:293>]);
 
 //laminar fluid
+recipes.removeByRecipeName("thermaldynamics:duct_16_7");
 recipes.removeByRecipeName("thermaldynamics:duct_16_8");
 recipes.removeByRecipeName("thermaldynamics:duct_16_9"); 
 mods.botania.ElvenTrade.addRecipe([<thermaldynamics:duct_16:7>], [<thermaldynamics:duct_16:3>, <botania:manaresource:2>, <botania:manaresource:4>]);
@@ -82,7 +83,7 @@ recipes.remove(<buildcrafttransport:pipe_gold_item:*>);
 InductionSmelter.addRecipe(<buildcrafttransport:pipe_gold_item>*2, <quark:pipe>*2, <thermalfoundation:material:33>, 1250);
 recipes.remove(<buildcrafttransport:pipe_clay_item:*>);
 InductionSmelter.addRecipe(<buildcrafttransport:pipe_clay_item>*2, <quark:pipe>*2, <thermalfoundation:material:324>, 1250);
-recipes.remove(<buildcrafttransport:pipe_clay_item:*>);
+recipes.remove(<buildcrafttransport:pipe_sandstone_item:*>);
 InductionSmelter.addRecipe(<buildcrafttransport:pipe_sandstone_item>*2, <quark:pipe>*2, <thermalfoundation:material:322>, 1250);
 JEI.removeAndHide(<buildcrafttransport:pipe_void_item:*>);
 recipes.remove(<buildcrafttransport:pipe_obsidian_item:*>);

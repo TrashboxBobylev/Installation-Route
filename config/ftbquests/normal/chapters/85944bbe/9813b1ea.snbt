@@ -2,7 +2,7 @@
 	title: "Chemical Mixeractor",
 	icon: "factorytech:agitator",
 	x: -8.5d,
-	y: 17.0d,
+	y: 15.5d,
 	shape: "rsquare",
 	description: "Assemble fluid agitator, capable of mixing items and fluids",
 	text: [
@@ -11,7 +11,7 @@
 		"You can use it as a coffee machine or chemical reactor."
 	],
 	dependencies: [
-		"f0a11141"
+		"2d812a52"
 	],
 	hide: true,
 	tasks: [{

@@ -18,7 +18,7 @@
 		uid: "318bf4ef",
 		type: "item",
 		items: [{
-			item: "extendedcrafting:material"
+			item: "extendedcrafting:storage"
 		}]
 	}]
 }

@@ -34,3 +34,5 @@ function addShovelCrushing(blockIn as IBlockState, blockOut as IBlockState){
 
 addShovelCrushing(<blockstate:minecraft:cobblestone>, <blockstate:minecraft:gravel>);
 addShovelCrushing(<blockstate:minecraft:stone:variant=stone>, <blockstate:minecraft:sand:variant=sand>);
+scripts.magicalJei.add(<assembly:shovel>, {[<minecraft:cobblestone>] : [<minecraft:gravel>]});
+scripts.magicalJei.add(<assembly:shovel>, {[<minecraft:stone:0>] : [<minecraft:sand:0>]});

@@ -24,6 +24,7 @@
 	rewards: [{
 		uid: "8636f935",
 		type: "item",
+		team_reward: true,
 		item: {
 			id: "customblockfabricator:fabricator",
 			tag: {
@@ -35,7 +36,7 @@
 					block_string: "contenttweaker:magnetiteore"
 				},
 				display: {
-					Name: "Magnetite Fabricator"
+					Name: "§7Magnetite Fabricator"
 				}
 			}
 		}
@@ -43,6 +44,7 @@
 	{
 		uid: "b3c6e4f7",
 		type: "item",
+		team_reward: true,
 		item: {
 			id: "customblockfabricator:fabricator",
 			tag: {
@@ -54,7 +56,7 @@
 					block_string: "contenttweaker:cassiteriteore"
 				},
 				display: {
-					Name: "Cassiterite Fabricator"
+					Name: "§7Cassiterite Fabricator"
 				}
 			}
 		}
@@ -62,6 +64,7 @@
 	{
 		uid: "d1296156",
 		type: "item",
+		team_reward: true,
 		item: {
 			id: "customblockfabricator:fabricator",
 			tag: {
@@ -73,7 +76,7 @@
 					block_string: "contenttweaker:tetrahedriteore"
 				},
 				display: {
-					Name: "Chalcocite Fabricator"
+					Name: "§7Chalcocite Fabricator"
 				}
 			}
 		}
@@ -81,6 +84,7 @@
 	{
 		uid: "0c5de86d",
 		type: "item",
+		team_reward: true,
 		item: {
 			id: "customblockfabricator:fabricator",
 			tag: {
@@ -92,7 +96,7 @@
 					block_string: "contenttweaker:livingmatter"
 				},
 				display: {
-					Name: "Living Matter Fabricator"
+					Name: "§7Living Matter Fabricator"
 				}
 			}
 		}

@@ -3,9 +3,6 @@
 	x: 7.5d,
 	y: -3.5d,
 	description: "Make every Botania crafting station self-sustainable. Bonus points, if done without using technology",
-	dependencies: [
-		"d2d950ad"
-	],
 	hide: true,
 	tasks: [{
 		uid: "57378536",

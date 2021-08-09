@@ -1,7 +1,7 @@
 {
 	title: "Integrating Super Mario 64 Physics into World",
-	x: -13.0d,
-	y: 4.5d,
+	x: -4.5d,
+	y: -0.5d,
 	description: "Create additional space for your factory",
 	text: [
 		"While your factory processes metals, take a look at the new feature of this communication device: teleportation!",

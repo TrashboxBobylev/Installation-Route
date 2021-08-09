@@ -2,7 +2,7 @@
 	title: "Medieval Ages are Amazing!",
 	icon: "factorytech:crucible",
 	x: -4.0d,
-	y: 0.0d,
+	y: -2.5d,
 	description: "Create crucible that melts ores into liquids",
 	text: [
 		"W-what? You thought that using modern induction melting is the most profitable way to refine materials? Hah.",

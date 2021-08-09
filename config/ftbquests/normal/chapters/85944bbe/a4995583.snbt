@@ -2,7 +2,7 @@
 	title: "Your Little Mailmans",
 	icon: "packagedauto:package_component",
 	x: -13.0d,
-	y: 3.0d,
+	y: 1.5d,
 	description: "Assemble the core of packaging machinery",
 	text: [
 		"After making some circuits and mashing them with ender eyes you can make advanced processors capable of manipulating large amount of items.",

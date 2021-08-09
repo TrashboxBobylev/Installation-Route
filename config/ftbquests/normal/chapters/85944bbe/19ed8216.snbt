@@ -1,7 +1,7 @@
 {
 	title: "Encasing Poor Terra-Axe Into Cage",
-	x: -12.0d,
-	y: 8.0d,
+	x: -14.5d,
+	y: 5.5d,
 	description: "Create wood cutting machine",
 	text: [
 		"This wooden boy uses the power of the Terra Truncator to take down trees in one go. Instead of mana, it consumes blades."

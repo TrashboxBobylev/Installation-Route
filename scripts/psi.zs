@@ -17,6 +17,8 @@ CombinationCrafting.addRecipe(<psi:cad_assembler>, 250000, <thermalexpansion:fra
 recipes.remove(<psi:programmer>);
 CombinationCrafting.addRecipe(<psi:programmer>, 250000, <thermalexpansion:frame:128>, [<ore:plateNickel>, <ore:blockBlackIron>, <contenttweaker:plate_manasteel>, <thermalexpansion:machine:13>, <factorytech:machinepart:170>]);
 
+recipes.remove(<psi:cad_assembly:1>);
+
 var psi = loadedMods["psi"] as IMod;
 var psicosts = loadedMods["psicosts"] as IMod;
 
@@ -32,5 +34,5 @@ recipes.replaceAllOccurences(<ore:nuggetSilver>, <ore:nuggetMithril>, <*>.only(f
 	return !isNull(item) && psicosts.items has (item);
 }));
 
-recipes.addShapeless(<psi:material:4>, [<ore:blockFahefanium>, <ore:ingotPsi>]);
+recipes.addShapeless(<psi:material:4>, [<ore:fahefanium>, <ore:ingotPsi>]);
 recipes.addShapeless(<psi:material:3>, [<ore:blockBlackIron>, <ore:ingotPsi>]);

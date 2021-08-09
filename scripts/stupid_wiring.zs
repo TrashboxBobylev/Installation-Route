@@ -16,4 +16,4 @@ recipes.addShaped(<cyclicmagic:wireless_transmitter>, [
 	[<ore:gearElectrum>, <thermalfoundation:material:512>, <ore:gearElectrum>]]);
 	
 recipes.remove(<minecoprocessors:minecoprocessor>);
-CombinationCrafting.addRecipe(<minecoprocessors:minecoprocessor>, 60000, <thermalfoundation:material:293>, [<factorytech:machinepart:91>, <factorytech:machinepart:101>, <factorytech:machinepart:111>, <factorytech:machinepart:121>, <ore:ingotChrome>]);
+CombinationCrafting.addRecipe(<minecoprocessors:minecoprocessor>, 120000, <thermalfoundation:material:293>, [<factorytech:machinepart:90>, <factorytech:machinepart:100>, <factorytech:machinepart:110>, <factorytech:machinepart:120>, <ore:ingotChrome>]);

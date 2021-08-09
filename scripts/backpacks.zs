@@ -13,8 +13,8 @@ backpackUpgrading(<thermalexpansion:satchel>, <thermalexpansion:satchel:1>, <con
 backpackUpgrading(<thermalexpansion:satchel:1>, <thermalexpansion:satchel:2>, <contenttweaker:back_upgrade_1>);
 backpackUpgrading(<thermalexpansion:satchel:2>, <thermalexpansion:satchel:3>, <contenttweaker:back_upgrade_2>);
 backpackUpgrading(<thermalexpansion:satchel:3>, <thermalexpansion:satchel:4>, <contenttweaker:back_upgrade_3>);
-backpackUpgrading(<thermalexpansion:capacitor>, <thermalexpansion:capacitor:1>, <contenttweaker:steel_battery>);
-backpackUpgrading(<thermalexpansion:capacitor:1>, <thermalexpansion:capacitor:2>, <botania:manaresource:7>);
+backpackUpgrading(<thermalexpansion:capacitor>, <thermalexpansion:capacitor:1>, <contenttweaker:terra_battery>);
+backpackUpgrading(<thermalexpansion:capacitor:1>, <thermalexpansion:capacitor:2>, <thermalexpansion:frame:128>);
 backpackUpgrading(<thermalexpansion:capacitor:2>, <thermalexpansion:capacitor:3>, <contenttweaker:cobalt_battery>);
 backpackUpgrading(<thermalexpansion:capacitor:3>, <thermalexpansion:capacitor:4>, <contenttweaker:reactor_casing>);
 backpackUpgrading(<thermalexpansion:reservoir>, <thermalexpansion:reservoir:1>, <thermalfoundation:upgrade>);

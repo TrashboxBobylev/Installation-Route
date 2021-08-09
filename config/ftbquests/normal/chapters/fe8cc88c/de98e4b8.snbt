@@ -4,7 +4,7 @@
 	y: -1.0d,
 	description: "Make Phoenix Wright trophy.",
 	dependencies: [
-		"d2d950ad"
+		"f31af4dd"
 	],
 	hide: true,
 	tasks: [{

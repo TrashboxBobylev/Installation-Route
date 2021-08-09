@@ -1,7 +1,7 @@
 {
 	title: "Entagle My Dear Mobs in Petals",
 	x: -4.5d,
-	y: 16.5d,
+	y: 14.5d,
 	description: "Use Loonium to generate a bunch of flowers",
 	text: [
 		"Our research team have modified Loonium to entangle monsters in vines of functional flowers. While cost is still really high for any botanist, you can essentially bypass the need of ever crafting flowers by hands."
