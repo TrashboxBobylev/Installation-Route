@@ -36,7 +36,7 @@ mods.thermalexpansion.CompressionDynamo.removeFuel(<liquid:refined_biofuel>);
 mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:refined_biofuel>, 1000000); 
 
 furnace.addRecipe(<forge:bucketfilled>.withTag({FluidName: "hot_water", Amount: 1000}), <minecraft:water_bucket>);
-mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:hot_water>, 20000);
+mods.thermalexpansion.CompressionDynamo.addFuel(<liquid:hot_water>, 12500);
 //2 335 067
 
 recipes.removeByRecipeName("thermalexpansion:machine_12");

@@ -76,7 +76,7 @@ import crafttweaker.data.IData;
 <minecraft:sand>.addTooltip("Can be obtained by breaking stone with any kind of shovel.");
 
 mods.jei.JEI.addDescription(<botania:specialflower>.withTag({type: "petro_petunia"}), 
-	"Heated Water: 1200 mana, 20 mana per tick.\n" ~
+	"Heated Water: 600 mana, 20 mana per tick.\n" ~
 	"Heavy Water: 5800 mana, 29 mana per tick.\n" ~
 	"Sacrficing Blood: 6300 mana, 150 mana per tick.\n" ~
 	"Unlimited Fervor: 6300 mana, 20 mana per tick.\n" ~
