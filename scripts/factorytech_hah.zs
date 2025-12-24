@@ -286,9 +286,9 @@ ScrapFurnace.addRecipe(<contenttweaker:ingot_chrome>*2, <factorytech:salvagepart
 ScrapFurnace.addRecipe(<factorytech:ingot:2>*3, <factorytech:salvagepart:81>, false);
 ScrapFurnace.addRecipe(<factorytech:intermediate:2>, <factorytech:salvagepart:140>, false);
 ScrapFurnace.addRecipe(<factorytech:intermediate:2>, <factorytech:salvagepart:141>, false);
-ScrapFurnace.addRecipe(<thermalfoundation:material:514>, <factorytech:salvagepart:60>, false);
+ScrapFurnace.addRecipe(<thermalfoundation:material:194>*6, <factorytech:salvagepart:60>, false);
 ScrapFurnace.addRecipe(<factorytech:ore_dust:5>*10, <factorytech:salvagepart:61>, false);
-ScrapFurnace.addRecipe(<thermalfoundation:material:514>, <factorytech:salvagepart:62>, false);
+ScrapFurnace.addRecipe(<thermalfoundation:material:194>*6, <factorytech:salvagepart:62>, false);
 ScrapFurnace.addRecipe(<minecraft:iron_nugget>*8, <factorytech:salvagepart:161>, false);
 ScrapFurnace.addRecipe(<factorytech:intermediate:1>, <factorytech:salvagepart:170>, false);
 
