@@ -14,66 +14,66 @@ RecipeBuilder.newBuilder(name + "energy1", name, 400, 1)
 	.addItemInput(<factorytech:mined_ore>*2)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy2", name, 330, 2)
+RecipeBuilder.newBuilder(name + "energy2", name, 300, 2)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*4)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy3", name, 275, 3)
+RecipeBuilder.newBuilder(name + "energy3", name, 250, 3)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*8)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy4", name, 225, 4)
+RecipeBuilder.newBuilder(name + "energy4", name, 200, 4)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*16)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy5", name, 190, 5)
+RecipeBuilder.newBuilder(name + "energy5", name, 150, 5)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*32)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy6", name, 150, 6)
+RecipeBuilder.newBuilder(name + "energy6", name, 120, 6)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy7", name, 100, 7)
+RecipeBuilder.newBuilder(name + "energy7", name, 75, 7)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy8", name, 75, 8)
-	.addFluidOutput(<liquid:mana_energy>*1)
-	.addEnergyPerTickInput(7500)
-	.addItemInput(<factorytech:mined_ore>*64)
-	.addItemInput(<factorytech:mined_ore>*64)
-	.addItemInput(<factorytech:mined_ore>*64)
-	.addItemInput(<factorytech:mined_ore>*64)
-	.build();
-	
-RecipeBuilder.newBuilder(name + "energy9", name, 40, 9)
+RecipeBuilder.newBuilder(name + "energy8", name, 50, 8)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
+	.build();
+	
+RecipeBuilder.newBuilder(name + "energy9", name, 20, 9)
+	.addFluidOutput(<liquid:mana_energy>*1)
+	.addEnergyPerTickInput(7500)
+	.addItemInput(<factorytech:mined_ore>*64)
+	.addItemInput(<factorytech:mined_ore>*64)
+	.addItemInput(<factorytech:mined_ore>*64)
+	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.build();
 	
-RecipeBuilder.newBuilder(name + "energy10", name, 15, 10)
+RecipeBuilder.newBuilder(name + "energy10", name, 7, 10)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*64)
@@ -94,7 +94,7 @@ RecipeBuilder.newBuilder(name + "energy10", name, 15, 10)
 	.addItemInput(<factorytech:mined_ore>*64)
 	.build();
 
-RecipeBuilder.newBuilder(name + "energy11", name, 5, 11)
+RecipeBuilder.newBuilder(name + "energy11", name, 1, 11)
 	.addFluidOutput(<liquid:mana_energy>*1)
 	.addEnergyPerTickInput(7500)
 	.addItemInput(<factorytech:mined_ore>*64)
