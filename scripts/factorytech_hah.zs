@@ -139,7 +139,8 @@ Crucible.addRecipe(<liquid:molten_lead> * 325, <ore:oreGalena>, true);
 Crucible.addRecipe(<liquid:molten_gold> * 50, <ore:oreGold>, true);
 Crucible.addRecipe(<liquid:molten_platinum> * 40, <ore:oreSheldonite>, true);
 Crucible.addRecipe(<liquid:molten_silver> * 50, <ore:oreGalena>, true);
-Crucible.addRecipe(<liquid:sulphur> * 250, <contenttweaker:co2waterore>, true);
+Crucible.addRecipe(<liquid:sulphur> * 500, <contenttweaker:co2waterore>, true);
+Crucible.addRecipe(<liquid:sulphur> * 200, <ore:dustSulfur>, true);
 Crucible.addRecipe(<liquid:molten_alluminum> * 325, <ore:oreAluminum>, true);
 
 recipes.remove(<factorytech:machinepart:60>);
