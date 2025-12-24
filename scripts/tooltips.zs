@@ -18,7 +18,6 @@ import crafttweaker.data.IData;
 
 <thermalfoundation:upgrade>.addTooltip("Max energy consumption: 20 RF/t -> 40 RF/t");
 <thermalfoundation:upgrade>.addTooltip("Max energy generation: 40 RF/t -> 80 RF/t");
-<thermalfoundation:upgrade>.addTooltip("Energy per machine operation: 100% -> 110%");
 <thermalfoundation:upgrade>.addTooltip("Max augments: 0 -> 1");
 <thermalfoundation:upgrade>.addTooltip("Max tank capability: 20000 mB -> 80000 mB");
 <thermalfoundation:upgrade>.addTooltip("Max cache capability: 20000 -> 80000");
@@ -26,7 +25,6 @@ import crafttweaker.data.IData;
 
 <thermalfoundation:upgrade:1>.addTooltip("Max energy consumption: 40 RF/t -> 80 RF/t");
 <thermalfoundation:upgrade:1>.addTooltip("Max energy generation: 80 RF/t -> 160 RF/t");
-<thermalfoundation:upgrade:1>.addTooltip("Energy per machine operation: 110% -> 130%");
 <thermalfoundation:upgrade:1>.addTooltip("Max augments: 1 -> 3");
 <thermalfoundation:upgrade:1>.addTooltip("Max tank capability: 80000 mB -> 180000 mB");
 <thermalfoundation:upgrade:1>.addTooltip("Max cache capability: 80000 -> 180000");
@@ -34,7 +32,6 @@ import crafttweaker.data.IData;
 
 <thermalfoundation:upgrade:2>.addTooltip("Max energy consumption: 80 RF/t -> 180 RF/t");
 <thermalfoundation:upgrade:2>.addTooltip("Max energy generation: 160 RF/t -> 360 RF/t");
-<thermalfoundation:upgrade:2>.addTooltip("Energy per machine operation: 130% -> 150%");
 <thermalfoundation:upgrade:2>.addTooltip("Max augments: 3 -> 5");
 <thermalfoundation:upgrade:2>.addTooltip("Max tank capability: 180000 mB -> 320000 mB");
 <thermalfoundation:upgrade:2>.addTooltip("Max cache capability: 180000 -> 320000");
@@ -42,7 +39,6 @@ import crafttweaker.data.IData;
 
 <thermalfoundation:upgrade:3>.addTooltip("Max energy consumption: 180 RF/t -> 480 RF/t");
 <thermalfoundation:upgrade:3>.addTooltip("Max energy generation: 360 RF/t -> 960 RF/t");
-<thermalfoundation:upgrade:3>.addTooltip("Energy per machine operation: 150% -> 250%");
 <thermalfoundation:upgrade:3>.addTooltip("Max augments: 5 -> 9");
 <thermalfoundation:upgrade:3>.addTooltip("Max tank capability: 320000 mB -> 500000 mB");
 <thermalfoundation:upgrade:3>.addTooltip("Max cache capability: 320000 -> 500000");
