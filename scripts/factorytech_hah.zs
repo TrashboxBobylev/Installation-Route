@@ -457,9 +457,9 @@ JEI.removeAndHide(<factorytech:disruptor>);
 
 CombinationCrafting.addRecipe(<factorytech:energizer>, 300000, 1000, <thermalexpansion:frame:128>, [<factorytech:machinepart:170>, <thermalexpansion:device:2>, <ore:gearEmerald>, <ore:gearEmerald>, <ore:blockSteel>, <factorytech:machinepart:121>, <factorytech:machinepart:111>, <factorytech:machinepart:101>, <factorytech:machinepart:91>]);
 
-Temperer.addRecipe(<factorytech:machinepart:33>*2, <ore:ingotLumium>, 36);
-Temperer.addRecipe(<factorytech:machinepart:73>*3, <ore:blockLumium>, 44);
-Temperer.addRecipe(<factorytech:machinepart:14>*3, <ore:gearLumium>, 17);
+Temperer.addRecipe(<factorytech:machinepart:33>*3, <ore:ingotLumium>, 36);
+Temperer.addRecipe(<factorytech:machinepart:73>*4, <ore:blockLumium>, 44);
+Temperer.addRecipe(<factorytech:machinepart:14>*4, <ore:gearLumium>, 17);
 MetalCutter.addRecipe(<factorytech:machinepart:4>, <factorytech:machinepart:14>, false);
 
 Agitator.addRecipe(<liquid:pyrotheum> * 1000, <liquid:cryotheum> * 2500, null, <liquid:reactor_fuel_1>*1000, null);
