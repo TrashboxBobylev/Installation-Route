@@ -190,7 +190,7 @@ mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:772>*2, 
 mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:2049>*3, <thermalfoundation:material:2051>*3, <thermalfoundation:material:2053>*3, <minecraft:bucket>], <forge:bucketfilled>.withTag({FluidName: "material_dust", Amount: 1000}), null, 30000);
 
 //make more organic with plant matter
-recipes.addShapeless(<contenttweaker:livingmatter>*12, [<contenttweaker:livingmatter>, <contenttweaker:untamed_plant_matter>]);
+recipes.addShapeless(<contenttweaker:livingmatter>*25, [<contenttweaker:livingmatter>, <contenttweaker:untamed_plant_matter>]);
 
 //or biodiesel, I guess
 mods.thermalexpansion.Crucible.addRecipe(<liquid:biocrude> * 500, <contenttweaker:untamed_plant_matter>, 50000);
