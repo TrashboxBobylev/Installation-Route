@@ -4,13 +4,13 @@
 	x: 5.5d,
 	y: -5.0d,
 	shape: "rsquare",
-	description: "Assemble last materials in Resource Reactor",
+	description: "Assemble the last materials in Resource Reactor",
 	text: [
 		"There are two other materials the Reactor can produce.",
 		"",
-		"Gaia Spirit is best magic-based product and uses four top-tier artifacts.",
+		"Gaia Spirit is best magic-based product and uses combined power of four sacred artifacts.",
 		"",
-		"Enderium is the last step in known technology and allows the fabrication of the best machines."
+		"Enderium is the last step in known thermal technology and allows the fabrication of the best machines."
 	],
 	dependencies: [
 		"60a5c566"

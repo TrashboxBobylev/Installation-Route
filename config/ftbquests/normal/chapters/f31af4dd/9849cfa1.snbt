@@ -6,10 +6,10 @@
 	text: [
 		"You have the network which can store up to 16 pieces of data.",
 		"",
-		"Let's imagine, that you have a meme to put into network. Sadly, you can't put memes there, but this is just an example.",
+		"Let's imagine, that you have a meme to put into network (sadly, you can't put memes there, but this is just a relatable example).",
 		"Funnels are essentially IO ports: they write and print data. It depends on where the arrow points. You can check the possible interactions in the Lexica Botania.",
 		"",
-		"Retainers are extra memory: they store one piece of data. They can be used as buffers, when a stack doesn't fit a job."
+		"Retainers are extra memory: they store one piece of data. They can be used as buffers, when a stack doesn't fit for a job."
 	],
 	dependencies: [
 		"604d9fa8"

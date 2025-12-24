@@ -3,13 +3,13 @@
 	x: 5.5d,
 	y: 1.0d,
 	shape: "rsquare",
-	description: "Obtain basic matter of the world",
+	description: "Obtain the basic matter of the world",
 	text: [
-		"With Scrap, the Resource Reactor can synthesize a unique liquid that unifies red fluxes and material matter.",
+		"With bits of Scrap, the Resource Reactor can synthesize an unique liquid, that unifies red flux and material matter.",
 		"",
-		"The process is pretty time-consuming: as E=mc^2, you need a lot of energy to liquify it. Although Scrap helps to materialize Primordial Energy.",
+		"The process is pretty time-consuming: due to E=mc^2, you need a lot of energy to liquify it. Although Scrap helps to materialize Primordial Energy.",
 		"",
-		"If you are impatient, the Resource Reactor can take heaps of scrap to speed up the process. Beware: the speed boost lowers with every new portion of scrap, so don't dump every single piece of your garbage."
+		"If you are impatient, the Resource Reactor can consume larger heaps of scrap to speed up the process. Beware: the efficiency of the process lowers with every new portion of scrap, so don't dump every single piece of your garbage at once."
 	],
 	dependencies: [
 		"edbf4df5"

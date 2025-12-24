@@ -4,9 +4,9 @@
 	y: -3.5d,
 	description: "Learn about Cygnus's processing",
 	text: [
-		"What you were learning in mathematic lessons in college? Nothing? Don't worry, we remind you: predicates and actions.",
+		"What you were learning in mathematic lessons in college? Nothing of value? Don't worry, we remind you: predicates and actions.",
 		"",
-		"You can use Crystal Cubes to have a visual predicates for your network. To configure it, use special cyan plates.",
+		"You can use Crystal Cubes to show all visual predicates for your network. To configure it, use special cyan plates.",
 		"If you are blind, use a redstone comparator to check if the condition on the cube is true.",
 		"",
 		"Actions are performed by Words. They use some data, like numbers, items, memes, and then process them into new data for this stack. If you have been mistaken, the errors appear in network's storage.",

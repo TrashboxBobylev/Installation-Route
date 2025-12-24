@@ -7,9 +7,9 @@
 	text: [
 		"Primordial Energy, due to its fundamentalism, can be used to shapeshift into any matter.",
 		"",
-		"We have discovered that having solid Primordial Energy around the Ultimate Table allows it to pour energy into items to transform them.",
+		"We have discovered, that having solid Primordial Energy around the Ultimate Table allows it to pour energy into items to transform them.",
 		"",
-		"The Replication Construct uses this construction to transmute and replicate items."
+		"The Replication Construct uses this knowledge to transmute and replicate items."
 	],
 	dependencies: [
 		"9d937e88"

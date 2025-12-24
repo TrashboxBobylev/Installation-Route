@@ -1,13 +1,13 @@
 {
-	title: "Wield Your Darkness",
+	title: "Embrace Your Darkness",
 	x: 0.0d,
 	y: -1.5d,
 	shape: "rsquare",
 	description: "Synthesize black iron",
 	text: [
-		"Welcome to the end-game. You are finally reaching our last instructions on your way of escape.",
+		"Welcome to the end-game. You are finally reaching our last instructions on your way of escape this darn box.",
 		"",
-		"It's time for using your new fusion reactor. for creating the darkness. It can be used for most advanced devices."
+		"It's time to use your newly built fusion reactor for creating the darkness. It can be used for most advanced devices."
 	],
 	dependencies: [
 		"b2d093c4"
