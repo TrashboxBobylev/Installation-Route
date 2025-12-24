@@ -187,7 +187,7 @@ mods.thermalexpansion.Imbuer.addRecipe(<fluid:element_dust>*1000, <contenttweake
 mods.thermalexpansion.Imbuer.addRecipe(<fluid:material_dust>*1000, <contenttweaker:elemental_stone_dust>*2, <liquid:heavywater>*1000, 10000);
 
 mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:772>*2, <thermalfoundation:material:771>*2, <thermalfoundation:material:770>*2, <minecraft:bucket>], <forge:bucketfilled>.withTag({FluidName: "element_dust", Amount: 1000}), null, 30000);
-mods.thermalexpansion.Centrifuge.addRecipe([<minecraft:blaze_powder>*3, <thermalfoundation:material:2049>*3, <thermalfoundation:material:2051>*3, <thermalfoundation:material:2053>*3], <forge:bucketfilled>.withTag({FluidName: "material_dust", Amount: 1000}), null, 30000);
+mods.thermalexpansion.Centrifuge.addRecipe([<thermalfoundation:material:2049>*3, <thermalfoundation:material:2051>*3, <thermalfoundation:material:2053>*3, <minecraft:bucket>], <forge:bucketfilled>.withTag({FluidName: "material_dust", Amount: 1000}), null, 30000);
 
 //make more organic with plant matter
 recipes.addShapeless(<contenttweaker:livingmatter>*12, [<contenttweaker:livingmatter>, <contenttweaker:untamed_plant_matter>]);
