@@ -23,7 +23,7 @@ recipes.addShaped((<thermalexpansion:device:5> * 3).withTag({RSControl: 0 as byt
 
 //change hopperhock recipe to be expensive
 mods.botania.Apothecary.removeRecipe("hopperhock");
-mods.botania.Apothecary.addRecipe("hopperhock", [<ore:petalGray>, <ore:petalGray>, <ore:petalLightGray>, <ore:petalLightGray>, <ore:runeAirB>, <ore:redstoneRoot>, <ore:blockInvar>, <ore:ingotInvar>, <ore:ingotInvar>]);
+mods.botania.Apothecary.addRecipe("hopperhock", [<ore:petalGray>, <ore:petalGray>, <ore:petalLightGray>, <ore:petalLightGray>, <ore:runeAirB>, <ore:redstoneRoot>, <ore:gearInvar>, <ore:gearInvar>]);
 
 //item frame is also hardened(TM)
 recipes.remove(<minecraft:item_frame>);
