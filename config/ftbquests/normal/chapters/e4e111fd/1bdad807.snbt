@@ -1,0 +1,22 @@
+{
+	title: "Back to the Nature",
+	x: -9.5d,
+	y: -6.0d,
+	description: "Be aware of things Botania offers, like clay",
+	text: [
+		"While technology is marvelous in its own right, in such limited resources it might be worth it to look into more botanical solutions.",
+		"",
+		"They could be cheaper and require less steps to do, than using thermal technology."
+	],
+	dependencies: [
+		"5cbaa401"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f65e3371",
+		type: "item",
+		items: [{
+			item: "minecraft:clay_ball"
+		}]
+	}]
+}
