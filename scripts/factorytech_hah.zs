@@ -245,10 +245,14 @@ CombinationCrafting.addRecipe(<factorytech:reclaimer>, 25000, <thermalexpansion:
 CombinationCrafting.addRecipe(<factorytech:planter>, 25000, <thermalexpansion:frame:128>, [<ore:gearEmerald>, <contenttweaker:element_hoe>, <ore:plateCopper>, <ore:plateCopper>, <ore:plateAluminum>, <factorytech:machinepart:120>]);
 
 //runic altar for circuitscribing
-RuneAltar.addRecipe(<factorytech:circuit_intermediate>*3, [<minecraft:grass>, <contenttweaker:wood_casing>, <ore:gemQuartz>], 1000);
-RuneAltar.addRecipe(<factorytech:circuit_intermediate:1>*3, [<minecraft:dirt:2>, <contenttweaker:lead_hull>, <ore:gemQuartz>], 1000);
-RuneAltar.addRecipe(<factorytech:circuit_intermediate:2>*3, [<minecraft:mycelium>, <contenttweaker:bronze_sheet>, <ore:gemQuartz>], 1000);
-RuneAltar.addRecipe(<factorytech:circuit_intermediate:3>*3, [<botania:altgrass:1>, <contenttweaker:iron_tiles>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate>*4, [<botania:biomestonea>, <contenttweaker:wood_casing>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate>*4, [<botania:biomestonea:1>, <contenttweaker:wood_casing>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:1>*4, [<botania:biomestonea:2>, <contenttweaker:lead_hull>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:1>*4, [<botania:biomestonea:3>, <contenttweaker:lead_hull>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:2>*4, [<botania:biomestonea:4>, <contenttweaker:bronze_sheet>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:2>*4, [<botania:biomestonea:5>, <contenttweaker:bronze_sheet>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:3>*4, [<botania:biomestonea:6>, <contenttweaker:iron_tiles>, <ore:gemQuartz>], 1000);
+RuneAltar.addRecipe(<factorytech:circuit_intermediate:3>*4, [<botania:biomestonea:7>, <contenttweaker:iron_tiles>, <ore:gemQuartz>], 1000);
 
 //rewamping reclaimer recipes
 ScrapFurnace.removeRecipe(<minecraft:iron_nugget>*7);
