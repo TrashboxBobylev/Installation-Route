@@ -2,12 +2,11 @@
 	title: "3rd Generation of Redstone",
 	x: -4.5d,
 	y: 9.5d,
-	description: "Use Redstone Processor to process redstone pulses.",
+	description: "Use Redstone Processor to process redstone pulses",
 	text: [
-		"This circuit-powered trinket is capable of processing standard 8-bit assembly code to generate or receive redstone pulses.",
-		"",
-		"To learn about using it, go to this link: https://www.curseforge.com/minecraft/mc-mods/minecoprocessors/pages/getting-started"
+		"This circuit-powered trinket is capable of processing standard 8-bit assembly code to generate or receive redstone pulses."
 	],
+	guide_page: "microprocessor",
 	dependencies: [
 		"2d812a52"
 	],

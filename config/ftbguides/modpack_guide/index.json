@@ -8,5 +8,10 @@
   "id": "obsidian",
   "title": "Blaze Rods Economy",
   "icon": "item:ftbquests:book"
+ },
+ {
+  "id": "microprocessor",
+  "title": "Redstone Processor Guide",
+  "icon": "item:ftbquests:book"
  }
 ]
