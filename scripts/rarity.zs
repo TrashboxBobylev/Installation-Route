@@ -1,10 +1,38 @@
 import crafttweaker.item.IItemStack;
 
+function rarityTooltip(stack as IItemStack, rarity as string){
+	if (rarity == "dark_green"){
+		stack.addShiftTooltip("Tier: Early Game");
+	}
+	if (rarity == "dark_aqua"){
+		stack.addShiftTooltip("Tier: Technology");
+	}
+	if (rarity == "green"){
+		stack.addShiftTooltip("Tier: Alfheim/Diamond");
+	}
+	if (rarity == "red"){
+		stack.addShiftTooltip("Tier: Early Part 2");
+	}
+	if (rarity == "yellow"){
+		stack.addShiftTooltip("Tier: Circuitry");
+	}
+	if (rarity == "dark_purple"){
+		stack.addShiftTooltip("Tier: Elemental Ingots");
+	}
+	if (rarity == "blue"){
+		stack.addShiftTooltip("Tier: Part 3");
+	}
+	if (rarity == "light_purple"){
+		stack.addShiftTooltip("Tier: Endgame");
+	}
+}
+
 function rarity16(stack as IItemStack, rarity as string){
 	val def = stack.definition;
 
 	for i in 0 .. 16{
 		def.makeStack(i).setRarity(rarity);
+		rarityTooltip(def.makeStack(i), rarity);
 	}
 }
 
@@ -61,6 +89,7 @@ val items_tier2 = [
 
 for it in items_tier2{
 	it.setRarity("dark_green");
+	rarityTooltip(it, "dark_green");
 }
 rarity16(<botania:flower>, "dark_green");
 rarity16(<botania:mushroom>, "dark_green");
@@ -92,6 +121,7 @@ val cosmeticdef = <botania:cosmetic>.definition;
 
 	for i in 0 .. 33{
 		cosmeticdef.makeStack(i).setRarity("dark_green");
+		rarityTooltip(cosmeticdef.makeStack(i), "dark_green");
 	}
 	
 
@@ -220,6 +250,7 @@ val items_tier3 = [
 
 for it in items_tier3{
 	it.setRarity("dark_aqua");
+	rarityTooltip(it, "dark_aqua");
 }
 rarity16(<botania:shinyflower>, "dark_aqua");
 rarity16(<botania:custombrick>, "dark_aqua");
@@ -238,20 +269,25 @@ var saplingdef = <minecraft:sapling>.definition;
 
 	for i in 1 .. 16{
 		saplingdef.makeStack(i).setRarity("dark_aqua");
+		rarityTooltip(saplingdef.makeStack(i), "dark_aqua");
 	}
-<minecraft:sapling>.setRarity("dark_green");	
+<minecraft:sapling>.setRarity("dark_green");
+rarityTooltip(<minecraft:sapling>, "dark_green");
 
 var leavesdef = <minecraft:leaves>.definition;
 
 	for i in 1 .. 16{
 		leavesdef.makeStack(i).setRarity("dark_aqua");
+		rarityTooltip(leavesdef.makeStack(i), "dark_aqua");
 	}
 <minecraft:leaves>.setRarity("dark_green");
+rarityTooltip(<minecraft:leaves>, "dark_green");
 	
 var logdef = <minecraft:log>.definition;
 
 	for i in 1 .. 16{
 		logdef.makeStack(i).setRarity("dark_aqua");
+		rarityTooltip(logdef.makeStack(i), "dark_aqua");
 	}
 <minecraft:log:0>.setRarity("white");
 	
@@ -259,6 +295,7 @@ var planksdef = <minecraft:planks>.definition;
 
 	for i in 1 .. 16{
 		planksdef.makeStack(i).setRarity("dark_aqua");
+		rarityTooltip(planksdef.makeStack(i), "dark_aqua");
 	}
 <minecraft:planks:0>.setRarity("white");
 	
@@ -328,6 +365,7 @@ val items_tier4 = [
 
 for it in items_tier4{
 	it.setRarity("green");
+	rarityTooltip(it, "green");
 }
 rarity16(<charset:logic_wire_n>, "green");
 rarity16(<botania:sparkupgrade>, "green");
@@ -377,6 +415,7 @@ val items_tier5 = [
 
 for it in items_tier5{
 	it.setRarity("red");
+	rarityTooltip(it, "red");
 }
 rarity16(<quark:parrot_egg>, "red");
 
@@ -401,6 +440,7 @@ val items_tier6 = [
 
 for it in items_tier6{
 	it.setRarity("yellow");
+	rarityTooltip(it, "yellow");
 }
 
 val items_tier7 = [
@@ -424,6 +464,7 @@ val items_tier7 = [
 
 for it in items_tier7{
 	it.setRarity("dark_purple");
+	rarityTooltip(it, "dark_purple");
 }
 
 val items_tier8 = [
@@ -493,6 +534,7 @@ val items_tier8 = [
 
 for it in items_tier8{
 	it.setRarity("dark_blue");
+	rarityTooltip(it, "dark_blue");
 }
 rarity16(<botania:laputashard>, "dark_blue");
 rarity16(<botania:flighttiara>, "dark_blue");
@@ -517,4 +559,5 @@ val items_tier9 = [
 
 for it in items_tier9{
 	it.setRarity("light_purple");
+	rarityTooltip(it, "light_purple");
 }
