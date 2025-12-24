@@ -4,13 +4,13 @@
 	y: -6.5d,
 	description: "Use gates to send signals over redstone and wires",
 	text: [
-		"With the help of terrasteel and signalum, you can create small gadgets that can send signals over configured triggers.",
+		"With the alloy mix of Terrasteel and Signalum, you can create small gadgets, that can send signals over configured triggers.",
 		"",
 		"It can be done with regular redstone or specialized pipe wires, designed to fit in the same space as gates.",
 		"",
 		"There are many different triggers, however they can be split into several categories: signal-related, triggers related to type of pipe and other triggers, like mana burst.",
 		"",
-		"You can upgrade gates with various plates, increasing their efficiency and capacity."
+		"You can upgrade gates with various metal plates, increasing their efficiency and capacity."
 	],
 	dependencies: [
 		"948ddbcb"

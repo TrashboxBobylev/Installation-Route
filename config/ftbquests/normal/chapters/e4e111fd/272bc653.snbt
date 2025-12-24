@@ -1,14 +1,14 @@
 {
-	title: "My Name is Sans, Sans the Solar Panel User",
+	title: "My Name is Sans, Sans the Solar Enjoyer",
 	x: 1.0d,
 	y: -7.5d,
 	description: "Use solar panels as consumable RF source",
 	text: [
-		"Even the greatest of men sometimes can't overcome the lack of motivation. Especially when the task may seem very complicated and boring.",
+		"Even the greatest of engineers sometimes can't overcome the lack of motivation. Especially when the task may seem very convoluted and boring.",
 		"",
 		"If you don't want to work for your energy production, there is a way to process stuff without it: solar panels!",
 		"",
-		"This blueprint relies on the photosynthesis capabilities of petals and redstone's fluxations. Sadly, due to high energy output compared to more common models, this panel quickly burns out.",
+		"This blueprint relies on the photosynthesis capabilities of petals and redstone fluxations. Sadly, due to high energy output, compared to more common models, this panel quickly burns out. Recycling some of it is possible, though.",
 		"",
 		"This should be enough to keep one RF machine going."
 	],

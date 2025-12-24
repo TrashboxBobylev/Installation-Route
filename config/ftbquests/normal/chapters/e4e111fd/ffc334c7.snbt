@@ -4,11 +4,11 @@
 	y: 2.0d,
 	description: "Use FactoryTech gadgets to move items",
 	text: [
-		"FactoryTech provides some tools to distribute items in simple ways.",
+		"FactoryTech, fitting with its name, provides some tools to distribute items in your factory.",
 		"",
 		"Some of them drop items into the world. To make those work with Buildcraft pipes, use Vacuum pipe right next to them.",
 		"",
-		"Inventory Sensor is valuable for autocrafting, as it allows detection of when all needed items are in a chest."
+		"Inventory Sensor is valuable for automatic crafting, as it allows the detection of a moment, when all needed items are in inventory."
 	],
 	dependencies: [
 		"1edff9b4"

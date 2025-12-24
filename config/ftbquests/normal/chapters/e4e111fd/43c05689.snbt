@@ -4,11 +4,11 @@
 	y: -0.5d,
 	description: "Heat water and produce RF with it",
 	text: [
-		"Doesn't burning tons of raw materials make your mind short-sighted?",
+		"Doesn't burning tons of raw materials make your mind short-sighted and dusty?",
 		"",
-		"We have a solution for you: teapot! We are serious, just heat some water and use its heat to power things!",
+		"We have a solution for you: teapot! This is not a joke, you just heat some water and use its heat to power things!",
 		"",
-		"Yeah, it's unrealistic, but it saves wood and the atmosphere!"
+		"Yeah, it's unrealistic and makes no thermodynamic sense, but it saves wood and the atmosphere!"
 	],
 	dependencies: [
 		"abb0c140"

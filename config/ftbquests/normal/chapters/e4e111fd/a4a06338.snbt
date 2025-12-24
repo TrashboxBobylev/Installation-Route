@@ -6,9 +6,9 @@
 	shape: "rsquare",
 	description: "Alternative ores and whatever",
 	text: [
-		"With access of mana you can actually try to mess with the ores given to you before. Did you know, that iron actually contains gold?",
+		"With access to the mana you can actually try to mess with the ores given to you before. Did you know, that iron actually contains gold?",
 		"",
-		"Submerging ores in a mana pool will yield their alternative element according to hidden laws of ore processing by one of greatest engineers and political leaders of our time, G.R. Egourist. Don't ask how we acquired his books."
+		"Submerging ores in a mana pool will yield their alternative element according to hidden laws of ore processing, researched by one of greatest Minecraftian engineers and political leaders, G.R. Egourist. Don't ask how we have acquired his lectures."
 	],
 	dependencies: [
 		"5cbaa401"

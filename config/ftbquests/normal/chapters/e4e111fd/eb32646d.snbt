@@ -1,13 +1,17 @@
 {
-	title: "New Fancy Attachments",
+	title: "Fancy Logic Attachments",
 	x: 20.0d,
 	y: -0.5d,
 	description: "Learn requesting and autocrafting with new logistics",
 	text: [
 		"Firstly, you have Requesters, which can pull items from connected inventories, like Retrievers. One difference is if a Requester doesn't find the required item in the network, it will create a new crafting request.",
+		"",
 		"Those crafting requests can be executed by Crafters. They need to be configured with recipes in their GUI.",
+		"",
 		"Note, that a Crafter is a Retriever (it pulls items to itself, no servo needed) and requires to be attached to output in case of TE machines.",
+		"",
 		"One useful feature of Crafters is linking. When Crafters have the same output, they can be linked with a Network Manager (press V and click on crafters).",
+		"",
 		"Once linked, Crafters will act as one, meaning, that crafting request will be distributed between linked Crafters."
 	],
 	dependencies: [

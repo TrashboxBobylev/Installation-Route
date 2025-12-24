@@ -7,9 +7,9 @@
 		"You don't need to fight at all.",
 		"All lootable components can be obtained with crafting or processing other items.",
 		"",
-		"Therefore, almost all weapons are excluded from your timeline, with almost every armor. You should check for Manaweave and Terrasteel sets.",
+		"Therefore, almost all weapons and armor have been excluded from your timeline. You should check Manaweave and Terrasteel sets for their utility boosts.",
 		"",
-		"Also, your metabolism is stopped, so you don't get hungry from doing tasks."
+		"Also, your metabolism is stopped, so you don't get hungry from doing any tasks."
 	],
 	dependencies: [
 		"3558e8ac"

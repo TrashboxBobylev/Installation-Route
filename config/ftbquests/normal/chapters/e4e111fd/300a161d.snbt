@@ -6,12 +6,12 @@
 	text: [
 		"Iron and glass make fairly crude pipes that can be used to move items over distances.",
 		"",
-		"The things you need to know about them:",
-		"- Law of Gravity: items go down even if a higher path is possible.",
-		"- Law of Inertia: on intersections items will move forward.",
-		"    - The exception to this law: when the forward path doesn't exist, items will bump into left path or right path randomly.",
-		"- Law of Counteraction: when the destination inventory is full, items will turn back.",
-		"- Law of Despair: when items have nowhere to go (can be achieved by not connecting pipes to any inventory or overloading it), items will pop out."
+		"The things you need to know about them (shown by experimentation):",
+		"- Items go down even if a higher path is possible.",
+		"- If meeting interesections, items will move forward.",
+		"    - The exception to this is when the forward path doesn't exist; items will then go into left path or right path randomly.",
+		"- When the destination inventory is full, items will turn back.",
+		"- When items have nowhere to go (can be achieved by not connecting pipes to any inventory or leaving them fully), items will pop out."
 	],
 	dependencies: [
 		"d26d6592"

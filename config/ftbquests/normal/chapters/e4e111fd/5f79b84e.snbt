@@ -4,7 +4,7 @@
 	y: -2.0d,
 	description: "Use Pure Daisy on ores",
 	text: [
-		"For some reason, these ores can be purified by the Pure Daisy, like regular stone turns into living rock.",
+		"For some reason, probably related to G. R. Egoriust's legacy, these ores can be purified by the Pure Daisy, like how regular stone will turn into livingrock.",
 		"",
 		"Purified ores yield over 3 times more dust."
 	],

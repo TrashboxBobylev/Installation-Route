@@ -4,9 +4,9 @@
 	x: -12.0d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "Use new obtained resources to get into botanic blueprints",
+	description: "Use newly obtained resources to get into botanic technology",
 	text: [
-		"Now you have fabricators for base ores and some weird substance that is composed from cells? Don't worry about cells, they are just needed for organics."
+		"Now you have fabricators for base ores and also some weird substance, that is composed from plant cells? Don't worry about them, they are just needed for organic growth."
 	],
 	dependencies: [
 		"c686ac24"

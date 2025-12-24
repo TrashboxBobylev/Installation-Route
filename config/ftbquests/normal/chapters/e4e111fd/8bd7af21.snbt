@@ -6,12 +6,12 @@
 	shape: "rsquare",
 	description: "Mix blood and rocks to make them hellish",
 	text: [
-		"In this realm, you might wondering how to get heated hellfire blocks.",
+		"With no convenient portal to underworld, you might wondering how to get heated hellfire blocks.",
 		"",
-		"One of the main components for nether rocks is bursting the blood of innocent creatures, unfairly murder on possession of wrath and lust...",
-		"But we are scientists, right? We should be practical! If the liquid is red and bursting, then it's blood... right? So we add red dye into water and get blood.",
+		"One of the main components for netherrack was revealed to be the blood of innocent creatures, made from unfairly murder on possession of wrath and lust...",
+		"But we are engineers, not priests, right? There is no way we would kill orphans to progress! If the liquid is red and bursting, then it's blood... that's how that works? So just add red dye into water and get blood.",
 		"",
-		"Understand?"
+		"Don't ask any more questions."
 	],
 	dependencies: [
 		"8e35bb30"

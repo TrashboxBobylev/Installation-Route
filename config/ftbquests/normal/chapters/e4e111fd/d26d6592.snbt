@@ -6,9 +6,9 @@
 	shape: "rsquare",
 	description: "Use shovel unintentionally",
 	text: [
-		"Have you thought why bashing stone with shovel doesn't crush it? No?",
+		"Have you thought, why bashing stone with a shovel doesn't crush it? No? You need a hammer for that?",
 		"",
-		"Now you can. Bash stone to get sand, and bash cobble to get gravel."
+		"No you don't. Bash stone block to get sand, and bash cobblestone to get gravel."
 	],
 	dependencies: [
 		"a4a06338"

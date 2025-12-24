@@ -7,7 +7,7 @@
 	text: [
 		"These items represent the essence of the five interactions in our world: mining, farming, chopping, hunting and digging. We call them \"sacred items\".",
 		"",
-		"Each sacred item can conjure a bit of their unlimited power for processing resources in new, yet familiar ways."
+		"Each sacred item can conjure a bit of their boundless power for processing resources in new, yet familiar ways."
 	],
 	dependencies: [
 		"60d7bf3e"

@@ -1,13 +1,13 @@
 {
-	title: "Pretty Hard",
+	title: "Hardcore Ice Bucketing",
 	x: 10.0d,
 	y: -4.0d,
 	shape: "rsquare",
 	description: "Create obsidian with magma and water",
 	text: [
-		"Obsidian is a very useful thing.",
+		"Obsidian has been a very useful thing to all Minecrafters.",
 		"",
-		"You put water on lava and get obsidian, but how to mine that? Manasteel pick is definitely a choice for this.",
+		"You put water on lava and get obsidian, but how do you mine that? Manasteel pick is definitive choice for this.",
 		"",
 		"You can either try to fabricate lava by combining heavy water and elemental fire on the runic altar, or farm blaze power for mesh to transform it into obsidian."
 	],

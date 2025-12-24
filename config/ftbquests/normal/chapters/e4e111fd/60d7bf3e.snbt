@@ -1,13 +1,13 @@
 {
-	title: "Finally, Some Other Civilization",
+	title: "Finally, Some Other Guys",
 	x: 18.5d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "Open portal into Alf dimension",
+	description: "Open portal into elf dimension",
 	text: [
-		"Terrasteel was difficult? Well, making portal is even harder without proper aura, but you can do it!",
+		"Terrasteel was difficult? Well, making portal is even harder without proper aura, but you can do it with just some plating!",
 		"",
-		"All we need is general elemental stuff. Not botanical, but foundational to this world."
+		"All we need is general elemental stuff. Not botanical, but foundational to this world's thermal balance."
 	],
 	dependencies: [
 		"948ddbcb"

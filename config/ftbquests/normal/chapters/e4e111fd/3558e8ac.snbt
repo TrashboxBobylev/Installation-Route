@@ -4,9 +4,9 @@
 	x: -17.0d,
 	y: -4.0d,
 	shape: "octagon",
-	description: "Awake from horrible events",
+	description: "Wake up from horrible events",
 	text: [
-		"If you are awake, then the experiment was successful. Or it is? Well, it's doesn't matter for you, because regardless of answer, you are stuck in this confusing sky box!"
+		"If you are awake, then the experiment was successful. Or is it? Well, it doesn't matter for you, because regardless of an answer, you are stuck in this confusing sky box!"
 	],
 	hide_text_until_complete: true,
 	size: 2.0d,

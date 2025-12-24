@@ -5,10 +5,10 @@
 	shape: "rsquare",
 	description: "Use fabricators to produce resources",
 	text: [
-		"How these boxes, named fabricators, works? They transfer resources from overworld to this box through interdimensional translocat... teleports.",
-		"Sadly, the transfer rate is very small due to complications of building this channel in first place, so don't complain!",
-		"Fabricators can't push items by itself, so any item transporter is needed.",
-		"Hoppers are sufficient for this."
+		"How these so called fabricators work? They transfer resources from the overworld to this box through interdimensional translocat... teleports.",
+		"Sadly, the transfer rate is very small due to complications with building this relay in first place, so don't complain!",
+		"Fabricators can't push items by themself, so any item transporter is needed.",
+		"Hoppers will be sufficient for this."
 	],
 	dependencies: [
 		"3558e8ac"

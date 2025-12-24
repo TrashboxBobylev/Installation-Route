@@ -9,7 +9,7 @@
 		"",
 		"That's because your contraptions can't store flux. You need to keep dynamos going to make machines work constantly.",
 		"",
-		"Fluxducts can store minor amount of RF that should be used during emergencies, but don't rely on this feature.",
+		"Fluxducts can store minor amount of RF that should be used during emergencies, but you can't really rely on this feature.",
 		"",
 		"One way around is charging capacitors in separate energy network, then using them when the main dynamos can't keep up."
 	],

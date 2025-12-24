@@ -1,10 +1,12 @@
 {
-	title: "Return me My Ore Processing!",
+	title: "Return Me My Ore Processing!",
 	x: 5.0d,
 	y: -6.0d,
 	description: "Create centrifuge for ore processing",
 	text: [
-		"G. R. Egoriust was also studying the power of centrifuging. He has discovered that processing a huge amount of dust yields actual metallic dust. This could be fast way to get secondary elements."
+		"G. R. Egoriust was also studying the power of centrifuging. He have discovered, that processing a huge amount of dust at once separates all junk and yields actual metallic dust. ",
+		"",
+		"This could be a faster way to get secondary elements for each ore."
 	],
 	dependencies: [
 		"9d5d6d6a"

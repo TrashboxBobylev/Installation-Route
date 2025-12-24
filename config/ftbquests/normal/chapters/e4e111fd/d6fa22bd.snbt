@@ -4,9 +4,9 @@
 	y: -6.0d,
 	description: "Use wooden pipes to transmit liquids",
 	text: [
-		"Glass and wood make liquid pipes that can transfer some liquids.",
+		"Glass and wood make fluid pipes, that can transfer some liquids.",
 		"",
-		"The big downside is some sort of incrustation. It can be seen with The One Probe as stray liquid bits. It might mess up with your automation.",
+		"The big downside is some sort of incrustation, which can be seen with The One Probe as stray liquid bits. It might mess up with your automation.",
 		"",
 		"To start, use Fluid Allocator or attach piston to any pipe."
 	],

@@ -5,7 +5,9 @@
 	y: -6.5d,
 	description: "Use the power of explosions and graphite",
 	text: [
-		"Remember the ol' days, when diamonds were craftable from fossils? We neither, and because of that you can compress explosions and sturdy coal to make these precious brilliants."
+		"Remember the ol' days, when diamonds were produced from compressing carbon over and over? ",
+		"",
+		"We don't want too, and because of that you can compress explosions and sturdy coal to make these precious brilliants in much simpler manner."
 	],
 	dependencies: [
 		"abb0c140"

@@ -4,7 +4,7 @@
 	y: -6.0d,
 	description: "Save your iron for machinery",
 	text: [
-		"This interesting metal is durable, light and is not magnetic. Along with being cheap, aluminum can be used as a replacement for iron in many places."
+		"This interesting metal is durable, light and is not magnetic. Along with being cheap, aluminum can be used as a replacement for iron in many applications."
 	],
 	dependencies: [
 		"a4a06338"

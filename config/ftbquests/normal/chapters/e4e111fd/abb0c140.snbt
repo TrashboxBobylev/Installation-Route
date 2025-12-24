@@ -5,7 +5,9 @@
 	shape: "rsquare",
 	description: "Construct Pulverizer",
 	text: [
-		"You have acquired everything for a pulverizer! This will allow to process your ores into special dusts."
+		"You have acquired everything for a pulverizer! This will allow to process your ores into special dusts.",
+		"",
+		"And some other dust depending on luck. Minerals are not consistent."
 	],
 	dependencies: [
 		"95db9f55"

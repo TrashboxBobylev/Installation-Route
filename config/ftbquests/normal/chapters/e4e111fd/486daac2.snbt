@@ -3,11 +3,14 @@
 	icon: "thermallogistics:terminal_item",
 	x: 17.0d,
 	y: -0.5d,
-	description: "Centralize your storage",
+	description: "Centralize and requestify your storage",
 	text: [
 		"The Terminal, the window into your pipe network. To work, this block need any Requester inserted into its slot in the GUI. With it, you can see all items in connected inventories and \"crafts\" for items, that can be crafted with Crafters.",
+		"",
 		"To request items, simply click on them and specify the amount. Don't be surprised if item doesn't come right away; requesting speed depends on the speed of your Requester and the speed of your pipe network.",
+		"",
 		"The Crafting tab can be confusing, but let us explain. Rather than consuming items from the grid, this tab grabs items from your inventory. If you don't have enough items, you can request them with the appropriate button.",
+		"",
 		"In every case, requested items come into the Terminal's inventory. You can dump content from it into the network or pull items into your inventory."
 	],
 	dependencies: [

@@ -10,7 +10,9 @@
 	y: -1.0d,
 	description: "Use hopper flower to sort items",
 	text: [
-		"You can use Hopperhock as Vaccumulator, but there is one thing that it does great: sorting falling stuff! Just plug item frame with needed item to your storage, and hock will automatically transport relevant stuff into that piece of storage."
+		"You can use Hopperhock as alternative to Vaccumulator, but there is one thing that it does great: sorting falling stuff! ",
+		"",
+		"Just plug item frame with needed item to your storage, and hock will automatically transport relevant stuff into that piece of storage."
 	],
 	dependencies: [
 		"8134da7a"

@@ -1,14 +1,14 @@
 {
-	title: "Analogue from Binary",
+	title: "Analog of Binary",
 	icon: "minecraft:redstone_block",
 	x: -2.0d,
 	y: -4.0d,
 	shape: "rsquare",
-	description: "Obtain redstone",
+	description: "Obtain redstone from analog source",
 	text: [
-		"Any redstone component has some of these laggy and fluxating energy...",
+		"Any redstone component has some of this laggy, fluxating energy by nature of enabling it...",
 		"",
-		"With mana you could try to extract this energy into dust form. Just fill lever with mana."
+		"With the power of mana, you could try to extract this energy into dust form. Just fill a lever with mana."
 	],
 	dependencies: [
 		"d26d6592"

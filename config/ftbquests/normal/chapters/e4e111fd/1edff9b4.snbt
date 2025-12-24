@@ -1,14 +1,14 @@
 {
-	title: "Now I Learned Kinetics",
+	title: "That's How I Learned Kinetics",
 	x: 5.0d,
 	y: 0.0d,
 	description: "Use Buildcraft for more powerful item transport",
 	text: [
-		"If you alloy Quark pipes and various metals, you can get more capable pipes with various functions.",
+		"If you combine Quark pipes and various metals together, you can get more capable pipes with various functions.",
 		"",
-		"Any previous law is not observed on those pipes; items in them go in random directions on intersections and pop out when the inventory is full.",
+		"Quarked pipes' quirks are not observed on those pipes; items in them go in random directions on intersections and pop out when the inventory is full.",
 		"",
-		"There are 12 different kinds of pipes to talk about, so check their tooltips."
+		"There are 12 different kinds of pipes available for use, so make sure to read their tooltips."
 	],
 	dependencies: [
 		"8134da7a"
