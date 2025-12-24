@@ -3,12 +3,11 @@
 	icon: "factorytech:crucible",
 	x: -4.0d,
 	y: -2.5d,
-	description: "Create crucible that melts ores into liquids",
+	description: "Create a crucible, that melts ores into liquids",
 	text: [
-		"W-what? You thought that using modern induction melting is the most profitable way to refine materials? Hah.",
+		"W-what? You thought that using modern induction smelting is the most profitable way to refine materials? What a naive thought!",
 		"",
-		"Well, check this new way to produce more ingots in a more primitive way. Sounds disrespectful to modern technology?",
-		"Well, everybody should learn to accept defeat."
+		"Well, check this new way to produce more ingots in a more primitive way. Sounds disrespectful to modern technology? It is, and that's why it is so awesome, that it somehow keeps up."
 	],
 	dependencies: [
 		"d7ab226a"

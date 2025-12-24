@@ -4,7 +4,7 @@
 	y: 12.0d,
 	description: "Obtain power to manage player",
 	text: [
-		"With Soul Cores and bit of machinery, it's possible to create devices that interact with your profile directly.",
+		"With Soul Cores and bit of machinery, it's possible to create devices that directly interact with your player character.",
 		"",
 		"One useful case is connected to a parallel universes and item transport between them.",
 		"",

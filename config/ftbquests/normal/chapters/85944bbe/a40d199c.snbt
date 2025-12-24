@@ -4,11 +4,11 @@
 	y: 20.0d,
 	description: "Learn about peaceful mob farms",
 	text: [
-		"Hey, don't you think that hurting pigs is bad? Especially when you hear or not hear their agonizing cries...",
+		"Hey, don't you think, that hurting animals is bad? Especially when you hear or not hear their agonizing cries...",
 		"",
-		"There should be a right way to do this without forcing yourself to be vegan? Yes!",
+		"There should be a right way to do this without forcing yourself to be vegan...",
 		"",
-		"This augment helps to get drops without swinging swords or throwing potions, although the energy cost are outrageously high."
+		"This augment helps to get drops without swinging swords or throwing potions, although the energy cost is outrageously high. Minification technology is still at its infancy, it seems."
 	],
 	dependencies: [
 		"07061e85"

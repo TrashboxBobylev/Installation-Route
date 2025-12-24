@@ -2,9 +2,11 @@
 	title: "Compressing Micro-crafting",
 	x: -11.5d,
 	y: 19.0d,
-	description: "Use new resources to compose needed machines",
+	description: "Use new resources to upgrade needed machines",
 	text: [
-		"With new ingots, you can make factory parts with just one craft right at Reinforced tier. This recipe is too good to fit inside regular crafting recipes so hurry up and bring your signalum and glass to the table."
+		"With new ingots, you can make factory parts with just one craft right at Reinforced tier instead of Basic.",
+		"",
+		"This recipe is too good to fit inside regular crafting recipes, so hurry up and bring your signalum and glass to the table."
 	],
 	dependencies: [
 		"07061e85"

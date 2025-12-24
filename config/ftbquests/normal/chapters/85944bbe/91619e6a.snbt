@@ -6,9 +6,9 @@
 	text: [
 		"When upgrades are not enough, you are going to compress the timeline itself to improve their production.",
 		"",
-		"This is why we invented supercharger. It extracts energy cores to speedup time for adjacent machines by 100%!",
+		"This is why we present to you this supercharger. It extracts energy cores to speed up time for adjacent machines by 100%!",
 		"",
-		"Lack of ores? Solved! Lack of energy? Solved! Lack of patience? Solved!"
+		"Lack of ores? Solved! Lack of energy? Probably solved! Lack of patience? Probably never be solved!"
 	],
 	dependencies: [
 		"113e9287"

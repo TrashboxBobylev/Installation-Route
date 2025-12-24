@@ -4,11 +4,11 @@
 	x: -8.5d,
 	y: 8.5d,
 	shape: "rsquare",
-	description: "Make metal cutting device",
+	description: "Make the metal cutting device",
 	text: [
-		"Pulverizer does its job at grinding material, but don't you find the results a bit... rough?",
+		"Pulverizer does its job at grinding down material, but don't you find the results a bit... rough and dirty?",
 		"",
-		"That's where the metal bending machine comes in. It makes good details given gears, blades and chunks of your precious steel."
+		"That's where the metal bending machine comes in. It makes good machine parts, given gears, blades and chunks of your precious steel."
 	],
 	dependencies: [
 		"1b51d0f1"

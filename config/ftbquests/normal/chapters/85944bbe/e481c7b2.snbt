@@ -4,7 +4,9 @@
 	y: 3.0d,
 	description: "Use packaging to automate extended things",
 	text: [
-		"Unpackager can use its power to help automate extended crafting. While for most crafting it will just put items in order, combination crafting requires special pedestals to make recipes."
+		"Unpackager can use its power to help automate Extended Crafting stations. ",
+		"",
+		"While for most crafting it will just put items in order, combination crafting requires special pedestals for recipes to be processed."
 	],
 	dependencies: [
 		"8b83c5cb"

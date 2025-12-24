@@ -1,12 +1,12 @@
 {
-	title: "Metallurgy In Two Blocks (not really)",
+	title: "Metallurgy In Probably Two Blocks",
 	x: -11.5d,
 	y: 17.0d,
-	description: "Make fridge that quickly cast metals",
+	description: "Make the fridge, that quickly casts metals",
 	text: [
-		"Using clay to make ingots, very balanced. But wouldn't you like to make it less balanced?",
+		"Using clay to make ingots, very balanced and very common. But wouldn't you like to make it less balanced?",
 		"",
-		"Let's see: this freezer allows to not use clay, and also casts stuff a lot faster. Ideal way to throw away balance and use it for bricks!"
+		"Let's see: this freezer allows to not use clay, and also casts stuff a lot faster. There is no better way to throw away any balance this environment has!"
 	],
 	dependencies: [
 		"07061e85"

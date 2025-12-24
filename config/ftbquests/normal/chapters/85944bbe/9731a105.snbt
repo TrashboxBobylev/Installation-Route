@@ -1,15 +1,16 @@
 {
-	title: "Integrating Super Mario 64 Physics into World",
+	title: "Integrating Super Mario 64 Physics",
 	x: -4.5d,
 	y: -0.5d,
 	description: "Create additional space for your factory",
 	text: [
-		"While your factory processes metals, take a look at the new feature of this communication device: teleportation!",
+		"While your factory crunches up those metals, take a look at the new feature of this communication tablet: teleportation!",
 		"",
-		"Struggling with space in this little box? Just move to a parallel universe! With one press on this enigmatic device you will be teleported far away into the void.",
-		"How to return back? Just press this device again (although it will look 50% different), and you will be back home.",
+		"Struggling with a space in this little box? Just move to a parallel universe! With one press on this enigmatic device you will be teleported far away into new copy of this stupid box.",
 		"",
-		"You can decide how to use this free space. Or not use it at all for an additional challenge."
+		"How to return back? Just press this device again (although it will look 50% different), and you will be back at old base.",
+		"",
+		"You can decide how to use this free space. Or not use it at all for an additional challenge. We are not ones to decide your grand designs."
 	],
 	dependencies: [
 		"a9288b08"

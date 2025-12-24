@@ -6,9 +6,9 @@
 	shape: "rsquare",
 	description: "Make new metals with new machines",
 	text: [
-		"When processing ores with FactoryTech machines, you might notice the presence of new metals.",
+		"When processing ores with FactoryTech machines, you will notice the presence of new metals.",
 		"",
-		"Those metals are unique and can be used to make even more advanced parts and machines."
+		"Those metals are unique to this infraspace and can be used to make even more advanced parts and machines."
 	],
 	dependencies: [
 		"7278fb9a",

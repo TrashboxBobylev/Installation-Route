@@ -1,13 +1,13 @@
 {
-	title: "Infinity Pieces of Primordial",
+	title: "Infinite Pieces of Primordial",
 	x: -8.5d,
 	y: 6.0d,
 	shape: "rsquare",
 	description: "Materialize the fundamental powers",
 	text: [
-		"To use an artifacts' power, you need the shell for it.",
+		"To actually use an the power of sacred artifacts, you need a shell for it.",
 		"",
-		"Fortunately, you can use new ingots to apply artifacts on them. As sacred items are infinitely powerful, you can create an infinite amount of energy."
+		"Fortunately, you can use new ingots to apply artifacts on them. As sacred items are infinitely powerful, you can create an infinite amount of each energy, given enough ingots."
 	],
 	dependencies: [
 		"a9288b08"

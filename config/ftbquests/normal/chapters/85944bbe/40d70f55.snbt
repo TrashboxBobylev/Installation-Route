@@ -1,13 +1,13 @@
 {
-	title: "Pretty Weird, But Important",
+	title: "Important Weirdness",
 	x: -0.5d,
 	y: 7.5d,
 	shape: "rsquare",
 	description: "Learn about processing blue liquid and andesite dust",
 	text: [
-		"Blue Matter can be melted into a very dense liquid and be processed with elemental liquids to get certain voidic blocks.",
+		"Blue Matter can be melted into a very dense liquid and be processed with elemental liquids to get certain void-related blocks.",
 		"",
-		"Infected Andesite yields very valuable andesite dust and some unsettling resources like rotten flesh. You can also get overgrowth seeds, which can be used to speed-up flowers."
+		"Infected Andesite creates very valuable andesite dust and some unsettling resources, like rotten flesh. You can also get overgrowth seeds, which can be used to speed-up flowers."
 	],
 	dependencies: [
 		"ba63cffd"

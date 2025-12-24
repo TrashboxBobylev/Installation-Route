@@ -5,11 +5,11 @@
 	shape: "rsquare",
 	description: "Create Elemental Ingots",
 	text: [
-		"With the new mixer we can finally turn elemental liquids into metals!",
+		"With the new mixer you can finally turn elemental liquids into metals!",
 		"",
-		"(Well, they are not very metallic, because some idiot proposed blueprints with andesite crumbles as the base. Surprisingly, andesite is metallic enough.)",
+		"(Well, they are not very metallic in chemical sense, because some creative idiot proposed blueprints with andesite crumbles as the base. But we work with limitations, not object to them.)",
 		"",
-		"Those metals feature fundamental potential, empowered with sin liquids."
+		"Those metals embody fundamental potential, empowered with sinful liquids."
 	],
 	dependencies: [
 		"9813b1ea"

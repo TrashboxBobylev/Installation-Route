@@ -1,11 +1,11 @@
 {
-	title: "Essence of Conjuring",
+	title: "Essence of Conjuration",
 	x: -2.5d,
 	y: 6.0d,
 	shape: "rsquare",
-	description: "Create the flower that provides additional resources",
+	description: "Create the flower, that provides unusual resources",
 	text: [
-		"There is different types of conjuring resources from nowhere. This kind of device is resource-intensive: you need 17500 mana and stone blocks.",
+		"There are different types of conjuring resources from nowhere. This kind of device is resource-intensive: you need 17500 mana and stone blocks, but the results are well worth it.",
 		"",
 		"There are 4 different blocks that can be made with the Orechid: Blue Matter, Untamed Plant Matter, Infected Andesite and Elemental Stone."
 	],

@@ -4,9 +4,9 @@
 	y: 18.0d,
 	description: "Make tempering furnace",
 	text: [
-		"Producing steel is slow. We know that and so we introduce the Tempering Oven! This machine produces steel in a fraction of the time.",
+		"Producing steel is kinda slow. We know that and so we introduce the Tempering Oven! This machine produces steel in a fraction of the time.",
 		"",
-		"Slap some timers and prepare Iron. It will be hot."
+		"Slap some timers and prepare the iron. It will be hot."
 	],
 	dependencies: [
 		"07061e85"

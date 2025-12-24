@@ -1,16 +1,16 @@
 {
-	title: "Why TerraFirmaCraft Is Involved In This?",
+	title: "Why is TerraFirmaCraft Involved In This?",
 	icon: "factorytech:machinepart 1 120",
 	x: -8.5d,
 	y: 11.0d,
 	shape: "rsquare",
-	description: "Create device that can create circuit bases",
+	description: "Create circuit bases for more sophisticated machines",
 	text: [
-		"The next step in our degra... progression on the technical tree toward escaping is making dots in quartz.",
+		"The next step in our degra... progression on the technical tree toward escaping the box is making dots in quartz.",
 		"",
-		"This is a very simple process: we use patterns on metals and grass to create an unique control pattern.",
+		"This is a very simple process: we use patterns on metals and metamorphic stone to create an unique control pattern.",
 		"",
-		"Our monkey ancestors could only dream about bonking stones again and again."
+		"Our monkey ancestors could only dream about never having to bonk stones again and again."
 	],
 	dependencies: [
 		"64f6d036"

@@ -2,11 +2,11 @@
 	title: "Comfortable Engineering",
 	x: -4.5d,
 	y: 1.5d,
-	description: "Use less resources to make factory",
+	description: "Use less resources to make more factories",
 	text: [
 		"This new crafting table allows you to reduce the cost of popular automation components, if you need resources for more important things.",
 		"",
-		"It's also usable for making some tricky machine components."
+		"It's also usable for making some exotic machine components."
 	],
 	dependencies: [
 		"a9288b08"

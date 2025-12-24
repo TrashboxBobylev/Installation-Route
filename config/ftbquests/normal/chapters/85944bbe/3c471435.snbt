@@ -4,7 +4,7 @@
 	y: 18.0d,
 	description: "Make secondary ore doubler",
 	text: [
-		"For your next projects, you probably need more ingots. Additional ore duplicaton is required.",
+		"For your next projects, you probably need more and more ingots. Additional ore duplicaton is required.",
 		"",
 		"This electroplater purifies ores by enriching them with acid."
 	],

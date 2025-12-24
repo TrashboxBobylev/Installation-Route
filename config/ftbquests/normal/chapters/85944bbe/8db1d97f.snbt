@@ -2,12 +2,13 @@
 	title: "Grow Up!",
 	x: -14.5d,
 	y: 7.5d,
-	description: "Assemble crop machine",
+	description: "Assemble crop growth machine",
 	text: [
-		"This garden cloche looks really weird. Maybe due to the poisonous smell?",
+		"This design for garden cloche looks really weird. Maybe due to the poisonous smell?",
 		"",
 		"That's right. To make this agricultural masterpiece, you must assemble the most disgusting potato from the most poisonous things in this realm.",
-		"This process costs 15k mana, but it worth it."
+		"",
+		"This process costs 15k mana and nausea, but makes up for the potential of growing any kind of vegetable in a second."
 	],
 	dependencies: [
 		"1b51d0f1"

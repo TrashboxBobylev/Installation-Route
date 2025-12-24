@@ -3,11 +3,11 @@
 	x: -8.0d,
 	y: 22.0d,
 	shape: "rsquare",
-	description: "Create very powerful energy capacitor",
+	description: "Create a very powerful energy capacitor",
 	text: [
-		"This is the Energy Core. The pinnacle of energy sources, very powerful and very expensive.",
+		"This is the Energy Core. The pinnacle of energy sources, very powerful and very expensive, just like all best things in the world.",
 		"",
-		"Most powerful machines require it. And you are going to need it to build the most powerful machine ever."
+		"Most powerful machines require it. And you are going to need it to build the most powerful processing machine ever."
 	],
 	dependencies: [
 		"07061e85"

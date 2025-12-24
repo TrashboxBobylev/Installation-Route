@@ -8,9 +8,10 @@
 	text: [
 		"Congratulations, you are almost there!",
 		"",
-		"But to escape the void, you need something like a huge wormhole. Unfortunately, it's impossible to create such advanced machinery with simple one-block machines. Time to create a fusion reactor!",
+		"But to escape the void, you need something like a huge wormhole, far larger than ones drilled into your soul. ",
+		"Unfortunately, it's impossible to create such advanced machinery with simple one-block machines. Time to create an item fusion reactor!",
 		"",
-		"It requires colossal amounts of resources to build, like lumium, steel, energite, aluminum... I hope you didn't waste your knowledge about ore processing. Time to put it into use!"
+		"It requires colossal amounts of resources to build, like lumium, steel, energite, aluminum... Hopefully you didn't waste your knowledge about ore processing."
 	],
 	dependencies: [
 		"113e9287"

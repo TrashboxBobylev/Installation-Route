@@ -4,9 +4,9 @@
 	y: 11.0d,
 	description: "Learn about progress in murdering trees",
 	text: [
-		"Don't you think that those pesky trees cost too much space on your factory?",
+		"Don't you think that those pesky trees take up too much space in your factory, that can be used on more pipes and wires?",
 		"",
-		"We invented miniaturization tool that shrinks trees enough to fit inside insolator! Now you can grow trees even more boring than before!"
+		"We invented miniaturization tool, that shrinks trees enough to fit inside Phytogenic Insolator! Now you can grow trees in even more boring way, than before!"
 	],
 	dependencies: [
 		"8db1d97f",

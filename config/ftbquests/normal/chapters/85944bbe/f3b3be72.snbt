@@ -1,12 +1,12 @@
 {
-	title: "Integrated Tunnels",
+	title: "Soul-Channeled Tunnels",
 	x: -1.5d,
 	y: -0.5d,
-	description: "Learn interdimensional transport",
+	description: "Learn interdimensional transport... through your essence",
 	text: [
-		"At the new location, you need a way to transport your precious resources from the main universe. No regular item transportation works at that distance... except for one interdimensional storage.",
+		"At the new location, you need a way to transport your precious resources from the main universe. No regular item transportation works between dimensions... except for one interdimensional storage.",
 		"",
-		"This magenta cube needs mana and your soul to work as a relay between universes. Actually, you need two of them. One as an input and one as an output. That's right. In one you push items and in the other you extract items."
+		"This magenta cube needs mana and your soul to work as a relay between universes. Actually, you need two of them. One as an item input and one as an item output. You can think of it as blocky wormhole, that actually works."
 	],
 	dependencies: [
 		"9731a105"

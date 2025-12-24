@@ -6,7 +6,7 @@
 	text: [
 		"Untamed Plant Matter is a highly concentrated amount of organic matter, which can be uncompressed or turned into biomass.",
 		"",
-		"Elemental Stone is primordial for all thermal elements. You can process it with water of various degrees to produce different level of materials for your needs."
+		"Elemental Stone is progenitor for all thermal elements. You can sift it with various kinds of water to produce different level of materials for your needs."
 	],
 	dependencies: [
 		"ba63cffd"
