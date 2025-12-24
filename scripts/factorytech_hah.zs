@@ -317,7 +317,7 @@ Transposer.addFillRecipe(<factorytech:circuit_intermediate:12>, <factorytech:cir
 
 CombinationCrafting.addRecipe(<factorytech:magnetizer>, 25000, <thermalexpansion:frame:128>, [<ore:gearAluminum>, <factorytech:machinepart:21>, <factorytech:machinepart:21>, <factorytech:machinepart:21>, <ore:ingotCobalt>, <ore:ingotCobalt>]);
 
-CombinationCrafting.addRecipe(<factorytech:agitator>, 50000, <thermalexpansion:frame:128>, [<botania:specialflower>.withTag({type: "daffomill"}), <thermalexpansion:tank>, <thermalexpansion:tank>, <thermalexpansion:tank>, <ore:platePlatinum>, <factorytech:machinepart:124>]);
+CombinationCrafting.addRecipe(<factorytech:agitator>, 50000, <thermalexpansion:frame:128>, [<botania:specialflower>.withTag({type: "daffomill"}), <thermalexpansion:tank>, <thermalexpansion:tank>, <thermalexpansion:tank>, <ore:platePlatinum>, <factorytech:machinepart:120>]);
 
 CombinationCrafting.addRecipe(<factorytech:electroplater>, 50000, <thermalexpansion:frame:128>, [<ore:blockCadmium>, <factorytech:machinepart:101>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <contenttweaker:magnesium>, <forge:bucketfilled>.withTag({FluidName: "h2so4", Amount: 1000})]);
 
