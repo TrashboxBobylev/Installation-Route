@@ -15,9 +15,8 @@ small_teleporter.itemRightClick = function(stack, world, player, hand) {
     if (!world.remote && hand has "MAIN_HAND") { 
 		Commands.call("pillar-spawn basement ~-13.5 ~-100 ~-13.5", player, world, false, true);
 		stack.shrink(1);
-		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + player.x + ",y:" + player.y + ",z:" + player.z + "}", player, world, false, true);
-		
 		Commands.call("tp @p " + (player.x) as string + " " + ((player.y - 96)) as string + " " + (player.z) as string, player, world, false, true);
+		Commands.call("give @p contenttweaker:teleporter 1 0 {x:" + player.x + ",y:" + player.y + ",z:" + player.z + "}", player, world, false, true);
 	}
     return "SUCCESS";
 };
