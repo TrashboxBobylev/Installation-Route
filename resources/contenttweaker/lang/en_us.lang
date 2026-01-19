@@ -187,3 +187,9 @@ item.thermalexpansion.frame.frameCell.name=Terra Machine Frame
 requious.jei.recipe.shovel=Crushing With Shovel
 requious.jei.recipe.loonium=Loonium Flower Probabilities
 requious.jei.recipe.factoryparts=FactoryTech Part Requirements
+
+tile.contenttweaker.ir_managlass.name=Otherworldly Glass
+tile.contenttweaker.ir_white_pavement.name=Otherworldly White Pavement
+tile.contenttweaker.ir_black_pavement.name=Otherworldly Black Pavement
+tile.contenttweaker.ir_patterned_metal.name=Otherworldly Patterned Metal
+tile.contenttweaker.ir_smooth_metal.name=Otherworldly Smooth Metal
