@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "factorytech:metal_smooth" },
+	"inventory": { "model": "factorytech:metal_smooth" }
+  }
+}

@@ -40,7 +40,7 @@ tile.contenttweaker.elemental_stone.name=Elemental Stone
 tile.contenttweaker.untamed_plant_matter.name=Untamed Plant Matter
 tile.contenttweaker.blue_matter.name=Blue Matter Block
 tile.contenttweaker.infected_andesite.name=Infected Andesite
-tile.contenttweaker.otherworldy_stone.name=Otherworldy Stone
+tile.contenttweaker.otherworldy_stone.name=Otherworldly Stone
 
 tile.contenttweaker.shining_mess.name=Lumium Alloy Gravel
 
@@ -154,7 +154,7 @@ fluid.heavywater=Heavy Water
 fluid.blood=Sacrificing Blood
 fluid.lust=Unlimited Fervor
 fluid.greed=Virid Avarity
-fluid.pride=Aggorant Hubris
+fluid.pride=Arrogant Hubris
 fluid.hot_water=Heated Water
 fluid.blue_matter_f=Blue Matter
 fluid.material_dust=Infused Elemental Concentrate
@@ -174,7 +174,7 @@ fluid.molten_cobalt=Molten Cobalt
 fluid.molten_beryllium=Molten Beryllium
 fluid.molten_chrome=Molten Chrome
 fluid.molten_iridium=Molten Iridium
-fluid.molten_alluminum=Molten Alluminum
+fluid.molten_alluminum=Molten Aluminum
 
 fluid.reactor_fuel_1=Elemental Plasma
 fluid.reactor_fuel_2=Boiling Plasma
@@ -187,3 +187,9 @@ item.thermalexpansion.frame.frameCell.name=Terra Machine Frame
 requious.jei.recipe.shovel=Crushing With Shovel
 requious.jei.recipe.loonium=Loonium Flower Probabilities
 requious.jei.recipe.factoryparts=FactoryTech Part Requirements
+
+tile.contenttweaker.ir_managlass.name=Otherworldly Glass
+tile.contenttweaker.ir_white_pavement.name=Otherworldly White Pavement
+tile.contenttweaker.ir_black_pavement.name=Otherworldly Black Pavement
+tile.contenttweaker.ir_patterned_metal.name=Otherworldly Patterned Metal
+tile.contenttweaker.ir_smooth_metal.name=Otherworldly Smooth Metal

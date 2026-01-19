@@ -508,3 +508,57 @@ var block100 = VanillaFactory.createBlock("computer_ore", <blockmaterial:rock>);
 		return;
 	};
 	block100.register();
+
+// These custom blocks are used for the basement structure
+var blockPavement = VanillaFactory.createBlock("ir_white_pavement", <blockmaterial:rock>);
+	blockPavement.setBlockHardness(105000);
+	blockPavement.setBlockResistance(35000000);
+	blockPavement.setToolClass("pickaxe");
+	blockPavement.setToolLevel(34);
+	blockPavement.mobilityFlag = mods.contenttweaker.PushReaction.block();
+	blockPavement.setWitherProof(true);
+	blockPavement.register();
+
+var blockBPavement = VanillaFactory.createBlock("ir_black_pavement", <blockmaterial:rock>);
+	blockBPavement.setBlockHardness(105000);
+	blockBPavement.setBlockResistance(35000000);
+	blockBPavement.setToolClass("pickaxe");
+	blockBPavement.mobilityFlag = mods.contenttweaker.PushReaction.block();
+	blockBPavement.setToolLevel(34);
+	blockBPavement.setWitherProof(true);
+	blockBPavement.register();
+
+var blockPattern = VanillaFactory.createBlock("ir_patterned_metal", <blockmaterial:rock>);
+	blockPattern.setBlockHardness(105000);
+	blockPattern.setBlockResistance(35000000);
+	blockPattern.setToolClass("pickaxe");
+	blockPattern.mobilityFlag = mods.contenttweaker.PushReaction.block();
+	blockPattern.setToolLevel(34);
+	blockPattern.setWitherProof(true);
+	blockPattern.register();
+
+var blockSmooth = VanillaFactory.createBlock("ir_smooth_metal", <blockmaterial:rock>);
+	blockSmooth.setBlockHardness(105000);
+	blockSmooth.setBlockResistance(35000000);
+	blockSmooth.setToolClass("pickaxe");
+	blockPattern.mobilityFlag = mods.contenttweaker.PushReaction.block();
+	blockSmooth.setToolLevel(34);
+	blockSmooth.setWitherProof(true);
+	blockSmooth.register();
+
+// ContentTweaker on 1.12 does not support proper side culling behavior for glass
+// We can't quite recreate managlass, but by setting this to a full block we can produce a spooky x-ray effect
+var blockManaGlass = VanillaFactory.createBlock("ir_managlass", <blockmaterial:glass>);
+	blockManaGlass.setFullBlock(true);
+	blockManaGlass.setBlockLayer("TRANSLUCENT");
+	blockManaGlass.setLightOpacity(0);
+	blockManaGlass.setLightValue(15);
+	blockManaGlass.setTranslucent(true);
+	blockManaGlass.setBlockHardness(105000);
+	blockManaGlass.setBlockResistance(35000000);
+	blockManaGlass.setToolClass("pickaxe");
+	blockManaGlass.setToolLevel(34);
+	blockManaGlass.mobilityFlag = mods.contenttweaker.PushReaction.block();
+	blockManaGlass.setWitherProof(true);
+	blockManaGlass.setBlockSoundType(<soundtype:glass>);
+	blockManaGlass.register();

@@ -11,10 +11,9 @@ function setUnbreakable(block as IItemStack){
 	blockDef.setUnbreakable();
 }
 
-setUnbreakable(<botania:pavement>);
-setUnbreakable(<factorytech:metal:0>);
-setUnbreakable(<factorytech:metal:2>);
-setUnbreakable(<botania:managlass>);
+//setUnbreakable(<botania:pavement>);
+//setUnbreakable(<factorytech:metal>);
+//setUnbreakable(<botania:managlass>);
 
 //makes gunpowder slighty less grindy
 recipes.removeByRecipeName("thermalfoundation:gunpowder");

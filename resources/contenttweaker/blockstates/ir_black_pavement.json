@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "normal": { "model": "botania:pavement/black_pavement" },
+	"inventory": { "model": "botania:pavement/black_pavement" }
+  }
+}
